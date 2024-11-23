@@ -24,34 +24,43 @@ struct DirectionLight
     vec3 lightColor;
 };
 
-struct PointLight {
-    int enable;
-    vec3 position;  
-    vec3 lightColor;
-
-    float constant;
-    float linear;
-    float quadratic;
-};
-
-struct Spotlight {
-    int enable;
-    vec3 position;
-    vec3 direction;
-    vec3 lightColor;
-    float cutOff;
-
-    // Paramters for attenuation formula
-    float constant;
-    float linear;
-    float quadratic;      
-}; 
 
 uniform Material material;
 uniform DirectionLight dl;
-uniform PointLight pl;
-uniform Spotlight sl;
+
+vec3 calculateDirectionalLight(DirectionLight light, vec3 normal, vec3 viewDir);
 
 
 void main() {
+    vec3 norm = normalize(Normal);
+    vec3 viewDir = normalize(viewPos - FragPos);
+    vec3 result = vec3(0.0);
+
+    
+
+     if (dl.enable == 1) {
+        result += calculateDirectionalLight(dl, norm, viewDir);
+    }
+    
+
+    vec3 texColor = texture(ourTexture, TexCoord).rgb;
+    result = result * texColor;
+    color = vec4(result, 1.0);
+}
+
+vec3 calculateDirectionalLight(DirectionLight light, vec3 normal, vec3 viewDir) {
+    vec3 source = normalize(-light.direction);
+
+    vec3 ambient = material.ambient * light.lightColor;
+    
+    float diff = max(dot(normal, source), 0.0);
+    vec3 diffuse = diff * material.diffuse * light.lightColor;
+
+    vec3 halfway = normalize(source + viewDir);
+    float spec = pow(max(dot(normal, halfway), 0.0), material.shininess);
+    vec3 specular = spec * material.specular * light.lightColor;
+
+    
+
+    return ambient + diffuse + specular;
 }

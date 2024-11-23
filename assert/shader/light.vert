@@ -36,4 +36,12 @@ out vec3 FragPos;
 //              in light.cpp rather than in shaders
 
 void main() {
+    vec4 worldPosition = ModelMatrix * vec4(position, 1.0);
+    FragPos = vec3(worldPosition);
+
+    Normal = normalize(mat3(TIModelMatrix) * normal);
+
+    TexCoord = texCoord;
+
+    gl_Position = Projection * ViewMatrix * worldPosition;
 }

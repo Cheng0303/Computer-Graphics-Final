@@ -68,21 +68,6 @@ void LightProgram::doMainLoop() {
     glUniform3fv(glGetUniformLocation(programId, "dl.direction"), 1, glm::value_ptr(ctx->directionLightDirection));
     glUniform3fv(glGetUniformLocation(programId, "dl.lightColor"), 1, glm::value_ptr(ctx->directionLightColor));
 
-    glUniform1i(glGetUniformLocation(programId, "pl.enable"), ctx->pointLightEnable);
-    glUniform3fv(glGetUniformLocation(programId, "pl.position"), 1, glm::value_ptr(ctx->pointLightPosition));
-    glUniform3fv(glGetUniformLocation(programId, "pl.lightColor"), 1, glm::value_ptr(ctx->pointLightColor));
-    glUniform1f(glGetUniformLocation(programId, "pl.constant"), ctx->pointLightConstant);
-    glUniform1f(glGetUniformLocation(programId, "pl.linear"), ctx->pointLightLinear);
-    glUniform1f(glGetUniformLocation(programId, "pl.quadratic"), ctx->pointLightQuardratic);
-
-    glUniform1i(glGetUniformLocation(programId, "sl.enable"), ctx->spotLightEnable);
-    glUniform3fv(glGetUniformLocation(programId, "sl.position"), 1, glm::value_ptr(ctx->spotLightPosition));
-    glUniform3fv(glGetUniformLocation(programId, "sl.direction"), 1, glm::value_ptr(ctx->spotLightDirection));
-    glUniform3fv(glGetUniformLocation(programId, "sl.lightColor"), 1, glm::value_ptr(ctx->spotLightColor));
-    glUniform1f(glGetUniformLocation(programId, "sl.cutOff"), ctx->spotLightCutOff);
-    glUniform1f(glGetUniformLocation(programId, "sl.constant"), ctx->spotLightConstant);
-    glUniform1f(glGetUniformLocation(programId, "sl.linear"), ctx->spotLightLinear);
-    glUniform1f(glGetUniformLocation(programId, "sl.quadratic"), ctx->spotLightQuardratic);
 
     glUniform3fv(glGetUniformLocation(programId, "material.ambient"), 1,
                  glm::value_ptr(ctx->objects[i]->material.ambient));
