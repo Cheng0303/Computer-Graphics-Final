@@ -309,8 +309,6 @@ int main() {
     }
 
     transform();
-    std::cout << xzpos.x << " " << xzpos.y << " " << xzpos.z << std::endl;
-    std::cout << x_rotate << " " << (int)delta_x_rotate << std::endl;
 
 
 #ifdef __APPLE__
