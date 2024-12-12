@@ -57,30 +57,17 @@ void Camera::move(GLFWwindow* window) {
 void Camera::updateViewMatrix() {
   constexpr glm::vec3 original_front(0, 0, -1);
   constexpr glm::vec3 original_up(0, 1, 0);
-  /* TODO#1-1: Calculate lookAt matrix
-   *       1. Rotate original_front and original_up using this->rotation.
-   *       2. Calculate right vector by cross product.
-   *       3. Calculate view matrix with posision.
-   * Hint:
-   *       You can calculate the matrix by hand, or use
-   *       glm::lookAt (https://glm.g-truc.net/0.9.9/api/a00247.html#gaa64aa951a0e99136bba9008d2b59c78e)
-   * Note: You must not use gluLookAt
-   */
-  this->front = glm::normalize( this->rotation * original_front);
-  this->up = glm::normalize(this->rotation * original_up);
-  this->right = glm::normalize(glm::cross(front, up));
 
-  this->viewMatrix = glm::lookAt(this->position, this->position + front, up);
+  front = rotation * original_front;
+  up = rotation * original_up;
+  right = glm::cross(front, up);
+  viewMatrix = glm::lookAt(position, position + front, up);
 }
 
 void Camera::updateProjectionMatrix(float aspectRatio) {
   constexpr float FOV = glm::radians(45.0f);
   constexpr float zNear = 0.1f;
   constexpr float zFar = 100.0f;
-  /* TODO#1-2: Calculate perspective projection matrix
-   * Hint: You can calculate the matrix by hand, or use
-   *       glm::perspective (https://glm.g-truc.net/0.9.9/api/a00243.html#ga747c8cf99458663dd7ad1bb3a2f07787)
-   * Note: You must not use gluPerspective
-   */
-  this->projectionMatrix = glm::perspective(FOV, aspectRatio, zNear, zFar);
+
+  projectionMatrix = glm::perspective(FOV, aspectRatio, zNear, zFar);
 }

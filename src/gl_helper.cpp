@@ -92,7 +92,7 @@ GLuint createTexture(const char* filename) {
   GLuint texture;
   int width, height, nrChannels;
   stbi_set_flip_vertically_on_load(true);
-  unsigned char* data = stbi_load(filename, &width, &height, &nrChannels, 0);
+  unsigned char* data = stbi_load(filename, &width, &height, &nrChannels, 3);
   if (data == NULL) {
     std::cout << "Failed to load texture " << filename << std::endl;
   }
@@ -104,6 +104,10 @@ GLuint createTexture(const char* filename) {
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
   glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+  GLenum error = glGetError();
+  if (error != GL_NO_ERROR) {
+    std::cerr << "OpenGL Error: " << error << std::endl;
+  }
   glGenerateMipmap(GL_TEXTURE_2D);
   glBindTexture(GL_TEXTURE_2D, 0);
 

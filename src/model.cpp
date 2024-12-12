@@ -11,7 +11,7 @@ Model* Model::fromObjectFile(const char* obj_file) {
   Model* m = new Model();
 
   std::ifstream ObjFile(obj_file);
-
+  std::cout << obj_file << std::endl;
   if (!ObjFile.is_open()) {
     std::cout << "Can't open File !" << std::endl;
     return NULL;
@@ -41,7 +41,6 @@ Model* Model::fromObjectFile(const char* obj_file) {
   std::stringstream ss;
   std::vector<glm::vec3> vList(1), vnList(1);
   std::vector<glm::vec2> tList(1);
-
 
   while (getline(ObjFile, line)) {
     ss.clear();
@@ -84,8 +83,7 @@ Model* Model::fromObjectFile(const char* obj_file) {
             }
             tmp = "";
             texture = !texture;
-          } 
-          else
+          } else
             tmp.push_back(type[i]);
           i++;
         }
@@ -95,8 +93,10 @@ Model* Model::fromObjectFile(const char* obj_file) {
         tmp = "";
       }
       m->numVertex += num_face == 3 ? 3 : 4;
+      
     }
   }
+
   if (ObjFile.is_open()) ObjFile.close();
 
   return m;

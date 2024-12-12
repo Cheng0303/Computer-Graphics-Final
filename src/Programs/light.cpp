@@ -48,6 +48,8 @@ void LightProgram::doMainLoop() {
     glUniformMatrix4fv(pmatLoc, 1, GL_FALSE, p);
 
     const float* v = ctx->camera->getViewMatrix();
+ 
+
     GLint vmatLoc = glGetUniformLocation(programId, "ViewMatrix");
     glUniformMatrix4fv(vmatLoc, 1, GL_FALSE, v);
 
@@ -67,7 +69,6 @@ void LightProgram::doMainLoop() {
     glUniform1i(glGetUniformLocation(programId, "dl.enable"), ctx->directionLightEnable);
     glUniform3fv(glGetUniformLocation(programId, "dl.direction"), 1, glm::value_ptr(ctx->directionLightDirection));
     glUniform3fv(glGetUniformLocation(programId, "dl.lightColor"), 1, glm::value_ptr(ctx->directionLightColor));
-
 
     glUniform3fv(glGetUniformLocation(programId, "material.ambient"), 1,
                  glm::value_ptr(ctx->objects[i]->material.ambient));

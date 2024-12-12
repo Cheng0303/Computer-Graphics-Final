@@ -13,6 +13,7 @@ class Camera {
 
   const float* getProjectionMatrix() const { return glm::value_ptr(projectionMatrix); }
   const float* getViewMatrix() const { return glm::value_ptr(viewMatrix); }
+  const float* getPosition() const { return glm::value_ptr(position); }
 
 private:
   glm::vec3 position;
@@ -22,7 +23,7 @@ private:
 
   glm::quat rotation;
   // TODO (optional): Change these values if your WASD or mouse move too slow or too fast.
-  constexpr static float keyboardMoveSpeed = 0.1f;
+  constexpr static float keyboardMoveSpeed = 0.05f;
   constexpr static float mouseMoveSpeed = 0.001f;
 
   // matrix

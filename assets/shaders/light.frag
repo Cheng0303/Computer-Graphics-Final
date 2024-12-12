@@ -25,11 +25,12 @@ struct DirectionLight
 };
 
 
+
 uniform Material material;
 uniform DirectionLight dl;
 
-vec3 calculateDirectionalLight(DirectionLight light, vec3 normal, vec3 viewDir);
 
+vec3 calculateDirectionalLight(DirectionLight light, vec3 normal, vec3 viewDir);
 
 void main() {
     vec3 norm = normalize(Normal);
@@ -41,6 +42,7 @@ void main() {
      if (dl.enable == 1) {
         result += calculateDirectionalLight(dl, norm, viewDir);
     }
+    
     
 
     vec3 texColor = texture(ourTexture, TexCoord).rgb;
