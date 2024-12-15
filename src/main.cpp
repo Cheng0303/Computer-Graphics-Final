@@ -15,6 +15,7 @@
 #include "camera.h"
 #include "context.h"
 #include "gl_helper.h"
+#include "ground.h"
 #include "model.h"
 #include "opengl_context.h"
 #include "program.h"
@@ -150,21 +151,99 @@ Model* loadputter() {
   return m;
 }
 
+Model* generateGround(int width, int depth) {
+  Model* m = new Model();
+
+  float scale = 0.1f;       // 控制地形平滑程度
+  float amplitude = 2.0f;  // 控制地形高度
+  std::vector<float> heightmap = generatePerlinHeightmap(width, depth, scale, amplitude);
+
+
+  // 添加地形的索引 (與之前的邏輯相同)
+  for (int z = 0; z < depth - 1; z++) {
+    for (int x = 0; x < width - 1; x++) {
+      int topLeft = z * width + x;
+      int topRight = topLeft + 1;
+      int bottomLeft = (z + 1) * width + x;
+      int bottomRight = bottomLeft + 1;
+      m->positions.push_back(x);
+      m->positions.push_back(heightmap[topLeft]);
+      m->positions.push_back(z);
+      m->positions.push_back(x);
+      m->positions.push_back(heightmap[bottomLeft]);
+      m->positions.push_back(z+1);
+      m->positions.push_back(x + 1);
+      m->positions.push_back(heightmap[topRight]);
+      m->positions.push_back(z);
+
+      m->normals.push_back(0.0f);
+      m->normals.push_back(1.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(1.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(1.0f);
+      m->normals.push_back(0.0f);
+
+      m->texcoords.push_back((float)x / width);
+      m->texcoords.push_back((float)z / depth);
+      m->texcoords.push_back((float)x / width);
+      m->texcoords.push_back((float)z / depth);
+      m->texcoords.push_back((float)x / width);
+      m->texcoords.push_back((float)z / depth);
+
+      m->positions.push_back(x + 1);
+      m->positions.push_back(heightmap[topRight]);
+      m->positions.push_back(z);
+      m->positions.push_back(x);
+      m->positions.push_back(heightmap[bottomLeft]);
+      m->positions.push_back(z + 1);
+      m->positions.push_back(x + 1);
+      m->positions.push_back(heightmap[bottomRight]);
+      m->positions.push_back(z + 1);
+
+      m->normals.push_back(0.0f);
+      m->normals.push_back(1.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(1.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(0.0f);
+      m->normals.push_back(1.0f);
+      m->normals.push_back(0.0f);
+
+      m->texcoords.push_back((float)x / width);
+      m->texcoords.push_back((float)z / depth);
+      m->texcoords.push_back((float)x / width);
+      m->texcoords.push_back((float)z / depth);
+      m->texcoords.push_back((float)x / width);
+      m->texcoords.push_back((float)z / depth);
+    }
+  }
+
+  m->textures.push_back(createTexture("../assets/models/ground/grass.jpg"));
+  m->numVertex = m->positions.size() / 3;
+  ctx.models.push_back(m);
+  return m;
+}
+
 void loadModels() {
   
-  Model* m = new Model();
-  float pos[] = {-1, 0, -1, -1, 0, 1, 1, 0, 1, 1, 0, -1};
-  float nor[] = {0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f};
-  float tx[] = {0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f, 1.0f, 0.0f};
-  for (int i = 0; i < 12; i++) {
-    m->positions.push_back(pos[i]);
-    m->normals.push_back(nor[i]);
-    if (i < 8) m->texcoords.push_back(tx[i]);
-  }
-  m->textures.push_back(createTexture("../assets/models/Vase/Vase2.jpg"));
-  m->numVertex = 4;
-  m->drawMode = GL_QUADS;
-  ctx.models.push_back(m);
+  //Model* m = new Model();
+  //float pos[] = {-1, 0, -1, -1, 0, 1, 1, 0, 1, 1, 0, -1};
+  //float nor[] = {0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f};
+  //float tx[] = {0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f, 1.0f, 0.0f};
+  //for (int i = 0; i < 12; i++) {
+  //  m->positions.push_back(pos[i]);
+  //  m->normals.push_back(nor[i]);
+  //  if (i < 8) m->texcoords.push_back(tx[i]);
+  //}
+  //m->textures.push_back(createTexture("../assets/models/Vase/Vase2.jpg"));
+  //m->numVertex = 4;
+  //m->drawMode = GL_QUADS;
+  //ctx.models.push_back(m);
+  Model* ground = generateGround(100, 100);
   Model* ball = loadBall(); 
   Model* putter = loadputter();
 }
@@ -183,7 +262,7 @@ void transform() {
     glm::mat4 ball_transform = glm::identity<glm::mat4>();
     ball_transform = glm::translate(ball_transform, ballpos);
     ball_transform *= currentRotation;
-    ball_transform = glm::scale(ball_transform, glm::vec3(0.1f, 0.1f, 0.1f));
+    ball_transform = glm::scale(ball_transform, glm::vec3(0.5f, 0.5f, 0.5f));
     ctx.objects[1]->transformMatrix = ball_transform;
 
     // putter transform;
