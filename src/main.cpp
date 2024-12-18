@@ -55,8 +55,8 @@ bool isSwing = false;
 bool isHit = false;
 // to check the putter is hold or not
 bool isHold = false;
-// bonus switch
-bool bonus = false;
+// initial
+bool reset = false;
 
 // the scalar for the putter translation
 scalar delta_xzpos = scalar::NONE;
@@ -121,9 +121,10 @@ void loadMaterial() {
 
 void loadPrograms() {
   //ctx.programs.push_back(new ExampleProgram(&ctx));
+  ctx.programs.clear();
   ctx.programs.push_back(new LightProgram(&ctx));
   //ctx.programs.push_back(new BasicProgram(&ctx));
-
+  
   for (auto iter = ctx.programs.begin(); iter != ctx.programs.end(); iter++) {
     if (!(*iter)->load()) {
       std::cout << "Load program fail, force terminate" << std::endl;
@@ -142,13 +143,68 @@ Model* loadBall() {
   return m;
 }
 
-Model* loadputter() {
+Model* loadPutter() {
   Model* m = Model::fromObjectFile("../assets/models/putter/putter.obj");
   m->textures.push_back(createTexture("../assets/models/Vase/Vase2.jpg"));
   m->modelMatrix = glm::scale(m->modelMatrix, glm::vec3(0.5f, 0.5f, 0.5f));
   ctx.models.push_back(m);
   
   return m;
+}
+
+Model* loadFlag() { 
+  Model* m = Model::fromObjectFile("../assets/models/ground/flag.obj"); 
+  m->textures.push_back(createTexture("../assets/models/ground/flag.png"));
+  m->modelMatrix = glm::scale(m->modelMatrix, glm::vec3(1.f, 1.f, 1.f));
+  if (reset)
+    ctx.models[0] = m;
+  else
+    ctx.models.push_back(m);
+  return m;
+}
+
+Model* loadGoal() {
+  Model* m = Model::fromObjectFile("../assets/models/ground/goal.obj");
+  m->textures.push_back(createTexture("../assets/models/Vase/Vase2.jpg"));
+  m->modelMatrix = glm::scale(m->modelMatrix, glm::vec3(1.f, 1.f, 1.f));
+  if (reset)
+    ctx.models[1] = m;
+  else
+    ctx.models.push_back(m);
+  return m;
+}
+
+int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
+  std::srand(std::time(nullptr));
+  int holeX = 75 + (std::rand() % 25);
+  int holeZ = 75 + (std::rand() % 25);
+
+  int holeIndex = holeZ * width + holeX;
+  std::cout << holeX << " " << holeZ << std::endl;
+  int tmp = heightmap[holeIndex];
+  heightmap[holeIndex] = -5.0f;
+  for (int i = -1; i <= 1; i++) {
+    for (int j = -1; j <= 1; j++) {
+      int neighborIndex = (holeZ + i) * width + (holeX + j);
+      if (neighborIndex >= 0 && neighborIndex < heightmap.size()) {
+        heightmap[neighborIndex] = -5.f;
+      }
+    }
+  }
+  std::cout << holeIndex << " " << heightmap[holeIndex] << std::endl;
+  float holeHeight = heightmap[holeIndex];
+  glm::vec3 flagPosition(holeX, tmp + 3, holeZ);
+  glm::vec3 goalPosition(holeX, tmp - 2.5, holeZ);
+  Model* flag = loadFlag();
+  Model* goal = loadGoal();
+  if (reset) {
+    ctx.objects[0] = new Object(0, glm::translate(glm::identity<glm::mat4>(), flagPosition));
+    ctx.objects[1] = new Object(1, glm::translate(glm::identity<glm::mat4>(), goalPosition));
+  } else {
+    ctx.objects.push_back(new Object(0, glm::translate(glm::identity<glm::mat4>(), flagPosition)));
+    ctx.objects.push_back(new Object(1, glm::translate(glm::identity<glm::mat4>(), goalPosition)));
+  }
+  return holeIndex;
 }
 
 Model* generateGround(int width, int depth) {
@@ -158,8 +214,9 @@ Model* generateGround(int width, int depth) {
   float amplitude = 2.0f;  // 控制地形高度
   std::vector<float> heightmap = generatePerlinHeightmap(width, depth, scale, amplitude);
 
+  int k = addGolfHole(heightmap, width, depth);
+  std::cout << k << " " << heightmap[k] << std::endl;
 
-  // 添加地形的索引 (與之前的邏輯相同)
   for (int z = 0; z < depth - 1; z++) {
     for (int x = 0; x < width - 1; x++) {
       int topLeft = z * width + x;
@@ -186,12 +243,12 @@ Model* generateGround(int width, int depth) {
       m->normals.push_back(1.0f);
       m->normals.push_back(0.0f);
 
-      m->texcoords.push_back((float)x / width);
-      m->texcoords.push_back((float)z / depth);
-      m->texcoords.push_back((float)x / width);
-      m->texcoords.push_back((float)z / depth);
-      m->texcoords.push_back((float)x / width);
-      m->texcoords.push_back((float)z / depth);
+      m->texcoords.push_back(0);
+      m->texcoords.push_back(0);
+      m->texcoords.push_back(1);
+      m->texcoords.push_back(0);
+      m->texcoords.push_back(1);
+      m->texcoords.push_back(1);
 
       m->positions.push_back(x + 1);
       m->positions.push_back(heightmap[topRight]);
@@ -213,18 +270,26 @@ Model* generateGround(int width, int depth) {
       m->normals.push_back(1.0f);
       m->normals.push_back(0.0f);
 
-      m->texcoords.push_back((float)x / width);
-      m->texcoords.push_back((float)z / depth);
-      m->texcoords.push_back((float)x / width);
-      m->texcoords.push_back((float)z / depth);
-      m->texcoords.push_back((float)x / width);
-      m->texcoords.push_back((float)z / depth);
+      m->texcoords.push_back(1);
+      m->texcoords.push_back(1);
+      m->texcoords.push_back(1);
+      m->texcoords.push_back(0);
+      m->texcoords.push_back(0);
+      m->texcoords.push_back(1);
     }
   }
 
   m->textures.push_back(createTexture("../assets/models/ground/grass.jpg"));
   m->numVertex = m->positions.size() / 3;
-  ctx.models.push_back(m);
+  if (reset) {
+    std::cout << "change!!" << std::endl;
+    ctx.models[2] = m;
+    ctx.objects[2] = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
+  }
+  else
+    ctx.models.push_back(m);
+
+  std::cout << m->positions.size() / 3 << std::endl;
   return m;
 }
 
@@ -245,16 +310,16 @@ void loadModels() {
   //ctx.models.push_back(m);
   Model* ground = generateGround(100, 100);
   Model* ball = loadBall(); 
-  Model* putter = loadputter();
+  Model* putter = loadPutter();
 }
 
 void setupObjects() {
   //ground
-  ctx.objects.push_back(new Object(0, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
-  //ball
-  ctx.objects.push_back(new Object(1, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
-  //putter
   ctx.objects.push_back(new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
+  //ball
+  ctx.objects.push_back(new Object(3, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
+  //putter
+  ctx.objects.push_back(new Object(4, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
 }
 
 void transform() {
@@ -263,7 +328,7 @@ void transform() {
     ball_transform = glm::translate(ball_transform, ballpos);
     ball_transform *= currentRotation;
     ball_transform = glm::scale(ball_transform, glm::vec3(0.5f, 0.5f, 0.5f));
-    ctx.objects[1]->transformMatrix = ball_transform;
+    ctx.objects[3]->transformMatrix = ball_transform;
 
     // putter transform;
     glm::mat4 putter_transform = glm::identity<glm::mat4>();
@@ -272,7 +337,31 @@ void transform() {
     putter_transform = glm::rotate(putter_transform, glm::radians(x_rotate), glm::vec3(1.0f, 0.0f, 0.0f));
     putter_transform = glm::translate(putter_transform, glm::vec3(0.0f, -6.0f, 0.0f));
     putter_transform = glm::scale(putter_transform, glm::vec3(0.5f, 0.5f, 0.5f));
-    ctx.objects[2]->transformMatrix = putter_transform;
+    ctx.objects[4]->transformMatrix = putter_transform;
+}
+
+void init() {
+  delta_xzpos = scalar::NONE;
+  delta_ballpos = scalar::NONE;
+  delta_ball_rotate = angle::NONE;
+  delta_x_rotate = angle::NONE;
+  delta_y_rotate = angle::NONE;
+
+  ball_rotate = 0.0f;
+  x_rotate = 0.0f;
+  y_rotate = 0.0f;
+
+  xzpos = glm::vec3(0.0f, 6.0f, 0.0f);
+
+  forward_vector = glm::vec3(0.0f, 0.0f, 1.0f);
+  ball_forward = glm::vec3(0.0f, 0.0f, 1.0f);
+  ball_rotate_normal = glm::vec3(0, 1, 0);
+  ballpos = glm::vec3(2.0f, 0.25f, 2.0f);
+  startpos = glm::vec3(0, 0, 0);
+  currentRotation = glm::identity<glm::mat4>();
+  generateGround(100, 200);
+  reset = false;
+  loadPrograms();
 }
 
 int main() {
@@ -311,6 +400,7 @@ int main() {
 
     ctx.programs[ctx.currentProgram]->doMainLoop();
 
+    if (reset) init();
     if (delta_xzpos == scalar::PLUS) {
       xzpos += forward_vector * MOVING_SPEED;
     } else if (delta_xzpos == scalar::MINUS) {
@@ -463,6 +553,11 @@ void keyCallback(GLFWwindow* window, int key, int, int action, int) {
         }
         break;
       }
+      case GLFW_KEY_R: {
+        if (action == GLFW_PRESS) {
+          reset = true;
+        }
+      } 
       default:
         break;
     }
