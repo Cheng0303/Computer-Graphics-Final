@@ -18,7 +18,6 @@ set(HW2_HEADER
   ${HW2_SOURCE_DIR}/../include/opengl_context.h
   ${HW2_SOURCE_DIR}/../include/program.h
   ${HW2_SOURCE_DIR}/../include/utils.h
-  ${HW2_SOURCE_DIR}/../include/bt_debuger.h
 )
 add_executable(HW2 ${HW2_SOURCE} ${HW2_HEADER})
 target_include_directories(HW2 

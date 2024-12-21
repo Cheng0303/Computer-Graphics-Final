@@ -484,7 +484,7 @@ void setupObjects() {
   ctx.objects.push_back(ballObject);
 
   // putter
-  Model* putterModel = loadputter();
+  Model* putterModel = loadPutter();
   Object* putterObject = new Object(4, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
   setupPhysics(putterObject, putterModel, ctx.dynamicsWorld, createGolfPutterShape(putterModel), 0);
   ctx.objects.push_back(putterObject);
@@ -578,7 +578,6 @@ int main() {
   // loadModels();
   setupObjects();
   loadPrograms();
-  // setupObjects();
 
   // Main rendering loop
   while (!glfwWindowShouldClose(window)) {
