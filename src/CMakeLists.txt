@@ -18,9 +18,13 @@ set(HW2_HEADER
   ${HW2_SOURCE_DIR}/../include/opengl_context.h
   ${HW2_SOURCE_DIR}/../include/program.h
   ${HW2_SOURCE_DIR}/../include/utils.h
+  ${HW2_SOURCE_DIR}/../include/bt_debuger.h
 )
 add_executable(HW2 ${HW2_SOURCE} ${HW2_HEADER})
-target_include_directories(HW2 PRIVATE ${HW2_SOURCE_DIR}/../include)
+target_include_directories(HW2 
+  PRIVATE ${HW2_SOURCE_DIR}/../include
+  PRIVATE ${CMAKE_SOURCE_DIR}/extern/bullet3/src
+)
 
 add_dependencies(HW2 glad glfw glm stb)
 # Can include glfw and glad in arbitrary order
@@ -43,6 +47,9 @@ target_link_libraries(HW2
   PRIVATE glad
   PRIVATE glfw
   PRIVATE stb
+  PRIVATE BulletDynamics
+  PRIVATE BulletCollision
+  PRIVATE LinearMath
 )
 
 if (TARGET glm::glm_shared)

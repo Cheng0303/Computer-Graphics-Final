@@ -4,6 +4,7 @@
 #include <glad/gl.h>
 #include <glm/ext/matrix_transform.hpp>
 #include <vector>
+#include <btBulletDynamicsCommon.h>
 
 struct Material {
   glm::vec3 ambient = glm::vec3(0.2f, 0.2f, 0.2f);
@@ -34,6 +35,9 @@ class Model {
   // Ids for texture of this model
   std::vector<GLuint> textures; 
 
+  // Bullet shape
+  btCollisionShape* collisionShape = nullptr; 
+
   static Model* fromObjectFile(const char* obj_file);
 
 };
@@ -48,6 +52,8 @@ struct Object {
   int textureIndex = 0;
   // Matrix for translate, rotate and scaling in world space
   glm::mat4 transformMatrix;
+  // Bullet剛體
+  btRigidBody* rigidBody = nullptr;
 
   Object(int modelIndex, glm::mat4 transformMatrix) : modelIndex(modelIndex), transformMatrix(transformMatrix) {}
 };

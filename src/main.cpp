@@ -8,6 +8,7 @@
 #include <glad/gl.h>
 #undef GLAD_GL_IMPLEMENTATION
 #include <glm/glm.hpp>
+#include <btBulletDynamicsCommon.h>
 
 #include <glm/ext/matrix_transform.hpp>
 #include <glm/gtx/string_cast.hpp>
@@ -30,13 +31,17 @@
 
 #define ROTATE_SPEED 1.f
 #define MOVING_SPEED ROTATE_SPEED / 20.f
+#define Y_MOVING_SPEED MOVING_SPEED / 4.f
 #define BALL_MOVING_SPEED 0.05f
-#define SWING_SPEED 2.f
+#define SWING_SPEED 2.0f
 #define ROLLING_SPEED 5.0f
 #define HOLD_SPEED 0.5f
 
 #define CONSTRAIN_ANGLE -45
 #define HOLD_CONSTRAIN_ANGLE 45
+#define SWING_FORCE_INCREMENT 0.01
+#define MAX_SWING_FORCE 1.0
+#define IMPULSE_MULTIPLIER 1
 
 #define SILVER 0.75, 0.75, 0.75
 #define CYAN 0, 1, 1
@@ -57,9 +62,17 @@ bool isHit = false;
 bool isHold = false;
 // initial
 bool reset = false;
+// putter swing force
+float swingForce = 0.0f;
+// camera lock on ball
+bool cameraLock = false;
+// putter teleport to ball
+bool goToBall = false;
 
 // the scalar for the putter translation
 scalar delta_xzpos = scalar::NONE;
+// the scalar for the putter up and down
+scalar delta_ypos = scalar::NONE;
 // the scalar for the ball translation
 scalar delta_ballpos = scalar::NONE;
 // the scalar for the ball rotation
@@ -77,15 +90,17 @@ float x_rotate = 0.0f;
 float y_rotate = 0.0f;
 
 // the position of the putter
-glm::vec3 xzpos(0.0f, 6.0f, 0.0f);
+glm::vec3 pos(0.0f, 1.5f, 0.0f);
 // the forward vector for putter
 glm::vec3 forward_vector(0.0f, 0.0f, 1.0f);
+// up vector
+glm::vec3 up_vector(0.0f, 1.0f, 0.0f);
 // the forward vector for the ball translation
 glm::vec3 ball_forward(0.0f, 0.0f, 1.0f);
 // x,y,z coordinate for ball rotation
 glm::vec3 ball_rotate_normal(0, 1, 0);
 // the position of the ball
-glm::vec3 ballpos(2.0f, 0.25f, 2.0f);
+glm::vec3 ballpos(0.0f, 0.25f, 0.0f);
 // the position of the ball when it is hit at the start
 glm::vec3 startpos(0, 0, 0);
 
@@ -101,6 +116,82 @@ Context ctx;
 Material mFlatwhite;
 Material mShinyred;
 Material mClearblue;
+
+struct SwingCollisionCallback : public btCollisionWorld::ContactResultCallback {
+    bool hitDetected = false;
+    const btRigidBody* targetBody;
+
+    SwingCollisionCallback(const btRigidBody* target) : targetBody(target) {}
+
+    btScalar addSingleResult(btManifoldPoint& cp,
+                             const btCollisionObjectWrapper* colObj0Wrap, int partId0, int index0,
+                             const btCollisionObjectWrapper* colObj1Wrap, int partId1, int index1) override {
+        const btRigidBody* body0 = btRigidBody::upcast(colObj0Wrap->getCollisionObject());
+        const btRigidBody* body1 = btRigidBody::upcast(colObj1Wrap->getCollisionObject());
+
+        if (body0 == targetBody || body1 == targetBody) {
+            hitDetected = true;
+        }
+
+        return 0;
+    }
+};
+
+void initializePhysics() {
+    ctx.broadphase = new btDbvtBroadphase();
+    ctx.collisionConfiguration = new btDefaultCollisionConfiguration();
+    ctx.dispatcher = new btCollisionDispatcher(ctx.collisionConfiguration);
+    ctx.solver = new btSequentialImpulseConstraintSolver();
+    ctx.dynamicsWorld = new btDiscreteDynamicsWorld(ctx.dispatcher, ctx.broadphase, ctx.solver, ctx.collisionConfiguration);
+
+    ctx.dynamicsWorld->setGravity(btVector3(0, -9.8, 0));
+}
+
+void updateRigidBodyFromObject(Object* obj) {
+    if (obj->rigidBody) {
+        btTransform trans;
+
+        glm::vec3 position(
+            obj->transformMatrix[3][0], 
+            obj->transformMatrix[3][1], 
+            obj->transformMatrix[3][2]
+        );
+
+        glm::mat3 rotation = glm::mat3(obj->transformMatrix);
+        btMatrix3x3 btRotation(
+            rotation[0][0], rotation[0][1], rotation[0][2],
+            rotation[1][0], rotation[1][1], rotation[1][2],
+            rotation[2][0], rotation[2][1], rotation[2][2]
+        );
+
+        // 更新Bullet世界剛體狀態
+        trans.setOrigin(btVector3(position.x, position.y, position.z));
+        trans.setBasis(btRotation);
+
+        obj->rigidBody->setWorldTransform(trans);
+        obj->rigidBody->getMotionState()->setWorldTransform(trans);
+    }
+}
+
+void updateObjectFromRigidBody(Object* obj) {
+    if (obj->rigidBody) {
+        btTransform trans;
+        obj->rigidBody->getMotionState()->getWorldTransform(trans);
+
+        // Bullet矩陣轉glm矩陣
+        glm::mat4 newTransform = glm::mat4(1.0f);
+        trans.getOpenGLMatrix(glm::value_ptr(newTransform));
+
+        // 更新 transformMatrix
+        obj->transformMatrix = newTransform;
+    }
+}
+
+void updatePhysics(float deltaTime) {
+    ctx.dynamicsWorld->stepSimulation(deltaTime, 10);
+
+    updateObjectFromRigidBody(ctx.objects[3]);
+}
 
 void loadMaterial() {
   mFlatwhite.ambient = glm::vec3(0.0f, 0.0f, 0.0f);
@@ -210,13 +301,14 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
 Model* generateGround(int width, int depth) {
   Model* m = new Model();
 
-  float scale = 0.1f;       // ����a�Υ��Ƶ{��
-  float amplitude = 2.0f;  // ����a�ΰ���
+  float scale = 0.1f;       // ����a�Υ��Ƶ{��
+  float amplitude = 2.0f;  // ����a�ΰ���
   std::vector<float> heightmap = generatePerlinHeightmap(width, depth, scale, amplitude);
 
   int k = addGolfHole(heightmap, width, depth);
   std::cout << k << " " << heightmap[k] << std::endl;
 
+  // �K�[�a�Ϊ����� (�P���e���޿�ۦP)
   for (int z = 0; z < depth - 1; z++) {
     for (int x = 0; x < width - 1; x++) {
       int topLeft = z * width + x;
@@ -293,6 +385,64 @@ Model* generateGround(int width, int depth) {
   return m;
 }
 
+btCollisionShape* createGolfBallShape(Model* ballModel) {
+    return new btSphereShape(0.05f);
+}
+
+btCollisionShape* createGolfPutterShape(Model* putterModel) {
+    btConvexHullShape* shape = new btConvexHullShape();
+    for (size_t i = 0; i < putterModel->positions.size(); i += 3) {
+        btVector3 vertex(
+            putterModel->positions[i],
+            putterModel->positions[i + 1],
+            putterModel->positions[i + 2]
+        );
+        shape->addPoint(vertex);
+    }
+    return shape;
+}
+
+btCollisionShape* createGroundShape(Model* groundModel) {
+    btTriangleMesh* mesh = new btTriangleMesh();
+
+    for (size_t i = 0; i < groundModel->positions.size(); i += 9) {
+        btVector3 vertex0(groundModel->positions[i], groundModel->positions[i + 1], groundModel->positions[i + 2]);
+        btVector3 vertex1(groundModel->positions[i + 3], groundModel->positions[i + 4], groundModel->positions[i + 5]);
+        btVector3 vertex2(groundModel->positions[i + 6], groundModel->positions[i + 7], groundModel->positions[i + 8]);
+        mesh->addTriangle(vertex0, vertex1, vertex2);
+    }
+
+    return new btBvhTriangleMeshShape(mesh, true);
+}
+
+void setupPhysics(Object* object, Model* model, btDiscreteDynamicsWorld* dynamicsWorld, btCollisionShape* shape, float mass = 1.0f) {
+    // 碰撞形狀
+    model->collisionShape = shape;
+
+    // 運動狀態
+    btDefaultMotionState* motionState = new btDefaultMotionState(btTransform(
+        btQuaternion(0, 0, 0, 1),
+        btVector3(
+            object->transformMatrix[3][0],
+            object->transformMatrix[3][1],
+            object->transformMatrix[3][2]
+        )
+    ));
+
+    // 計算慣性
+    btVector3 inertia(0, 0, 0);
+    if (mass > 0.0f) {
+        shape->calculateLocalInertia(mass, inertia);
+    }
+
+    // 創建剛體
+    btRigidBody::btRigidBodyConstructionInfo rigidBodyCI(mass, motionState, shape, inertia);
+    object->rigidBody = new btRigidBody(rigidBodyCI);
+
+    // 將剛體加入物理世界
+    dynamicsWorld->addRigidBody(object->rigidBody);
+}
+
 void loadModels() {
   
   //Model* m = new Model();
@@ -308,36 +458,55 @@ void loadModels() {
   //m->numVertex = 4;
   //m->drawMode = GL_QUADS;
   //ctx.models.push_back(m);
+
   Model* ground = generateGround(100, 100);
   Model* ball = loadBall(); 
   Model* putter = loadPutter();
 }
 
 void setupObjects() {
-  //ground
-  ctx.objects.push_back(new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
-  //ball
-  ctx.objects.push_back(new Object(3, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
-  //putter
-  ctx.objects.push_back(new Object(4, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0))));
+  // ground
+  Model* groundModel = generateGround(100, 100);
+  Object* groundObject = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
+  setupPhysics(groundObject, groundModel, ctx.dynamicsWorld, createGroundShape(groundModel), 0);
+  groundObject->rigidBody->setFriction(0.6f);
+  ctx.objects.push_back(groundObject);
+
+  // ball
+  Model* ballModel = loadBall();
+  Object* ballObject = new Object(3, glm::translate(glm::identity<glm::mat4>(), glm::vec3(5.0, 0.0, 5.0)));
+  setupPhysics(ballObject, ballModel, ctx.dynamicsWorld, createGolfBallShape(ballModel), 0.045);
+  ballObject->rigidBody->setFriction(0.1f);
+  ballObject->rigidBody->setRollingFriction(0.01f);
+  ballObject->rigidBody->setCcdMotionThreshold(0.01f);
+  ballObject->rigidBody->setCcdSweptSphereRadius(0.05f);
+  ballObject->rigidBody->setActivationState(DISABLE_DEACTIVATION);
+  ctx.objects.push_back(ballObject);
+
+  // putter
+  Model* putterModel = loadputter();
+  Object* putterObject = new Object(4, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
+  setupPhysics(putterObject, putterModel, ctx.dynamicsWorld, createGolfPutterShape(putterModel), 0);
+  ctx.objects.push_back(putterObject);
 }
 
 void transform() {
-    // ball transform
-    glm::mat4 ball_transform = glm::identity<glm::mat4>();
-    ball_transform = glm::translate(ball_transform, ballpos);
-    ball_transform *= currentRotation;
-    ball_transform = glm::scale(ball_transform, glm::vec3(0.5f, 0.5f, 0.5f));
-    ctx.objects[3]->transformMatrix = ball_transform;
+    // // ball transform
+    // glm::mat4 ball_transform = glm::identity<glm::mat4>();
+    // ball_transform = glm::translate(ball_transform, ballpos);
+    // ball_transform *= currentRotation;
+    // ball_transform = glm::scale(ball_transform, glm::vec3(0.5f, 0.5f, 0.5f));
+    // ctx.objects[1]->transformMatrix = ball_transform;
 
     // putter transform;
     glm::mat4 putter_transform = glm::identity<glm::mat4>();
-    putter_transform = glm::translate(putter_transform, xzpos);
+    putter_transform = glm::translate(putter_transform, pos);
     putter_transform = glm::rotate(putter_transform, glm::radians(y_rotate), glm::vec3(0.0f, 1.0f, 0.0f));
     putter_transform = glm::rotate(putter_transform, glm::radians(x_rotate), glm::vec3(1.0f, 0.0f, 0.0f));
-    putter_transform = glm::translate(putter_transform, glm::vec3(0.0f, -6.0f, 0.0f));
+    putter_transform = glm::translate(putter_transform, glm::vec3(0.0f, -1.5f, 0.0f));
     putter_transform = glm::scale(putter_transform, glm::vec3(0.5f, 0.5f, 0.5f));
     ctx.objects[4]->transformMatrix = putter_transform;
+    updateRigidBodyFromObject(ctx.objects[4]);
 }
 
 void init() {
@@ -351,7 +520,7 @@ void init() {
   x_rotate = 0.0f;
   y_rotate = 0.0f;
 
-  xzpos = glm::vec3(0.0f, 6.0f, 0.0f);
+  pos = glm::vec3(0.0f, 6.0f, 0.0f);
 
   forward_vector = glm::vec3(0.0f, 0.0f, 1.0f);
   ball_forward = glm::vec3(0.0f, 0.0f, 1.0f);
@@ -362,10 +531,38 @@ void init() {
   generateGround(100, 200);
   reset = false;
   loadPrograms();
+    
+}
+
+void detectAndApplyForce() {
+    btRigidBody* ballRigidBody = ctx.objects[3]->rigidBody;
+    btRigidBody* putterRigidBody = ctx.objects[4]->rigidBody;
+    SwingCollisionCallback collisionCallback(ballRigidBody);
+    ctx.dynamicsWorld->contactTest(putterRigidBody, collisionCallback);
+
+    if (collisionCallback.hitDetected && !isHit) {
+        isHit = true;
+        btTransform putterTransform = putterRigidBody->getWorldTransform();
+        btVector3 localEndPosition(-0.25f, -1.5f, 0.0f);
+        btVector3 worldEndPosition = putterTransform * localEndPosition;
+        btVector3 ballPosition = ballRigidBody->getWorldTransform().getOrigin();
+
+        std::cout << "hit!" << std::endl;
+        btVector3 forceDirection = (ballPosition - worldEndPosition).normalized();
+        std::cout << "Direction: " << forceDirection.getX() << " " << forceDirection.getY() << " " << forceDirection.getZ() << std::endl;
+        btScalar forceMagnitude = swingForce * IMPULSE_MULTIPLIER;
+        btVector3 impulse = forceDirection * forceMagnitude;
+        ballRigidBody->applyCentralImpulse(impulse);
+        btVector3 velocity = ballRigidBody->getLinearVelocity();
+        std::cout << "Ball Velocity: " << velocity.getX() << ", " << velocity.getY() << ", " << velocity.getZ() << std::endl;
+        std::cout << "Swing Force: " << swingForce << std::endl;
+    }
 }
 
 int main() {
   initOpenGL();
+  initializePhysics();
+
   GLFWwindow* window = OpenGLContext::getWindow();
   glfwSetWindowTitle(window, "HW2 - 111652046");
 
@@ -378,16 +575,23 @@ int main() {
   ctx.window = window;
 
   loadMaterial();
-  loadModels();
-  loadPrograms();
+  // loadModels();
   setupObjects();
+  loadPrograms();
+  // setupObjects();
 
   // Main rendering loop
   while (!glfwWindowShouldClose(window)) {
+    ballpos = glm::vec3(ctx.objects[3]->rigidBody->getWorldTransform().getOrigin().x(),
+              ctx.objects[3]->rigidBody->getWorldTransform().getOrigin().y(),
+              ctx.objects[3]->rigidBody->getWorldTransform().getOrigin().z());
 
     // Polling events.
     glfwPollEvents();
     // Update camera position and view
+    if (cameraLock) {
+      camera.lockOnToTarget(ballpos, 5.0f, 30.0f);
+    }
     camera.move(window);
     // GL_XXX_BIT can simply "OR" together to use.
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -402,9 +606,15 @@ int main() {
 
     if (reset) init();
     if (delta_xzpos == scalar::PLUS) {
-      xzpos += forward_vector * MOVING_SPEED;
+      pos += forward_vector * MOVING_SPEED;
     } else if (delta_xzpos == scalar::MINUS) {
-      xzpos -= forward_vector * MOVING_SPEED;
+      pos -= forward_vector * MOVING_SPEED;
+    }
+
+    if (delta_ypos == scalar::PLUS) {
+      pos += up_vector * Y_MOVING_SPEED;
+    } else if (delta_ypos == scalar::MINUS) {
+      pos -= up_vector * Y_MOVING_SPEED;
     }
 
     if (delta_y_rotate == angle::CLOCKWISE) {
@@ -413,12 +623,18 @@ int main() {
       y_rotate += ROTATE_SPEED;
     }
 
+    if (goToBall) {
+      goToBall = false;
+      pos = ballpos + glm::vec3(0.0f, 1.5f, 0.0f);
+    }
+
     float radians = ANGLE_TO_RADIAN(y_rotate);
     forward_vector = glm::normalize(glm::vec3(sinf(radians), 0.0f, cosf(radians)));
 
     if (isHold) {
       if (delta_x_rotate == angle::CLOCKWISE && x_rotate < HOLD_CONSTRAIN_ANGLE) {
         x_rotate += HOLD_SPEED;
+        swingForce = std::min(swingForce + SWING_FORCE_INCREMENT, MAX_SWING_FORCE);
         DISTANCE_TOLERANCE = BASIC_TOLERANCE + (x_rotate / 15);
       }
       if (glm::radians(x_rotate) >= HOLD_CONSTRAIN_ANGLE) {
@@ -428,6 +644,7 @@ int main() {
     if (isSwing) {
       if (delta_x_rotate == angle::COUNTERCLOCKWISE) {
         x_rotate -= SWING_SPEED;
+        detectAndApplyForce();
       } else if (delta_x_rotate == angle::CLOCKWISE) {
         x_rotate += SWING_SPEED;
       }
@@ -437,48 +654,51 @@ int main() {
         x_rotate = 0.0f;
         isSwing = false;
         delta_x_rotate = angle::NONE;
-      }
-    }
-
-    glm::mat4 putterTransform = glm::translate(glm::mat4(1.0f), xzpos) *
-                                glm::rotate(glm::mat4(1.0f), glm::radians(y_rotate), glm::vec3(0.0f, 1.0f, 0.0f)) *
-                                glm::rotate(glm::mat4(1.0f), glm::radians(x_rotate), glm::vec3(1.0f, 0.0f, 0.0f)) *
-                                glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, -6.0f, 0.0f));
-    glm::vec3 putterCenter = glm::vec3(putterTransform * glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
-
-    float distance = glm::length(putterCenter - ballpos);
-
-    if (distance < TOLERATE && isSwing) {
-      isHit = true;
-      delta_ballpos = scalar::PLUS;
-      delta_ball_rotate = angle::CLOCKWISE;
-
-      ball_forward = glm::normalize(glm::vec3(forward_vector.x, 0.0f, forward_vector.z));
-      ball_rotate_normal = glm::normalize(glm::cross(glm::vec3(0.0f, 1.0f, 0.0f), ball_forward));
-      startpos = ballpos;
-    }
-
-    if (isHit) {
-      ballpos += ball_forward * BALL_MOVING_SPEED;
-
-      glm::mat4 rotationMatrix = glm::rotate(glm::mat4(1.0f), glm::radians(ROLLING_SPEED), ball_rotate_normal);
-      currentRotation = rotationMatrix * currentRotation;
-
-      float distance = glm::length(ballpos - startpos);
-      
-      if (distance >= DISTANCE_TOLERANCE) {
+        swingForce = 0.0f;
         isHit = false;
-        delta_ballpos = scalar::NONE;
-        delta_ball_rotate = angle::NONE;
-        if (ballpos.x > 35.0f || ballpos.x < -35.0f || ballpos.z > 35.0f || ballpos.z < -35.0f) {
-        ballpos = glm::vec3(2.0f, 0.25f, 2.0f);
-        }
-        
       }
     }
+
+    // glm::mat4 putterTransform = glm::translate(glm::mat4(1.0f), xzpos) *
+    //                             glm::rotate(glm::mat4(1.0f), glm::radians(y_rotate), glm::vec3(0.0f, 1.0f, 0.0f)) *
+    //                             glm::rotate(glm::mat4(1.0f), glm::radians(x_rotate), glm::vec3(1.0f, 0.0f, 0.0f)) *
+    //                             glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, -6.0f, 0.0f));
+    // glm::vec3 putterCenter = glm::vec3(putterTransform * glm::vec4(0.0f, 0.0f, 0.0f, 1.0f));
+
+    // float distance = glm::length(putterCenter - ballpos);
+
+    // if (distance < TOLERATE && isSwing) {
+    //   isHit = true;
+    //   delta_ballpos = scalar::PLUS;
+    //   delta_ball_rotate = angle::CLOCKWISE;
+
+    //   ball_forward = glm::normalize(glm::vec3(forward_vector.x, 0.0f, forward_vector.z));
+    //   ball_rotate_normal = glm::normalize(glm::cross(glm::vec3(0.0f, 1.0f, 0.0f), ball_forward));
+    //   startpos = ballpos;
+    // }
+
+    // if (isHit) {
+    //   ballpos += ball_forward * BALL_MOVING_SPEED;
+
+    //   glm::mat4 rotationMatrix = glm::rotate(glm::mat4(1.0f), glm::radians(ROLLING_SPEED), ball_rotate_normal);
+    //   currentRotation = rotationMatrix * currentRotation;
+
+    //   float distance = glm::length(ballpos - startpos);
+      
+    //   if (distance >= DISTANCE_TOLERANCE) {
+    //     isHit = false;
+    //     delta_ballpos = scalar::NONE;
+    //     delta_ball_rotate = angle::NONE;
+    //     if (ballpos.x > 35.0f || ballpos.x < -35.0f || ballpos.z > 35.0f || ballpos.z < -35.0f) {
+    //     ballpos = glm::vec3(2.0f, 0.25f, 2.0f);
+    //     }
+        
+    //   }
+    // }
+
 
     transform();
-
+    updatePhysics(0.0167);
 
 #ifdef __APPLE__
     // Some platform need explicit glFlush
@@ -542,6 +762,34 @@ void keyCallback(GLFWwindow* window, int key, int, int action, int) {
         }
         break;
       }
+      case GLFW_KEY_O: {
+        if (action == GLFW_PRESS) {
+          delta_ypos = scalar::PLUS;
+        } else if (action == GLFW_RELEASE) {
+          delta_ypos = scalar::NONE;
+        }
+        break;
+      }
+      case GLFW_KEY_L: {
+        if (action == GLFW_PRESS) {
+          delta_ypos = scalar::MINUS;
+        } else if (action == GLFW_RELEASE) {
+          delta_ypos = scalar::NONE;
+        }
+        break;
+      }
+      case GLFW_KEY_P: {
+        if (action == GLFW_PRESS) {
+          cameraLock = cameraLock? false : true;
+        }
+        break;
+      }
+      case GLFW_KEY_I: {
+        if (action == GLFW_PRESS) {
+          goToBall = true;
+        }
+        break;
+      }
       case GLFW_KEY_SPACE: {
         if (action == GLFW_PRESS && !isSwing) {
           isHold = true;
@@ -575,9 +823,9 @@ void initOpenGL() {
   // Initialize OpenGL context, details are wrapped in class.
 #ifdef __APPLE__
   // MacOS need explicit request legacy support
-  OpenGLContext::createContext(21, GLFW_OPENGL_ANY_PROFILE);
+  OpenGLContext::createContext(41, GLFW_OPENGL_ANY_PROFILE);
 #else
-  OpenGLContext::createContext(21, GLFW_OPENGL_ANY_PROFILE);
+  OpenGLContext::createContext(41, GLFW_OPENGL_ANY_PROFILE);
 //  OpenGLContext::createContext(43, GLFW_OPENGL_COMPAT_PROFILE);
 #endif
   GLFWwindow* window = OpenGLContext::getWindow();

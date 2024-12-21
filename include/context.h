@@ -4,6 +4,7 @@
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
 #include <glm/vec3.hpp>
+#include <btBulletDynamicsCommon.h>
 
 #include "model.h"
 #include "camera.h"
@@ -31,4 +32,18 @@ class Context {
  public:
   Camera *camera = 0;
   GLFWwindow *window = 0;
+
+  btBroadphaseInterface* broadphase = nullptr;
+  btDefaultCollisionConfiguration* collisionConfiguration = nullptr;
+  btCollisionDispatcher* dispatcher = nullptr;
+  btSequentialImpulseConstraintSolver* solver = nullptr;
+  btDiscreteDynamicsWorld* dynamicsWorld = nullptr;
+
+  ~Context() {
+      delete dynamicsWorld;
+      delete solver;
+      delete dispatcher;
+      delete collisionConfiguration;
+      delete broadphase;
+  }
 };

@@ -10,6 +10,8 @@ class Camera {
   void move(GLFWwindow* window);
   void updateViewMatrix();
   void updateProjectionMatrix(float aspectRatio);
+  void lockOnToTarget(const glm::vec3& targetPosition, float distance, float pitchAngle = 45.0f);
+
 
   const float* getProjectionMatrix() const { return glm::value_ptr(projectionMatrix); }
   const float* getViewMatrix() const { return glm::value_ptr(viewMatrix); }

@@ -1,0 +1,2 @@
+"/Library/Developer/CommandLineTools/usr/bin/ar" qc /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a CMakeFiles/clsocket.dir/src/SimpleSocket.o CMakeFiles/clsocket.dir/src/ActiveSocket.o CMakeFiles/clsocket.dir/src/PassiveSocket.o
+"/Library/Developer/CommandLineTools/usr/bin/ranlib" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a

@@ -71,3 +71,19 @@ void Camera::updateProjectionMatrix(float aspectRatio) {
 
   projectionMatrix = glm::perspective(FOV, aspectRatio, zNear, zFar);
 }
+
+void Camera::lockOnToTarget(const glm::vec3& targetPosition, float distance, float pitchAngle) {
+  float pitchRadians = glm::radians(pitchAngle);
+  glm::vec3 offset(
+      0.0f,
+      distance * sin(pitchRadians),
+      -distance * cos(pitchRadians));
+
+  position = targetPosition + offset;
+
+  front = glm::normalize(targetPosition - position);
+
+  up = glm::vec3(0.0f, 1.0f, 0.0f);
+
+  updateViewMatrix();
+}
