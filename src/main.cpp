@@ -68,6 +68,9 @@ float swingForce = 0.0f;
 bool cameraLock = false;
 // putter teleport to ball
 bool goToBall = false;
+// foul or not
+bool foul = false;
+
 
 int WIDTH = 100, DEPTH = 100;
 
@@ -93,6 +96,8 @@ glm::vec3 forward_vector(0.0f, 0.0f, 1.0f);
 glm::vec3 up_vector(0.0f, 1.0f, 0.0f);
 // the position of the ball
 glm::vec3 ballpos(0.0f, 0.0f, 0.0f);
+// the position of the goal
+glm::vec3 goalpos(0.0f, 0.0f, 0.0f);
 
 void initOpenGL();
 void resizeCallback(GLFWwindow* window, int width, int height);
@@ -170,7 +175,7 @@ void updateObjectFromRigidBody(Object* obj) {
 void updatePhysics(float deltaTime) {
   ctx.dynamicsWorld->stepSimulation(deltaTime, 10);
 
-  updateObjectFromRigidBody(ctx.objects[3]);
+  updateObjectFromRigidBody(ctx.objects[4]);
 }
 
 void loadMaterial() {
@@ -293,13 +298,25 @@ Model* loadGoal() {
   return m;
 }
 
+Model* loadWall(int width, int depth) {
+  Model* m = Model::fromObjectFile("../assets/models/ground/wall.obj");
+  m->textures.push_back(createTexture("../assets/models/ground/wood.jpg"));
+  m->modelMatrix = glm::scale(m->modelMatrix, glm::vec3(100, 1.5f, 100));
+  if (reset)
+    ctx.models[2] = m;
+  else
+    ctx.models.push_back(m);
+  return m;
+}
+
 int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
   std::srand(std::time(nullptr));
-  int holeX = width * 3 / 4+ (std::rand() % (width / 4));
+  int holeX = width * 3 / 4 + (std::rand() % (width / 4));
   int holeZ = depth * 3 / 4 + (std::rand() % (depth / 4));
 
   int holeIndex = holeZ * width + holeX;
   std::cout << holeX << " " << holeZ << std::endl;
+  goalpos = glm::vec3(holeX, 0.0f, holeZ);
   int tmp = heightmap[holeIndex];
   heightmap[holeIndex] = -5.0f;
   for (int i = -2; i <= 2; i++) {
@@ -316,6 +333,7 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
   glm::vec3 goalPosition(holeX, tmp - 4, holeZ);
   Model* flag = loadFlag();
   Model* goal = loadGoal();
+  Model* wall = loadWall(width, depth);
   if (reset) {
     Object* flagObject = new Object(0, glm::translate(glm::identity<glm::mat4>(), flagPosition));
     setupPhysics(flagObject, flag, ctx.dynamicsWorld, createGroundShape(flag), 0);
@@ -326,6 +344,11 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
     setupPhysics(goalObject, goal, ctx.dynamicsWorld, createGroundShape(goal), 0);
     goalObject->rigidBody->setFriction(0.6f);
     ctx.objects[1] = goalObject;
+
+    Object* wallObject = new Object(2, glm::translate(glm::identity<glm::mat4>(),glm::vec3(0.0, 0.0, 0.0)));
+    setupPhysics(wallObject, wall, ctx.dynamicsWorld, createGroundShape(wall), 0);
+    wallObject->rigidBody->setFriction(0.6f);
+    ctx.objects[2] = wallObject;
   } else {
     Object* flagObject = new Object(0, glm::translate(glm::identity<glm::mat4>(), flagPosition));
     setupPhysics(flagObject, flag, ctx.dynamicsWorld, createGroundShape(flag), 0);
@@ -336,6 +359,11 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
     setupPhysics(goalObject, goal, ctx.dynamicsWorld, createGroundShape(goal), 0);
     goalObject->rigidBody->setFriction(0.6f);
     ctx.objects.push_back(goalObject);
+
+    Object* wallObject = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
+    setupPhysics(wallObject, wall, ctx.dynamicsWorld, createGroundShape(wall), 0);
+    wallObject->rigidBody->setFriction(0.6f);
+    ctx.objects.push_back(wallObject);
   }
   return holeIndex;
 }
@@ -417,11 +445,11 @@ Model* generateGround(int width, int depth) {
   m->numVertex = m->positions.size() / 3;
   if (reset) {
     std::cout << "change!!" << std::endl;
-    ctx.models[2] = m;
-    Object* groundObject = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
+    ctx.models[3] = m;
+    Object* groundObject = new Object(3, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
     setupPhysics(groundObject, m, ctx.dynamicsWorld, createGroundShape(m), 0);
     groundObject->rigidBody->setFriction(0.8f);
-    ctx.objects[2] = groundObject;
+    ctx.objects[3] = groundObject;
   } else
     ctx.models.push_back(m);
 
@@ -452,14 +480,14 @@ void loadModels() {
 void setupObjects() {
   // ground
   Model* groundModel = generateGround(100, 100);
-  Object* groundObject = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
+  Object* groundObject = new Object(3, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
   setupPhysics(groundObject, groundModel, ctx.dynamicsWorld, createGroundShape(groundModel), 0);
   groundObject->rigidBody->setFriction(0.8f);
   ctx.objects.push_back(groundObject);
 
   // ball
   Model* ballModel = loadBall();
-  Object* ballObject = new Object(3, glm::translate(glm::identity<glm::mat4>(), glm::vec3(5.0, 0.0, 5.0)));
+  Object* ballObject = new Object(4, glm::translate(glm::identity<glm::mat4>(), glm::vec3(5.0, 0.0, 5.0)));
   setupPhysics(ballObject, ballModel, ctx.dynamicsWorld, createGolfBallShape(ballModel), 0.045);
   ballObject->rigidBody->setFriction(0.1f);
   ballObject->rigidBody->setRollingFriction(0.01f);
@@ -470,7 +498,7 @@ void setupObjects() {
 
   // putter
   Model* putterModel = loadPutter();
-  Object* putterObject = new Object(4, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
+  Object* putterObject = new Object(5, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
   setupPhysics(putterObject, putterModel, ctx.dynamicsWorld, createGolfPutterShape(putterModel), 0);
   ctx.objects.push_back(putterObject);
 }
@@ -490,13 +518,12 @@ void transform() {
   putter_transform = glm::rotate(putter_transform, glm::radians(x_rotate), glm::vec3(1.0f, 0.0f, 0.0f));
   putter_transform = glm::translate(putter_transform, glm::vec3(0.0f, -1.5f, 0.0f));
   putter_transform = glm::scale(putter_transform, glm::vec3(0.5f, 0.5f, 0.5f));
-  ctx.objects[4]->transformMatrix = putter_transform;
-  updateRigidBodyFromObject(ctx.objects[4]);
+  ctx.objects[5]->transformMatrix = putter_transform;
+  updateRigidBodyFromObject(ctx.objects[5]);
 }
 
-
 void resetBall() {
-  btRigidBody* ballRigidBody = ctx.objects[3]->rigidBody;
+  btRigidBody* ballRigidBody = ctx.objects[4]->rigidBody;
   btTransform ballStart;
   ballStart.setIdentity();
   ballStart.setOrigin(btVector3(5.0f, 0.25f, 5.0f));
@@ -504,13 +531,13 @@ void resetBall() {
   ballRigidBody->setWorldTransform(ballStart);
 
   if (ballRigidBody->getMotionState()) {
-        ballRigidBody->getMotionState()->setWorldTransform(ballStart);
-    }
+    ballRigidBody->getMotionState()->setWorldTransform(ballStart);
+  }
 
-    ballRigidBody->setLinearVelocity(btVector3(0, 0, 0));
-    ballRigidBody->setAngularVelocity(btVector3(0, 0, 0));
+  ballRigidBody->setLinearVelocity(btVector3(0, 0, 0));
+  ballRigidBody->setAngularVelocity(btVector3(0, 0, 0));
 
-    ballRigidBody->activate();
+  ballRigidBody->activate();
 }
 void init() {
   delta_xzpos = scalar::NONE;
@@ -532,9 +559,37 @@ void init() {
   loadPrograms();
 }
 
+void dealBallFoul() { 
+  int newX = (ballpos.x < 0) ? 5 : (ballpos.x > WIDTH) ? WIDTH - 5 : ballpos.x;
+  int newZ = (ballpos.z < 0) ? 5 : (ballpos.z > DEPTH) ? DEPTH - 5 : ballpos.z;
+
+  btRigidBody* ballRigidBody = ctx.objects[4]->rigidBody;
+  btTransform ballStart;
+  ballStart.setIdentity();
+  ballStart.setOrigin(btVector3(newX, 1.25f, newZ));
+
+  ballRigidBody->setWorldTransform(ballStart);
+
+  if (ballRigidBody->getMotionState()) {
+    ballRigidBody->getMotionState()->setWorldTransform(ballStart);
+  }
+
+  ballRigidBody->setLinearVelocity(btVector3(0, 0, 0));
+  ballRigidBody->setAngularVelocity(btVector3(0, 0, 0));
+  std::cout << "FOUL!!" << std::endl;
+  ballRigidBody->activate();
+}
+
+void inHole() {
+  if (std::abs(ballpos.x - goalpos.x) <= 2 && std::abs(ballpos.z - goalpos.z) <= 2 && ballpos.y <= -1) {
+    std::cout << "\nCongratulations!!!!!!\n" << std::endl;
+    reset = true;
+  }
+}
+
 void detectAndApplyForce() {
-  btRigidBody* ballRigidBody = ctx.objects[3]->rigidBody;
-  btRigidBody* putterRigidBody = ctx.objects[4]->rigidBody;
+  btRigidBody* ballRigidBody = ctx.objects[4]->rigidBody;
+  btRigidBody* putterRigidBody = ctx.objects[5]->rigidBody;
   SwingCollisionCallback collisionCallback(ballRigidBody);
   ctx.dynamicsWorld->contactTest(putterRigidBody, collisionCallback);
 
@@ -564,7 +619,7 @@ int main() {
   initializePhysics();
 
   GLFWwindow* window = OpenGLContext::getWindow();
-  glfwSetWindowTitle(window, "HW2 - 111652046");
+  glfwSetWindowTitle(window, "Final Project");
 
   // Init Camera helper
   Camera camera(glm::vec3(0, 2, 5));
@@ -581,9 +636,9 @@ int main() {
 
   // Main rendering loop
   while (!glfwWindowShouldClose(window)) {
-    ballpos = glm::vec3(ctx.objects[3]->rigidBody->getWorldTransform().getOrigin().x(),
-                        ctx.objects[3]->rigidBody->getWorldTransform().getOrigin().y(),
-                        ctx.objects[3]->rigidBody->getWorldTransform().getOrigin().z());
+    ballpos = glm::vec3(ctx.objects[4]->rigidBody->getWorldTransform().getOrigin().x(),
+                        ctx.objects[4]->rigidBody->getWorldTransform().getOrigin().y(),
+                        ctx.objects[4]->rigidBody->getWorldTransform().getOrigin().z());
 
     // Polling events.
     glfwPollEvents();
@@ -603,7 +658,14 @@ int main() {
 
     ctx.programs[ctx.currentProgram]->doMainLoop();
     
+    inHole();
+
     if (reset) init();
+
+    if (ballpos.y < -10) {
+      dealBallFoul();
+    }
+
     if (delta_xzpos == scalar::PLUS) {
       pos += forward_vector * MOVING_SPEED;
     } else if (delta_xzpos == scalar::MINUS) {
@@ -657,8 +719,6 @@ int main() {
         isHit = false;
       }
     }
-
-
 
     // glm::mat4 putterTransform = glm::translate(glm::mat4(1.0f), xzpos) *
     //                             glm::rotate(glm::mat4(1.0f), glm::radians(y_rotate), glm::vec3(0.0f, 1.0f, 0.0f)) *
