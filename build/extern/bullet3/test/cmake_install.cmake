@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test
+# Install script for directory: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/InverseDynamics/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/SharedMemory/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/collision/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/InverseDynamics/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/SharedMemory/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/collision/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/cmake_install.cmake")
 
 endif()
 

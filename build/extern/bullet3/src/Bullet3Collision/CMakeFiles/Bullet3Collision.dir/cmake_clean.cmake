@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Collision.3.26.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Collision.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Collision.pdb"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/.3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Collision.3.26.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Collision.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Collision.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/.3.26"
   "CMakeFiles/Bullet3Collision.dir/BroadPhaseCollision/b3DynamicBvh.o"
   "CMakeFiles/Bullet3Collision.dir/BroadPhaseCollision/b3DynamicBvh.o.d"
   "CMakeFiles/Bullet3Collision.dir/BroadPhaseCollision/b3DynamicBvhBroadphase.o"

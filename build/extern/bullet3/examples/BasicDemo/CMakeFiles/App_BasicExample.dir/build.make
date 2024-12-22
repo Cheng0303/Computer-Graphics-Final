@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/depend.make
@@ -70,32 +70,32 @@ include extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/progre
 include extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
-extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp
+extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o -MF CMakeFiles/App_BasicExample.dir/BasicExample.o.d -o CMakeFiles/App_BasicExample.dir/BasicExample.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o -MF CMakeFiles/App_BasicExample.dir/BasicExample.o.d -o CMakeFiles/App_BasicExample.dir/BasicExample.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App_BasicExample.dir/BasicExample.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp > CMakeFiles/App_BasicExample.dir/BasicExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp > CMakeFiles/App_BasicExample.dir/BasicExample.i
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App_BasicExample.dir/BasicExample.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp -o CMakeFiles/App_BasicExample.dir/BasicExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp -o CMakeFiles/App_BasicExample.dir/BasicExample.s
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/flags.make
-extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp
+extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o -MF CMakeFiles/App_BasicExample.dir/main.o.d -o CMakeFiles/App_BasicExample.dir/main.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o -MF CMakeFiles/App_BasicExample.dir/main.o.d -o CMakeFiles/App_BasicExample.dir/main.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App_BasicExample.dir/main.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp > CMakeFiles/App_BasicExample.dir/main.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp > CMakeFiles/App_BasicExample.dir/main.i
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App_BasicExample.dir/main.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp -o CMakeFiles/App_BasicExample.dir/main.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp -o CMakeFiles/App_BasicExample.dir/main.s
 
 # Object files for target App_BasicExample
 App_BasicExample_OBJECTS = \
@@ -105,25 +105,25 @@ App_BasicExample_OBJECTS = \
 # External object files for target App_BasicExample
 App_BasicExample_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App_BasicExample.dir/link.txt --verbose=$(VERBOSE)
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App_BasicExample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample
+extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && $(CMAKE_COMMAND) -P CMakeFiles/App_BasicExample.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo && $(CMAKE_COMMAND) -P CMakeFiles/App_BasicExample.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/clean
 
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/depend
 

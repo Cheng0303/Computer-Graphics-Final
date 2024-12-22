@@ -1,5 +1,5 @@
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config_site \
@@ -87,7 +87,7 @@ extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/malloc/_ptrcheck.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -874,20 +874,20 @@ extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3FileUtils.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Scalar.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3FileUtils.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Scalar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Logging.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/../Utils/b3ResourcePath.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3CommandLineArgs.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Logging.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/../Utils/b3ResourcePath.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3CommandLineArgs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3HashMap.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedObjectArray.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedAllocator.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/../Utils/b3BulletDefaultFileIO.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/../Utils/../CommonInterfaces/CommonFileIOInterface.h
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3HashMap.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedObjectArray.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedAllocator.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/../Utils/b3BulletDefaultFileIO.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/../Utils/../CommonInterfaces/CommonFileIOInterface.h

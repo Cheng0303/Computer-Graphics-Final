@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/InverseDynamics//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/InverseDynamics//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/rule
 .PHONY : extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/rule
 
 # Convenience name for target.
@@ -172,187 +172,187 @@ BulletInverseDynamicsUtils: extern/bullet3/Extras/InverseDynamics/CMakeFiles/Bul
 
 # fast build rule for target.
 BulletInverseDynamicsUtils/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build
 .PHONY : BulletInverseDynamicsUtils/fast
 
 # target to build an object file
 CloneTreeCreator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CloneTreeCreator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CloneTreeCreator.o
 .PHONY : CloneTreeCreator.o
 
 # target to preprocess a source file
 CloneTreeCreator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CloneTreeCreator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CloneTreeCreator.i
 .PHONY : CloneTreeCreator.i
 
 # target to generate assembly for a file
 CloneTreeCreator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CloneTreeCreator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CloneTreeCreator.s
 .PHONY : CloneTreeCreator.s
 
 # target to build an object file
 CoilCreator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CoilCreator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CoilCreator.o
 .PHONY : CoilCreator.o
 
 # target to preprocess a source file
 CoilCreator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CoilCreator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CoilCreator.i
 .PHONY : CoilCreator.i
 
 # target to generate assembly for a file
 CoilCreator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CoilCreator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/CoilCreator.s
 .PHONY : CoilCreator.s
 
 # target to build an object file
 DillCreator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/DillCreator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/DillCreator.o
 .PHONY : DillCreator.o
 
 # target to preprocess a source file
 DillCreator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/DillCreator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/DillCreator.i
 .PHONY : DillCreator.i
 
 # target to generate assembly for a file
 DillCreator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/DillCreator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/DillCreator.s
 .PHONY : DillCreator.s
 
 # target to build an object file
 IDRandomUtil.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/IDRandomUtil.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/IDRandomUtil.o
 .PHONY : IDRandomUtil.o
 
 # target to preprocess a source file
 IDRandomUtil.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/IDRandomUtil.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/IDRandomUtil.i
 .PHONY : IDRandomUtil.i
 
 # target to generate assembly for a file
 IDRandomUtil.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/IDRandomUtil.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/IDRandomUtil.s
 .PHONY : IDRandomUtil.s
 
 # target to build an object file
 MultiBodyNameMap.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyNameMap.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyNameMap.o
 .PHONY : MultiBodyNameMap.o
 
 # target to preprocess a source file
 MultiBodyNameMap.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyNameMap.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyNameMap.i
 .PHONY : MultiBodyNameMap.i
 
 # target to generate assembly for a file
 MultiBodyNameMap.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyNameMap.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyNameMap.s
 .PHONY : MultiBodyNameMap.s
 
 # target to build an object file
 MultiBodyTreeCreator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeCreator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeCreator.o
 .PHONY : MultiBodyTreeCreator.o
 
 # target to preprocess a source file
 MultiBodyTreeCreator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeCreator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeCreator.i
 .PHONY : MultiBodyTreeCreator.i
 
 # target to generate assembly for a file
 MultiBodyTreeCreator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeCreator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeCreator.s
 .PHONY : MultiBodyTreeCreator.s
 
 # target to build an object file
 MultiBodyTreeDebugGraph.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeDebugGraph.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeDebugGraph.o
 .PHONY : MultiBodyTreeDebugGraph.o
 
 # target to preprocess a source file
 MultiBodyTreeDebugGraph.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeDebugGraph.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeDebugGraph.i
 .PHONY : MultiBodyTreeDebugGraph.i
 
 # target to generate assembly for a file
 MultiBodyTreeDebugGraph.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeDebugGraph.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/MultiBodyTreeDebugGraph.s
 .PHONY : MultiBodyTreeDebugGraph.s
 
 # target to build an object file
 RandomTreeCreator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/RandomTreeCreator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/RandomTreeCreator.o
 .PHONY : RandomTreeCreator.o
 
 # target to preprocess a source file
 RandomTreeCreator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/RandomTreeCreator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/RandomTreeCreator.i
 .PHONY : RandomTreeCreator.i
 
 # target to generate assembly for a file
 RandomTreeCreator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/RandomTreeCreator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/RandomTreeCreator.s
 .PHONY : RandomTreeCreator.s
 
 # target to build an object file
 SimpleTreeCreator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/SimpleTreeCreator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/SimpleTreeCreator.o
 .PHONY : SimpleTreeCreator.o
 
 # target to preprocess a source file
 SimpleTreeCreator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/SimpleTreeCreator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/SimpleTreeCreator.i
 .PHONY : SimpleTreeCreator.i
 
 # target to generate assembly for a file
 SimpleTreeCreator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/SimpleTreeCreator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/SimpleTreeCreator.s
 .PHONY : SimpleTreeCreator.s
 
 # target to build an object file
 User2InternalIndex.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/User2InternalIndex.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/User2InternalIndex.o
 .PHONY : User2InternalIndex.o
 
 # target to preprocess a source file
 User2InternalIndex.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/User2InternalIndex.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/User2InternalIndex.i
 .PHONY : User2InternalIndex.i
 
 # target to generate assembly for a file
 User2InternalIndex.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/User2InternalIndex.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/User2InternalIndex.s
 .PHONY : User2InternalIndex.s
 
 # target to build an object file
 btMultiBodyTreeCreator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/btMultiBodyTreeCreator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/btMultiBodyTreeCreator.o
 .PHONY : btMultiBodyTreeCreator.o
 
 # target to preprocess a source file
 btMultiBodyTreeCreator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/btMultiBodyTreeCreator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/btMultiBodyTreeCreator.i
 .PHONY : btMultiBodyTreeCreator.i
 
 # target to generate assembly for a file
 btMultiBodyTreeCreator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/btMultiBodyTreeCreator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/btMultiBodyTreeCreator.s
 .PHONY : btMultiBodyTreeCreator.s
 
 # target to build an object file
 invdyn_bullet_comparison.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/invdyn_bullet_comparison.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/invdyn_bullet_comparison.o
 .PHONY : invdyn_bullet_comparison.o
 
 # target to preprocess a source file
 invdyn_bullet_comparison.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/invdyn_bullet_comparison.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/invdyn_bullet_comparison.i
 .PHONY : invdyn_bullet_comparison.i
 
 # target to generate assembly for a file
 invdyn_bullet_comparison.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/invdyn_bullet_comparison.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/invdyn_bullet_comparison.s
 .PHONY : invdyn_bullet_comparison.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

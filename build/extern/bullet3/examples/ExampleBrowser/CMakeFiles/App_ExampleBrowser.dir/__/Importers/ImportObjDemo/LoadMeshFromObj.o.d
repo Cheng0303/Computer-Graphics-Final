@@ -1,7 +1,7 @@
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/__/Importers/ImportObjDemo/LoadMeshFromObj.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/LoadMeshFromObj.cpp \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/LoadMeshFromObj.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/../../ThirdPartyLibs/Wavefront/tiny_obj_loader.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/LoadMeshFromObj.cpp \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/LoadMeshFromObj.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/../../ThirdPartyLibs/Wavefront/tiny_obj_loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -874,14 +874,14 @@ extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/__/Impo
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/../../OpenGLWindow/GLInstanceGraphicsShape.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedObjectArray.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Scalar.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/../../OpenGLWindow/GLInstanceGraphicsShape.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedObjectArray.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Scalar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Logging.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Logging.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedAllocator.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3HashMap.h
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedAllocator.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3HashMap.h

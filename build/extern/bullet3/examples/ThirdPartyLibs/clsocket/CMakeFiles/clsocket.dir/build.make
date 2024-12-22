@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/depend.make
@@ -70,46 +70,46 @@ include extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/
 include extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/flags.make
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp
+extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o -MF CMakeFiles/clsocket.dir/src/SimpleSocket.o.d -o CMakeFiles/clsocket.dir/src/SimpleSocket.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o -MF CMakeFiles/clsocket.dir/src/SimpleSocket.o.d -o CMakeFiles/clsocket.dir/src/SimpleSocket.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clsocket.dir/src/SimpleSocket.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp > CMakeFiles/clsocket.dir/src/SimpleSocket.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp > CMakeFiles/clsocket.dir/src/SimpleSocket.i
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clsocket.dir/src/SimpleSocket.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp -o CMakeFiles/clsocket.dir/src/SimpleSocket.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp -o CMakeFiles/clsocket.dir/src/SimpleSocket.s
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp
+extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o -MF CMakeFiles/clsocket.dir/src/ActiveSocket.o.d -o CMakeFiles/clsocket.dir/src/ActiveSocket.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o -MF CMakeFiles/clsocket.dir/src/ActiveSocket.o.d -o CMakeFiles/clsocket.dir/src/ActiveSocket.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clsocket.dir/src/ActiveSocket.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp > CMakeFiles/clsocket.dir/src/ActiveSocket.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp > CMakeFiles/clsocket.dir/src/ActiveSocket.i
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clsocket.dir/src/ActiveSocket.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp -o CMakeFiles/clsocket.dir/src/ActiveSocket.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/ActiveSocket.cpp -o CMakeFiles/clsocket.dir/src/ActiveSocket.s
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp
+extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o -MF CMakeFiles/clsocket.dir/src/PassiveSocket.o.d -o CMakeFiles/clsocket.dir/src/PassiveSocket.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o -MF CMakeFiles/clsocket.dir/src/PassiveSocket.o.d -o CMakeFiles/clsocket.dir/src/PassiveSocket.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clsocket.dir/src/PassiveSocket.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp > CMakeFiles/clsocket.dir/src/PassiveSocket.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp > CMakeFiles/clsocket.dir/src/PassiveSocket.i
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clsocket.dir/src/PassiveSocket.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp -o CMakeFiles/clsocket.dir/src/PassiveSocket.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/PassiveSocket.cpp -o CMakeFiles/clsocket.dir/src/PassiveSocket.s
 
 # Object files for target clsocket
 clsocket_OBJECTS = \
@@ -120,24 +120,24 @@ clsocket_OBJECTS = \
 # External object files for target clsocket
 clsocket_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && $(CMAKE_COMMAND) -P CMakeFiles/clsocket.dir/cmake_clean_target.cmake
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clsocket.dir/link.txt --verbose=$(VERBOSE)
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && $(CMAKE_COMMAND) -P CMakeFiles/clsocket.dir/cmake_clean_target.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clsocket.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a
+extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && $(CMAKE_COMMAND) -P CMakeFiles/clsocket.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket && $(CMAKE_COMMAND) -P CMakeFiles/clsocket.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/clean
 
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/depend
 

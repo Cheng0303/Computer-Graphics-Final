@@ -1,8 +1,8 @@
 extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/ConstraintSolver/b3PgsJacobiSolver.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3PgsJacobiSolver.cpp \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3PgsJacobiSolver.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3TypedConstraint.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Scalar.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3PgsJacobiSolver.cpp \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3PgsJacobiSolver.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3TypedConstraint.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Scalar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config_site \
@@ -219,15 +219,15 @@ extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/ConstraintSolv
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/float.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Logging.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Logging.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3SolverConstraint.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Vector3.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3MinMax.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedAllocator.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Matrix3x3.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Quaternion.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3QuadWord.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3SolverConstraint.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Vector3.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3MinMax.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedAllocator.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Matrix3x3.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Quaternion.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3QuadWord.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_stdio.h \
@@ -237,7 +237,7 @@ extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/ConstraintSolv
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedObjectArray.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3AlignedObjectArray.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdlib \
@@ -247,20 +247,20 @@ extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/ConstraintSolv
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/addressof.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__exception/terminate.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3SolverBody.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3TransformUtil.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Transform.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3ContactSolverInfo.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3StackAlloc.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3SolverBody.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3TransformUtil.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3Transform.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Dynamics/ConstraintSolver/b3ContactSolverInfo.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/b3StackAlloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/strings.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Collision/NarrowPhaseCollision/b3Contact4.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Collision/NarrowPhaseCollision/shared/b3Contact4Data.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3Float4.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3PlatformDefinitions.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3Quat.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3Mat3x3.h
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Collision/NarrowPhaseCollision/b3Contact4.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Collision/NarrowPhaseCollision/shared/b3Contact4Data.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3Float4.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3PlatformDefinitions.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Collision/NarrowPhaseCollision/shared/b3RigidBodyData.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3Quat.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src/Bullet3Common/shared/b3Mat3x3.h

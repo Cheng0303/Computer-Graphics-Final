@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_Collision"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_Collision.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_Collision"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_Collision.pdb"
   "CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.o"
   "CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.o.d"
   "CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConcaveShape.o"

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_TwoJoint"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_TwoJoint-3.26"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_TwoJoint.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_TwoJoint"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_TwoJoint-3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_TwoJoint.pdb"
   "CMakeFiles/App_TwoJoint.dir/TwoJointMain.o"
   "CMakeFiles/App_TwoJoint.dir/TwoJointMain.o.d"
   "CMakeFiles/App_TwoJoint.dir/__/ExampleBrowser/InProcessExampleBrowser.o"

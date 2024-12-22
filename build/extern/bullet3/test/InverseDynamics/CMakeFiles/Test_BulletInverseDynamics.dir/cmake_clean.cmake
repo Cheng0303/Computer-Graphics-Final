@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamics"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamics.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamics"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamics.pdb"
   "CMakeFiles/Test_BulletInverseDynamics.dir/test_invdyn_kinematics.o"
   "CMakeFiles/Test_BulletInverseDynamics.dir/test_invdyn_kinematics.o.d"
 )

@@ -1,7 +1,7 @@
 src/CMakeFiles/HW2.dir/opengl_context.cpp.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/opengl_context.cpp \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/../include/opengl_context.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/include/GLFW/glfw3.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/opengl_context.cpp \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/../include/opengl_context.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config_site \
@@ -35,8 +35,8 @@ src/CMakeFiles/HW2.dir/opengl_context.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glad/include/glad/gl.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/../include/utils.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glad/include/glad/gl.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/../include/utils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__verbose_abort \

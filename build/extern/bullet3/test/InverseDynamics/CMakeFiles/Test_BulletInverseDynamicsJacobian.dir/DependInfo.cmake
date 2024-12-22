@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/InverseDynamics/test_invdyn_jacobian.cpp" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/test_invdyn_jacobian.o" "gcc" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/test_invdyn_jacobian.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/InverseDynamics/test_invdyn_jacobian.cpp" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/test_invdyn_jacobian.o" "gcc" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/test_invdyn_jacobian.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

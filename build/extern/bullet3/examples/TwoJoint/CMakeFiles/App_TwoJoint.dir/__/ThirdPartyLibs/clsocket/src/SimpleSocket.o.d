@@ -1,6 +1,6 @@
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/__/ThirdPartyLibs/clsocket/src/SimpleSocket.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.cpp \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/SimpleSocket.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/cdefs.h \
@@ -162,7 +162,7 @@ extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/__/ThirdPartyLibs/c
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_o_sync.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_o_dsync.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/Host.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/Host.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/limits.h \
@@ -170,7 +170,7 @@ extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/__/ThirdPartyLibs/c
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/syslimits.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/StatTimer.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src/StatTimer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/strings.h

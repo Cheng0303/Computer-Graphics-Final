@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/depend.make
@@ -70,18 +70,18 @@ include extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotic
 include extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/flags.make
 
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/flags.make
-extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp
+extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o -MF CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o.d -o CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o -MF CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o.d -o CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp
 
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp > CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp > CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.i
 
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp -o CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp -o CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.s
 
 # Object files for target App_HelloBulletRobotics
 App_HelloBulletRobotics_OBJECTS = \
@@ -90,34 +90,34 @@ App_HelloBulletRobotics_OBJECTS = \
 # External object files for target App_HelloBulletRobotics
 App_HelloBulletRobotics_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletRobotics.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletWorldImporter.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletSoftBody.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletInverseDynamicsUtils.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletInverseDynamics.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Common.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletFileLoader.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App_HelloBulletRobotics.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && $(CMAKE_COMMAND) -E cmake_symlink_executable /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26 /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletRobotics.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletWorldImporter.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletSoftBody.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletInverseDynamicsUtils.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletInverseDynamics.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Common.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletFileLoader.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App_HelloBulletRobotics.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && $(CMAKE_COMMAND) -E cmake_symlink_executable /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26 /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics-3.26
 
 # Rule to build all files generated by this target.
-extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics
+extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_HelloBulletRobotics
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build
 
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && $(CMAKE_COMMAND) -P CMakeFiles/App_HelloBulletRobotics.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator && $(CMAKE_COMMAND) -P CMakeFiles/App_HelloBulletRobotics.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/clean
 
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/depend
 

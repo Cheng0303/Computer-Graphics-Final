@@ -1,6 +1,6 @@
 extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdManifoldMesh.cpp \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdManifoldMesh.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdManifoldMesh.cpp \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdManifoldMesh.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -843,11 +843,11 @@ extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdVersion.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdCircularList.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdCircularList.inl \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdVector.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdVector.inl \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdVersion.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdCircularList.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdCircularList.inl \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdVector.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/HACD/hacdVector.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \

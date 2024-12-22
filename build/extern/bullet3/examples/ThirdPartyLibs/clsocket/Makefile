@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/clsocket//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/rule
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/rule
 
 # Convenience name for target.
@@ -172,52 +172,52 @@ clsocket: extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.di
 
 # fast build rule for target.
 clsocket/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build
 .PHONY : clsocket/fast
 
 # target to build an object file
 src/ActiveSocket.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.o
 .PHONY : src/ActiveSocket.o
 
 # target to preprocess a source file
 src/ActiveSocket.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.i
 .PHONY : src/ActiveSocket.i
 
 # target to generate assembly for a file
 src/ActiveSocket.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/ActiveSocket.s
 .PHONY : src/ActiveSocket.s
 
 # target to build an object file
 src/PassiveSocket.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.o
 .PHONY : src/PassiveSocket.o
 
 # target to preprocess a source file
 src/PassiveSocket.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.i
 .PHONY : src/PassiveSocket.i
 
 # target to generate assembly for a file
 src/PassiveSocket.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/PassiveSocket.s
 .PHONY : src/PassiveSocket.s
 
 # target to build an object file
 src/SimpleSocket.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.o
 .PHONY : src/SimpleSocket.o
 
 # target to preprocess a source file
 src/SimpleSocket.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.i
 .PHONY : src/SimpleSocket.i
 
 # target to generate assembly for a file
 src/SimpleSocket.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/src/SimpleSocket.s
 .PHONY : src/SimpleSocket.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

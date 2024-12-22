@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles/3.30.5/CMakeSystem.cmake"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles/3.30.5/CMakeSystem.cmake"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeGenericSystem.cmake"

@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DBT_ENABLE_CLSOCKET -DBT_ENABLE_ENET -DBulletRoboticsGUI_EXPORTS -DHAS_SOCKLEN_T -DPHYSICS_SERVER_DIRECT -DUSE_GRAPHICAL_BENCHMARK -D_DARWIN
 
-CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/SharedMemory -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/enet/include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src
+CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/SharedMemory -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/enet/include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -flto=thin -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -march=native
 

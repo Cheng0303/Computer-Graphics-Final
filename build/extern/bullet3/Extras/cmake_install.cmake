@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras
+# Install script for directory: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/InverseDynamics/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/BulletRoboticsGUI/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/BulletRobotics/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/ConvexDecomposition/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/HACD/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/InverseDynamics/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/BulletRoboticsGUI/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/BulletRobotics/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/ConvexDecomposition/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/HACD/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils/cmake_install.cmake")
 
 endif()
 

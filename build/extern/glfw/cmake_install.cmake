@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw
+# Install script for directory: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/glfw/src/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/glfw/src/cmake_install.cmake")
 endif()
 

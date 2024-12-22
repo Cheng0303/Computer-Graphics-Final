@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/depend.make
@@ -70,130 +70,130 @@ include extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/prog
 include extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o -MF CMakeFiles/BussIK.dir/Jacobian.o.d -o CMakeFiles/BussIK.dir/Jacobian.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o -MF CMakeFiles/BussIK.dir/Jacobian.o.d -o CMakeFiles/BussIK.dir/Jacobian.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/Jacobian.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp > CMakeFiles/BussIK.dir/Jacobian.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp > CMakeFiles/BussIK.dir/Jacobian.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/Jacobian.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp -o CMakeFiles/BussIK.dir/Jacobian.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Jacobian.cpp -o CMakeFiles/BussIK.dir/Jacobian.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o -MF CMakeFiles/BussIK.dir/LinearR2.o.d -o CMakeFiles/BussIK.dir/LinearR2.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o -MF CMakeFiles/BussIK.dir/LinearR2.o.d -o CMakeFiles/BussIK.dir/LinearR2.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/LinearR2.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp > CMakeFiles/BussIK.dir/LinearR2.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp > CMakeFiles/BussIK.dir/LinearR2.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/LinearR2.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp -o CMakeFiles/BussIK.dir/LinearR2.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR2.cpp -o CMakeFiles/BussIK.dir/LinearR2.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o -MF CMakeFiles/BussIK.dir/LinearR3.o.d -o CMakeFiles/BussIK.dir/LinearR3.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o -MF CMakeFiles/BussIK.dir/LinearR3.o.d -o CMakeFiles/BussIK.dir/LinearR3.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/LinearR3.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp > CMakeFiles/BussIK.dir/LinearR3.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp > CMakeFiles/BussIK.dir/LinearR3.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/LinearR3.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp -o CMakeFiles/BussIK.dir/LinearR3.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR3.cpp -o CMakeFiles/BussIK.dir/LinearR3.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o -MF CMakeFiles/BussIK.dir/LinearR4.o.d -o CMakeFiles/BussIK.dir/LinearR4.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o -MF CMakeFiles/BussIK.dir/LinearR4.o.d -o CMakeFiles/BussIK.dir/LinearR4.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/LinearR4.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp > CMakeFiles/BussIK.dir/LinearR4.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp > CMakeFiles/BussIK.dir/LinearR4.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/LinearR4.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp -o CMakeFiles/BussIK.dir/LinearR4.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/LinearR4.cpp -o CMakeFiles/BussIK.dir/LinearR4.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o -MF CMakeFiles/BussIK.dir/MatrixRmn.o.d -o CMakeFiles/BussIK.dir/MatrixRmn.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o -MF CMakeFiles/BussIK.dir/MatrixRmn.o.d -o CMakeFiles/BussIK.dir/MatrixRmn.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/MatrixRmn.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp > CMakeFiles/BussIK.dir/MatrixRmn.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp > CMakeFiles/BussIK.dir/MatrixRmn.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/MatrixRmn.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp -o CMakeFiles/BussIK.dir/MatrixRmn.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/MatrixRmn.cpp -o CMakeFiles/BussIK.dir/MatrixRmn.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o -MF CMakeFiles/BussIK.dir/Misc.o.d -o CMakeFiles/BussIK.dir/Misc.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o -MF CMakeFiles/BussIK.dir/Misc.o.d -o CMakeFiles/BussIK.dir/Misc.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/Misc.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp > CMakeFiles/BussIK.dir/Misc.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp > CMakeFiles/BussIK.dir/Misc.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/Misc.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp -o CMakeFiles/BussIK.dir/Misc.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Misc.cpp -o CMakeFiles/BussIK.dir/Misc.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o -MF CMakeFiles/BussIK.dir/Node.o.d -o CMakeFiles/BussIK.dir/Node.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o -MF CMakeFiles/BussIK.dir/Node.o.d -o CMakeFiles/BussIK.dir/Node.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/Node.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp > CMakeFiles/BussIK.dir/Node.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp > CMakeFiles/BussIK.dir/Node.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/Node.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp -o CMakeFiles/BussIK.dir/Node.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Node.cpp -o CMakeFiles/BussIK.dir/Node.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o -MF CMakeFiles/BussIK.dir/Tree.o.d -o CMakeFiles/BussIK.dir/Tree.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o -MF CMakeFiles/BussIK.dir/Tree.o.d -o CMakeFiles/BussIK.dir/Tree.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/Tree.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp > CMakeFiles/BussIK.dir/Tree.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp > CMakeFiles/BussIK.dir/Tree.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/Tree.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp -o CMakeFiles/BussIK.dir/Tree.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/Tree.cpp -o CMakeFiles/BussIK.dir/Tree.s
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/flags.make
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o -MF CMakeFiles/BussIK.dir/VectorRn.o.d -o CMakeFiles/BussIK.dir/VectorRn.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o -MF CMakeFiles/BussIK.dir/VectorRn.o.d -o CMakeFiles/BussIK.dir/VectorRn.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BussIK.dir/VectorRn.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp > CMakeFiles/BussIK.dir/VectorRn.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp > CMakeFiles/BussIK.dir/VectorRn.i
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BussIK.dir/VectorRn.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp -o CMakeFiles/BussIK.dir/VectorRn.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK/VectorRn.cpp -o CMakeFiles/BussIK.dir/VectorRn.s
 
 # Object files for target BussIK
 BussIK_OBJECTS = \
@@ -210,29 +210,29 @@ BussIK_OBJECTS = \
 # External object files for target BussIK
 BussIK_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BussIK.dir/link.txt --verbose=$(VERBOSE)
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BussIK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib
+extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && $(CMAKE_COMMAND) -P CMakeFiles/BussIK.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK && $(CMAKE_COMMAND) -P CMakeFiles/BussIK.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/clean
 
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/BussIK /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/depend
 

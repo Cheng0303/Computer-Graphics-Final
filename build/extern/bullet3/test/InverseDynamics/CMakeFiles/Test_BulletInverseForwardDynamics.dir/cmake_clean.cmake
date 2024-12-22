@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletInverseForwardDynamics"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletInverseForwardDynamics.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletInverseForwardDynamics"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletInverseForwardDynamics.pdb"
   "CMakeFiles/Test_BulletInverseForwardDynamics.dir/__/__/Extras/Serialize/BulletFileLoader/bChunk.o"
   "CMakeFiles/Test_BulletInverseForwardDynamics.dir/__/__/Extras/Serialize/BulletFileLoader/bChunk.o.d"
   "CMakeFiles/Test_BulletInverseForwardDynamics.dir/__/__/Extras/Serialize/BulletFileLoader/bDNA.o"

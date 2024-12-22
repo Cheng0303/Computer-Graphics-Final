@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/depend.make
@@ -70,18 +70,18 @@ include extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/progress.
 include extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/flags.make
 
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/flags.make
-extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp
+extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o -MF CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o.d -o CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o -MF CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o.d -o CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp
 
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp > CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp > CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.i
 
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp -o CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp -o CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.s
 
 # Object files for target GIMPACTUtils
 GIMPACTUtils_OBJECTS = \
@@ -90,28 +90,28 @@ GIMPACTUtils_OBJECTS = \
 # External object files for target GIMPACTUtils
 GIMPACTUtils_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libConvexDecomposition.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GIMPACTUtils.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && $(CMAKE_COMMAND) -E cmake_symlink_library /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/btGImpactConvexDecompositionShape.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libConvexDecomposition.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib: extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GIMPACTUtils.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && $(CMAKE_COMMAND) -E cmake_symlink_library /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib
-	@$(CMAKE_COMMAND) -E touch_nocreate /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.3.26.dylib
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib
 
 # Rule to build all files generated by this target.
-extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib
+extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libGIMPACTUtils.dylib
 .PHONY : extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build
 
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && $(CMAKE_COMMAND) -P CMakeFiles/GIMPACTUtils.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils && $(CMAKE_COMMAND) -P CMakeFiles/GIMPACTUtils.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/clean
 
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/depend
 

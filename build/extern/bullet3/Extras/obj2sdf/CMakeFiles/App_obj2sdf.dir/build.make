@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/depend.make
@@ -70,46 +70,46 @@ include extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/progress.make
 include extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/flags.make
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/flags.make
-extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp
+extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o -MF CMakeFiles/App_obj2sdf.dir/obj2sdf.o.d -o CMakeFiles/App_obj2sdf.dir/obj2sdf.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o -MF CMakeFiles/App_obj2sdf.dir/obj2sdf.o.d -o CMakeFiles/App_obj2sdf.dir/obj2sdf.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App_obj2sdf.dir/obj2sdf.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp > CMakeFiles/App_obj2sdf.dir/obj2sdf.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp > CMakeFiles/App_obj2sdf.dir/obj2sdf.i
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App_obj2sdf.dir/obj2sdf.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp -o CMakeFiles/App_obj2sdf.dir/obj2sdf.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf/obj2sdf.cpp -o CMakeFiles/App_obj2sdf.dir/obj2sdf.s
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/flags.make
-extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp
+extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o -MF CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o.d -o CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o -MF CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o.d -o CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp > CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp > CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.i
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp -o CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/Utils/b3ResourcePath.cpp -o CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.s
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/flags.make
-extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp
+extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o -MF CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o.d -o CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o -MF CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o.d -o CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp > CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp > CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.i
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp -o CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.cpp -o CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.s
 
 # Object files for target App_obj2sdf
 App_obj2sdf_OBJECTS = \
@@ -120,24 +120,24 @@ App_obj2sdf_OBJECTS = \
 # External object files for target App_obj2sdf
 App_obj2sdf_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Common.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App_obj2sdf.dir/link.txt --verbose=$(VERBOSE)
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/obj2sdf.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/Utils/b3ResourcePath.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/__/__/examples/ThirdPartyLibs/Wavefront/tiny_obj_loader.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Common.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf: extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App_obj2sdf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_obj2sdf
+extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_obj2sdf
 .PHONY : extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && $(CMAKE_COMMAND) -P CMakeFiles/App_obj2sdf.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf && $(CMAKE_COMMAND) -P CMakeFiles/App_obj2sdf.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/clean
 
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/obj2sdf /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/depend
 

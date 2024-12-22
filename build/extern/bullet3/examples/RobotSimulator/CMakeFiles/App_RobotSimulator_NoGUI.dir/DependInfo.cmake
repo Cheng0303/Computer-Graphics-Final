@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/MinitaurSetup.cpp" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.o" "gcc" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/RobotSimulatorMain.cpp" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.o" "gcc" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/MinitaurSetup.cpp" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.o" "gcc" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/RobotSimulatorMain.cpp" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.o" "gcc" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

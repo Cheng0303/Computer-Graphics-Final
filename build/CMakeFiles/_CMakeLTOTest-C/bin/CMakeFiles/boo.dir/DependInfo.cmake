@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles/_CMakeLTOTest-C/src/main.c" "CMakeFiles/boo.dir/main.c.o" "gcc" "CMakeFiles/boo.dir/main.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles/_CMakeLTOTest-C/src/main.c" "CMakeFiles/boo.dir/main.c.o" "gcc" "CMakeFiles/boo.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

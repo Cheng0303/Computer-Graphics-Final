@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/HW2.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/HW2.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/HW2.dir/rule
 .PHONY : src/CMakeFiles/HW2.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ HW2: src/CMakeFiles/HW2.dir/rule
 
 # fast build rule for target.
 HW2/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/build
 .PHONY : HW2/fast
 
 Programs/example.o: Programs/example.cpp.o
@@ -180,7 +180,7 @@ Programs/example.o: Programs/example.cpp.o
 
 # target to build an object file
 Programs/example.cpp.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/example.cpp.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/example.cpp.o
 .PHONY : Programs/example.cpp.o
 
 Programs/example.i: Programs/example.cpp.i
@@ -188,7 +188,7 @@ Programs/example.i: Programs/example.cpp.i
 
 # target to preprocess a source file
 Programs/example.cpp.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/example.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/example.cpp.i
 .PHONY : Programs/example.cpp.i
 
 Programs/example.s: Programs/example.cpp.s
@@ -196,7 +196,7 @@ Programs/example.s: Programs/example.cpp.s
 
 # target to generate assembly for a file
 Programs/example.cpp.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/example.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/example.cpp.s
 .PHONY : Programs/example.cpp.s
 
 Programs/light.o: Programs/light.cpp.o
@@ -204,7 +204,7 @@ Programs/light.o: Programs/light.cpp.o
 
 # target to build an object file
 Programs/light.cpp.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/light.cpp.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/light.cpp.o
 .PHONY : Programs/light.cpp.o
 
 Programs/light.i: Programs/light.cpp.i
@@ -212,7 +212,7 @@ Programs/light.i: Programs/light.cpp.i
 
 # target to preprocess a source file
 Programs/light.cpp.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/light.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/light.cpp.i
 .PHONY : Programs/light.cpp.i
 
 Programs/light.s: Programs/light.cpp.s
@@ -220,7 +220,7 @@ Programs/light.s: Programs/light.cpp.s
 
 # target to generate assembly for a file
 Programs/light.cpp.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/light.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/Programs/light.cpp.s
 .PHONY : Programs/light.cpp.s
 
 camera.o: camera.cpp.o
@@ -228,7 +228,7 @@ camera.o: camera.cpp.o
 
 # target to build an object file
 camera.cpp.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/camera.cpp.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/camera.cpp.o
 .PHONY : camera.cpp.o
 
 camera.i: camera.cpp.i
@@ -236,7 +236,7 @@ camera.i: camera.cpp.i
 
 # target to preprocess a source file
 camera.cpp.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/camera.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/camera.cpp.i
 .PHONY : camera.cpp.i
 
 camera.s: camera.cpp.s
@@ -244,7 +244,7 @@ camera.s: camera.cpp.s
 
 # target to generate assembly for a file
 camera.cpp.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/camera.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/camera.cpp.s
 .PHONY : camera.cpp.s
 
 gl_helper.o: gl_helper.cpp.o
@@ -252,7 +252,7 @@ gl_helper.o: gl_helper.cpp.o
 
 # target to build an object file
 gl_helper.cpp.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/gl_helper.cpp.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/gl_helper.cpp.o
 .PHONY : gl_helper.cpp.o
 
 gl_helper.i: gl_helper.cpp.i
@@ -260,7 +260,7 @@ gl_helper.i: gl_helper.cpp.i
 
 # target to preprocess a source file
 gl_helper.cpp.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/gl_helper.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/gl_helper.cpp.i
 .PHONY : gl_helper.cpp.i
 
 gl_helper.s: gl_helper.cpp.s
@@ -268,7 +268,7 @@ gl_helper.s: gl_helper.cpp.s
 
 # target to generate assembly for a file
 gl_helper.cpp.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/gl_helper.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/gl_helper.cpp.s
 .PHONY : gl_helper.cpp.s
 
 main.o: main.cpp.o
@@ -276,7 +276,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/main.cpp.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -284,7 +284,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/main.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -292,7 +292,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/main.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 model.o: model.cpp.o
@@ -300,7 +300,7 @@ model.o: model.cpp.o
 
 # target to build an object file
 model.cpp.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/model.cpp.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/model.cpp.o
 .PHONY : model.cpp.o
 
 model.i: model.cpp.i
@@ -308,7 +308,7 @@ model.i: model.cpp.i
 
 # target to preprocess a source file
 model.cpp.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/model.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/model.cpp.i
 .PHONY : model.cpp.i
 
 model.s: model.cpp.s
@@ -316,7 +316,7 @@ model.s: model.cpp.s
 
 # target to generate assembly for a file
 model.cpp.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/model.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/model.cpp.s
 .PHONY : model.cpp.s
 
 opengl_context.o: opengl_context.cpp.o
@@ -324,7 +324,7 @@ opengl_context.o: opengl_context.cpp.o
 
 # target to build an object file
 opengl_context.cpp.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/opengl_context.cpp.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/opengl_context.cpp.o
 .PHONY : opengl_context.cpp.o
 
 opengl_context.i: opengl_context.cpp.i
@@ -332,7 +332,7 @@ opengl_context.i: opengl_context.cpp.i
 
 # target to preprocess a source file
 opengl_context.cpp.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/opengl_context.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/opengl_context.cpp.i
 .PHONY : opengl_context.cpp.i
 
 opengl_context.s: opengl_context.cpp.s
@@ -340,7 +340,7 @@ opengl_context.s: opengl_context.cpp.s
 
 # target to generate assembly for a file
 opengl_context.cpp.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/opengl_context.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/opengl_context.cpp.s
 .PHONY : opengl_context.cpp.s
 
 # Help Target
@@ -388,6 +388,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

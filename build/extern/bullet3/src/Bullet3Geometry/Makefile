@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/src/Bullet3Geometry//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/src/Bullet3Geometry//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/rule
 .PHONY : extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/rule
 
 # Convenience name for target.
@@ -172,37 +172,37 @@ Bullet3Geometry: extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.d
 
 # fast build rule for target.
 Bullet3Geometry/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build
 .PHONY : Bullet3Geometry/fast
 
 # target to build an object file
 b3ConvexHullComputer.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.o
 .PHONY : b3ConvexHullComputer.o
 
 # target to preprocess a source file
 b3ConvexHullComputer.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.i
 .PHONY : b3ConvexHullComputer.i
 
 # target to generate assembly for a file
 b3ConvexHullComputer.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.s
 .PHONY : b3ConvexHullComputer.s
 
 # target to build an object file
 b3GeometryUtil.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3GeometryUtil.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3GeometryUtil.o
 .PHONY : b3GeometryUtil.o
 
 # target to preprocess a source file
 b3GeometryUtil.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3GeometryUtil.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3GeometryUtil.i
 .PHONY : b3GeometryUtil.i
 
 # target to generate assembly for a file
 b3GeometryUtil.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3GeometryUtil.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/b3GeometryUtil.s
 .PHONY : b3GeometryUtil.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

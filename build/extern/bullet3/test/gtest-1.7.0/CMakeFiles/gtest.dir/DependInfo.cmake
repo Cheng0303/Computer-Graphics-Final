@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc" "extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o" "gcc" "extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc" "extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o" "gcc" "extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

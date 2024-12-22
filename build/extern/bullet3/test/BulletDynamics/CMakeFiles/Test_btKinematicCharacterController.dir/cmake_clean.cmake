@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_btKinematicCharacterController"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_btKinematicCharacterController.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_btKinematicCharacterController"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_btKinematicCharacterController.pdb"
   "CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.o"
   "CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.o.d"
 )

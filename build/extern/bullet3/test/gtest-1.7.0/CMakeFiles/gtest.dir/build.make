@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/depend.make
@@ -70,18 +70,18 @@ include extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/progress.make
 include extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/flags.make
 
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/flags.make
-extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc
+extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o -MF CMakeFiles/gtest.dir/src/gtest-all.o.d -o CMakeFiles/gtest.dir/src/gtest-all.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o -MF CMakeFiles/gtest.dir/src/gtest-all.o.d -o CMakeFiles/gtest.dir/src/gtest-all.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc
 
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.i
 
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -90,21 +90,21 @@ gtest_OBJECTS = \
 # External object files for target gtest
 gtest_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgtest.dylib: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgtest.dylib: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgtest.dylib: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgtest.dylib"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgtest.dylib: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgtest.dylib: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgtest.dylib: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgtest.dylib"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgtest.dylib
+extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgtest.dylib
 .PHONY : extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build
 
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/clean
 
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0 /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/gtest-1.7.0 /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0 /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/depend
 

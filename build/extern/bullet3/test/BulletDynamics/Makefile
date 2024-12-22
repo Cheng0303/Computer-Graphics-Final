@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/rule
 .PHONY : extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/rule
 
 # Convenience name for target.
@@ -172,22 +172,22 @@ Test_btKinematicCharacterController: extern/bullet3/test/BulletDynamics/CMakeFil
 
 # fast build rule for target.
 Test_btKinematicCharacterController/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build
 .PHONY : Test_btKinematicCharacterController/fast
 
 # target to build an object file
 test_btKinematicCharacterController.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.o
 .PHONY : test_btKinematicCharacterController.o
 
 # target to preprocess a source file
 test_btKinematicCharacterController.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.i
 .PHONY : test_btKinematicCharacterController.i
 
 # target to generate assembly for a file
 test_btKinematicCharacterController.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/test_btKinematicCharacterController.s
 .PHONY : test_btKinematicCharacterController.s
 
 # Help Target
@@ -217,6 +217,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

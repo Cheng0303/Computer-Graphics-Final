@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletXmlWorldImporter.3.26.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletXmlWorldImporter.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletXmlWorldImporter.pdb"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/.3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletXmlWorldImporter.3.26.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletXmlWorldImporter.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletXmlWorldImporter.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/.3.26"
   "CMakeFiles/BulletXmlWorldImporter.dir/__/__/__/examples/ThirdPartyLibs/tinyxml2/tinyxml2.o"
   "CMakeFiles/BulletXmlWorldImporter.dir/__/__/__/examples/ThirdPartyLibs/tinyxml2/tinyxml2.o.d"
   "CMakeFiles/BulletXmlWorldImporter.dir/btBulletXmlWorldImporter.o"

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/InverseDynamics/test_invdyn_kinematics.cpp" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/test_invdyn_kinematics.o" "gcc" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/test_invdyn_kinematics.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/InverseDynamics/test_invdyn_kinematics.cpp" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/test_invdyn_kinematics.o" "gcc" "extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/test_invdyn_kinematics.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

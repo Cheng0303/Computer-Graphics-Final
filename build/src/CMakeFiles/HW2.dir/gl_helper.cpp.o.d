@@ -1,7 +1,7 @@
 src/CMakeFiles/HW2.dir/gl_helper.cpp.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/gl_helper.cpp \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/../include/gl_helper.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glad/include/glad/gl.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/gl_helper.cpp \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/../include/gl_helper.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glad/include/glad/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config_site \
@@ -845,5 +845,5 @@ src/CMakeFiles/HW2.dir/gl_helper.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/stb/include/stb_image.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/stb/include/stb_image.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h

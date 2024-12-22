@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_RobotSimulator"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_RobotSimulator-3.26"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_RobotSimulator.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_RobotSimulator"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_RobotSimulator-3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_RobotSimulator.pdb"
   "CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.o"
   "CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.o.d"
   "CMakeFiles/App_RobotSimulator.dir/RobotSimulatorMain.o"

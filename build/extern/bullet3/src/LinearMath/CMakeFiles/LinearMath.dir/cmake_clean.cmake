@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.pdb"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/.3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/.3.26"
   "CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.o"
   "CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.o.d"
   "CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportPosix.o"

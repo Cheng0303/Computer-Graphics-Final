@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DGIMPACTUtils_EXPORTS -DUSE_GRAPHICAL_BENCHMARK
 
-CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACT/include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/ConvexDecomposition
+CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACT/include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/GIMPACTUtils -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/ConvexDecomposition
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -flto=thin -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -march=native
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2.pdb"
   "CMakeFiles/HW2.dir/Programs/example.cpp.o"
   "CMakeFiles/HW2.dir/Programs/example.cpp.o.d"
   "CMakeFiles/HW2.dir/Programs/light.cpp.o"

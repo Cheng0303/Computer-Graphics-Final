@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libglm_shared.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libglm_shared.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libglm_shared.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libglm_shared.pdb"
   "CMakeFiles/glm_shared.dir/detail/glm.cpp.o"
   "CMakeFiles/glm_shared.dir/detail/glm.cpp.o.d"
 )

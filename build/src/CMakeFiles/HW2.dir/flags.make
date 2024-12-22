@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DGLFW_INCLUDE_NONE
 
-CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/../include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glad/include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/stb/include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glm/glm/..
+CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/../include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glad/include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/stb/include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glm/glm/..
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=c++20 -flto=thin -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -march=native -Wall -Wextra -Wpedantic
 

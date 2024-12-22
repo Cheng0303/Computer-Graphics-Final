@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/Extras/Serialize
+# Install script for directory: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/Extras/Serialize
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletFileLoader/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletWorldImporter/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletFileLoader/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletWorldImporter/cmake_install.cmake")
 
 endif()
 

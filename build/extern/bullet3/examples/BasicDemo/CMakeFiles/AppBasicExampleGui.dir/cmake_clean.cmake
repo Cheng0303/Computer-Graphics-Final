@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/AppBasicExampleGui"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/AppBasicExampleGui.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/AppBasicExampleGui"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/AppBasicExampleGui.pdb"
   "CMakeFiles/AppBasicExampleGui.dir/BasicExample.o"
   "CMakeFiles/AppBasicExampleGui.dir/BasicExample.o.d"
   "CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o"

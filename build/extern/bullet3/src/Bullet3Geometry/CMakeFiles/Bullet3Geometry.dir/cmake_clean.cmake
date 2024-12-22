@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Geometry.3.26.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Geometry.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3Geometry.pdb"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/.3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Geometry.3.26.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Geometry.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3Geometry.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/.3.26"
   "CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.o"
   "CMakeFiles/Bullet3Geometry.dir/b3ConvexHullComputer.o.d"
   "CMakeFiles/Bullet3Geometry.dir/b3GeometryUtil.o"

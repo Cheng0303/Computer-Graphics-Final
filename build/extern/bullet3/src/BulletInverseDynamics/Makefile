@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/src/BulletInverseDynamics//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/src/BulletInverseDynamics//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/rule
 .PHONY : extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/rule
 
 # Convenience name for target.
@@ -172,67 +172,67 @@ BulletInverseDynamics: extern/bullet3/src/BulletInverseDynamics/CMakeFiles/Bulle
 
 # fast build rule for target.
 BulletInverseDynamics/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build
 .PHONY : BulletInverseDynamics/fast
 
 # target to build an object file
 IDMath.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/IDMath.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/IDMath.o
 .PHONY : IDMath.o
 
 # target to preprocess a source file
 IDMath.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/IDMath.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/IDMath.i
 .PHONY : IDMath.i
 
 # target to generate assembly for a file
 IDMath.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/IDMath.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/IDMath.s
 .PHONY : IDMath.s
 
 # target to build an object file
 MultiBodyTree.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/MultiBodyTree.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/MultiBodyTree.o
 .PHONY : MultiBodyTree.o
 
 # target to preprocess a source file
 MultiBodyTree.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/MultiBodyTree.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/MultiBodyTree.i
 .PHONY : MultiBodyTree.i
 
 # target to generate assembly for a file
 MultiBodyTree.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/MultiBodyTree.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/MultiBodyTree.s
 .PHONY : MultiBodyTree.s
 
 # target to build an object file
 details/MultiBodyTreeImpl.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeImpl.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeImpl.o
 .PHONY : details/MultiBodyTreeImpl.o
 
 # target to preprocess a source file
 details/MultiBodyTreeImpl.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeImpl.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeImpl.i
 .PHONY : details/MultiBodyTreeImpl.i
 
 # target to generate assembly for a file
 details/MultiBodyTreeImpl.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeImpl.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeImpl.s
 .PHONY : details/MultiBodyTreeImpl.s
 
 # target to build an object file
 details/MultiBodyTreeInitCache.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeInitCache.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeInitCache.o
 .PHONY : details/MultiBodyTreeInitCache.o
 
 # target to preprocess a source file
 details/MultiBodyTreeInitCache.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeInitCache.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeInitCache.i
 .PHONY : details/MultiBodyTreeInitCache.i
 
 # target to generate assembly for a file
 details/MultiBodyTreeInitCache.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeInitCache.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/details/MultiBodyTreeInitCache.s
 .PHONY : details/MultiBodyTreeInitCache.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

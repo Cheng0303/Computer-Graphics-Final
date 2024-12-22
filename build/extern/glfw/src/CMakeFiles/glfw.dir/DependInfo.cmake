@@ -8,27 +8,27 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/cocoa_init.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/cocoa_joystick.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/cocoa_monitor.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/cocoa_time.c" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/cocoa_window.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/context.c" "extern/glfw/src/CMakeFiles/glfw.dir/context.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/context.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/egl_context.c" "extern/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/init.c" "extern/glfw/src/CMakeFiles/glfw.dir/init.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/init.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/input.c" "extern/glfw/src/CMakeFiles/glfw.dir/input.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/input.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/monitor.c" "extern/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/nsgl_context.m" "extern/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/osmesa_context.c" "extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/posix_thread.c" "extern/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/vulkan.c" "extern/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/window.c" "extern/glfw/src/CMakeFiles/glfw.dir/window.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/window.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/cocoa_init.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/cocoa_joystick.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/cocoa_monitor.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/cocoa_time.c" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/cocoa_window.m" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/context.c" "extern/glfw/src/CMakeFiles/glfw.dir/context.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/context.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/egl_context.c" "extern/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/init.c" "extern/glfw/src/CMakeFiles/glfw.dir/init.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/init.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/input.c" "extern/glfw/src/CMakeFiles/glfw.dir/input.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/input.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/monitor.c" "extern/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/nsgl_context.m" "extern/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/osmesa_context.c" "extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/posix_thread.c" "extern/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/vulkan.c" "extern/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/window.c" "extern/glfw/src/CMakeFiles/glfw.dir/window.c.o" "gcc" "extern/glfw/src/CMakeFiles/glfw.dir/window.c.o.d"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libglfw.3.dylib" "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libglfw.3.4.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libglfw.dylib" "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libglfw.3.4.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libglfw.3.dylib" "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libglfw.3.4.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libglfw.dylib" "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libglfw.3.4.dylib"
   )
 
 

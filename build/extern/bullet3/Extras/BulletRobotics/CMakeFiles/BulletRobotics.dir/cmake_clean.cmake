@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletRobotics.3.26.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletRobotics.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletRobotics.pdb"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/.3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletRobotics.3.26.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletRobotics.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletRobotics.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/.3.26"
   "CMakeFiles/BulletRobotics.dir/__/VHACD/src/VHACD.o"
   "CMakeFiles/BulletRobotics.dir/__/VHACD/src/VHACD.o.d"
   "CMakeFiles/BulletRobotics.dir/__/VHACD/src/vhacdICHull.o"

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o" "gcc" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/RobotSimulator/HelloBulletRobotics.cpp" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o" "gcc" "extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

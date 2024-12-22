@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletFileLoader//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletFileLoader//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/rule
 .PHONY : extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/rule
 
 # Convenience name for target.
@@ -172,67 +172,67 @@ BulletFileLoader: extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/Bu
 
 # fast build rule for target.
 BulletFileLoader/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build
 .PHONY : BulletFileLoader/fast
 
 # target to build an object file
 bChunk.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bChunk.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bChunk.o
 .PHONY : bChunk.o
 
 # target to preprocess a source file
 bChunk.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bChunk.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bChunk.i
 .PHONY : bChunk.i
 
 # target to generate assembly for a file
 bChunk.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bChunk.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bChunk.s
 .PHONY : bChunk.s
 
 # target to build an object file
 bDNA.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bDNA.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bDNA.o
 .PHONY : bDNA.o
 
 # target to preprocess a source file
 bDNA.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bDNA.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bDNA.i
 .PHONY : bDNA.i
 
 # target to generate assembly for a file
 bDNA.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bDNA.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bDNA.s
 .PHONY : bDNA.s
 
 # target to build an object file
 bFile.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bFile.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bFile.o
 .PHONY : bFile.o
 
 # target to preprocess a source file
 bFile.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bFile.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bFile.i
 .PHONY : bFile.i
 
 # target to generate assembly for a file
 bFile.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bFile.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/bFile.s
 .PHONY : bFile.s
 
 # target to build an object file
 btBulletFile.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/btBulletFile.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/btBulletFile.o
 .PHONY : btBulletFile.o
 
 # target to preprocess a source file
 btBulletFile.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/btBulletFile.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/btBulletFile.i
 .PHONY : btBulletFile.i
 
 # target to generate assembly for a file
 btBulletFile.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/btBulletFile.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/btBulletFile.s
 .PHONY : btBulletFile.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

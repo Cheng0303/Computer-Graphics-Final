@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/OpenGLWindow//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/OpenGLWindow//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/rule
 .PHONY : extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/rule
 
 # Convenience name for target.
@@ -172,277 +172,277 @@ OpenGLWindow: extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/r
 
 # fast build rule for target.
 OpenGLWindow/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build
 .PHONY : OpenGLWindow/fast
 
 # target to build an object file
 EGLOpenGLWindow.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.o
 .PHONY : EGLOpenGLWindow.o
 
 # target to preprocess a source file
 EGLOpenGLWindow.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.i
 .PHONY : EGLOpenGLWindow.i
 
 # target to generate assembly for a file
 EGLOpenGLWindow.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.s
 .PHONY : EGLOpenGLWindow.s
 
 # target to build an object file
 GLFWOpenGLWindow.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLFWOpenGLWindow.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLFWOpenGLWindow.o
 .PHONY : GLFWOpenGLWindow.o
 
 # target to preprocess a source file
 GLFWOpenGLWindow.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLFWOpenGLWindow.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLFWOpenGLWindow.i
 .PHONY : GLFWOpenGLWindow.i
 
 # target to generate assembly for a file
 GLFWOpenGLWindow.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLFWOpenGLWindow.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLFWOpenGLWindow.s
 .PHONY : GLFWOpenGLWindow.s
 
 # target to build an object file
 GLInstancingRenderer.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.o
 .PHONY : GLInstancingRenderer.o
 
 # target to preprocess a source file
 GLInstancingRenderer.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.i
 .PHONY : GLInstancingRenderer.i
 
 # target to generate assembly for a file
 GLInstancingRenderer.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLInstancingRenderer.s
 .PHONY : GLInstancingRenderer.s
 
 # target to build an object file
 GLPrimitiveRenderer.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.o
 .PHONY : GLPrimitiveRenderer.o
 
 # target to preprocess a source file
 GLPrimitiveRenderer.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.i
 .PHONY : GLPrimitiveRenderer.i
 
 # target to generate assembly for a file
 GLPrimitiveRenderer.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLPrimitiveRenderer.s
 .PHONY : GLPrimitiveRenderer.s
 
 # target to build an object file
 GLRenderToTexture.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.o
 .PHONY : GLRenderToTexture.o
 
 # target to preprocess a source file
 GLRenderToTexture.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.i
 .PHONY : GLRenderToTexture.i
 
 # target to generate assembly for a file
 GLRenderToTexture.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/GLRenderToTexture.s
 .PHONY : GLRenderToTexture.s
 
 # target to build an object file
 LoadShader.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/LoadShader.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/LoadShader.o
 .PHONY : LoadShader.o
 
 # target to preprocess a source file
 LoadShader.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/LoadShader.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/LoadShader.i
 .PHONY : LoadShader.i
 
 # target to generate assembly for a file
 LoadShader.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/LoadShader.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/LoadShader.s
 .PHONY : LoadShader.s
 
 # target to build an object file
 MacOpenGLWindow.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindow.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindow.o
 .PHONY : MacOpenGLWindow.o
 
 # target to preprocess a source file
 MacOpenGLWindow.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindow.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindow.i
 .PHONY : MacOpenGLWindow.i
 
 # target to generate assembly for a file
 MacOpenGLWindow.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindow.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindow.s
 .PHONY : MacOpenGLWindow.s
 
 # target to build an object file
 MacOpenGLWindowObjC.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindowObjC.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindowObjC.o
 .PHONY : MacOpenGLWindowObjC.o
 
 # target to preprocess a source file
 MacOpenGLWindowObjC.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindowObjC.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindowObjC.i
 .PHONY : MacOpenGLWindowObjC.i
 
 # target to generate assembly for a file
 MacOpenGLWindowObjC.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindowObjC.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/MacOpenGLWindowObjC.s
 .PHONY : MacOpenGLWindowObjC.s
 
 # target to build an object file
 OpenSans.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/OpenSans.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/OpenSans.o
 .PHONY : OpenSans.o
 
 # target to preprocess a source file
 OpenSans.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/OpenSans.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/OpenSans.i
 .PHONY : OpenSans.i
 
 # target to generate assembly for a file
 OpenSans.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/OpenSans.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/OpenSans.s
 .PHONY : OpenSans.s
 
 # target to build an object file
 SimpleCamera.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleCamera.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleCamera.o
 .PHONY : SimpleCamera.o
 
 # target to preprocess a source file
 SimpleCamera.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleCamera.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleCamera.i
 .PHONY : SimpleCamera.i
 
 # target to generate assembly for a file
 SimpleCamera.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleCamera.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleCamera.s
 .PHONY : SimpleCamera.s
 
 # target to build an object file
 SimpleOpenGL2App.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.o
 .PHONY : SimpleOpenGL2App.o
 
 # target to preprocess a source file
 SimpleOpenGL2App.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.i
 .PHONY : SimpleOpenGL2App.i
 
 # target to generate assembly for a file
 SimpleOpenGL2App.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2App.s
 .PHONY : SimpleOpenGL2App.s
 
 # target to build an object file
 SimpleOpenGL2Renderer.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.o
 .PHONY : SimpleOpenGL2Renderer.o
 
 # target to preprocess a source file
 SimpleOpenGL2Renderer.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.i
 .PHONY : SimpleOpenGL2Renderer.i
 
 # target to generate assembly for a file
 SimpleOpenGL2Renderer.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL2Renderer.s
 .PHONY : SimpleOpenGL2Renderer.s
 
 # target to build an object file
 SimpleOpenGL3App.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.o
 .PHONY : SimpleOpenGL3App.o
 
 # target to preprocess a source file
 SimpleOpenGL3App.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.i
 .PHONY : SimpleOpenGL3App.i
 
 # target to generate assembly for a file
 SimpleOpenGL3App.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/SimpleOpenGL3App.s
 .PHONY : SimpleOpenGL3App.s
 
 # target to build an object file
 TwFonts.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/TwFonts.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/TwFonts.o
 .PHONY : TwFonts.o
 
 # target to preprocess a source file
 TwFonts.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/TwFonts.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/TwFonts.i
 .PHONY : TwFonts.i
 
 # target to generate assembly for a file
 TwFonts.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/TwFonts.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/TwFonts.s
 .PHONY : TwFonts.s
 
 # target to build an object file
 __/ThirdPartyLibs/glad/gl.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/glad/gl.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/glad/gl.o
 .PHONY : __/ThirdPartyLibs/glad/gl.o
 
 # target to preprocess a source file
 __/ThirdPartyLibs/glad/gl.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/glad/gl.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/glad/gl.i
 .PHONY : __/ThirdPartyLibs/glad/gl.i
 
 # target to generate assembly for a file
 __/ThirdPartyLibs/glad/gl.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/glad/gl.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/glad/gl.s
 .PHONY : __/ThirdPartyLibs/glad/gl.s
 
 # target to build an object file
 __/ThirdPartyLibs/stb_image/stb_image_write.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/stb_image/stb_image_write.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/stb_image/stb_image_write.o
 .PHONY : __/ThirdPartyLibs/stb_image/stb_image_write.o
 
 # target to preprocess a source file
 __/ThirdPartyLibs/stb_image/stb_image_write.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/stb_image/stb_image_write.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/stb_image/stb_image_write.i
 .PHONY : __/ThirdPartyLibs/stb_image/stb_image_write.i
 
 # target to generate assembly for a file
 __/ThirdPartyLibs/stb_image/stb_image_write.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/stb_image/stb_image_write.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/__/ThirdPartyLibs/stb_image/stb_image_write.s
 .PHONY : __/ThirdPartyLibs/stb_image/stb_image_write.s
 
 # target to build an object file
 fontstash.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/fontstash.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/fontstash.o
 .PHONY : fontstash.o
 
 # target to preprocess a source file
 fontstash.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/fontstash.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/fontstash.i
 .PHONY : fontstash.i
 
 # target to generate assembly for a file
 fontstash.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/fontstash.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/fontstash.s
 .PHONY : fontstash.s
 
 # target to build an object file
 opengl_fontstashcallbacks.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.o
 .PHONY : opengl_fontstashcallbacks.o
 
 # target to preprocess a source file
 opengl_fontstashcallbacks.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.i
 .PHONY : opengl_fontstashcallbacks.i
 
 # target to generate assembly for a file
 opengl_fontstashcallbacks.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/opengl_fontstashcallbacks.s
 .PHONY : opengl_fontstashcallbacks.s
 
 # Help Target
@@ -523,6 +523,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

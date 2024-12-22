@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgwen.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgwen.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgwen.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgwen.pdb"
   "CMakeFiles/gwen.dir/Anim.o"
   "CMakeFiles/gwen.dir/Anim.o.d"
   "CMakeFiles/gwen.dir/BaseRender.o"

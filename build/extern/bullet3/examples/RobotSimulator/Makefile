@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/RobotSimulator//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/rule
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ App_RobotSimulator: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotS
 
 # fast build rule for target.
 App_RobotSimulator/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build
 .PHONY : App_RobotSimulator/fast
 
 # Convenience name for target.
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/rule
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ App_RobotSimulator_NoGUI: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_
 
 # fast build rule for target.
 App_RobotSimulator_NoGUI/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build
 .PHONY : App_RobotSimulator_NoGUI/fast
 
 # Convenience name for target.
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/rule
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/rule
 
 # Convenience name for target.
@@ -200,193 +200,193 @@ App_HelloBulletRobotics: extern/bullet3/examples/RobotSimulator/CMakeFiles/App_H
 
 # fast build rule for target.
 App_HelloBulletRobotics/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build
 .PHONY : App_HelloBulletRobotics/fast
 
 # target to build an object file
 HelloBulletRobotics.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.o
 .PHONY : HelloBulletRobotics.o
 
 # target to preprocess a source file
 HelloBulletRobotics.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.i
 .PHONY : HelloBulletRobotics.i
 
 # target to generate assembly for a file
 HelloBulletRobotics.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/HelloBulletRobotics.s
 .PHONY : HelloBulletRobotics.s
 
 # target to build an object file
 MinitaurSetup.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.o
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.o
 .PHONY : MinitaurSetup.o
 
 # target to preprocess a source file
 MinitaurSetup.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.i
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.i
 .PHONY : MinitaurSetup.i
 
 # target to generate assembly for a file
 MinitaurSetup.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.s
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/MinitaurSetup.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/MinitaurSetup.s
 .PHONY : MinitaurSetup.s
 
 # target to build an object file
 RobotSimulatorMain.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/RobotSimulatorMain.o
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/RobotSimulatorMain.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.o
 .PHONY : RobotSimulatorMain.o
 
 # target to preprocess a source file
 RobotSimulatorMain.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/RobotSimulatorMain.i
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/RobotSimulatorMain.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.i
 .PHONY : RobotSimulatorMain.i
 
 # target to generate assembly for a file
 RobotSimulatorMain.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/RobotSimulatorMain.s
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/RobotSimulatorMain.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/RobotSimulatorMain.s
 .PHONY : RobotSimulatorMain.s
 
 # target to build an object file
 __/ExampleBrowser/InProcessExampleBrowser.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/ExampleBrowser/InProcessExampleBrowser.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/ExampleBrowser/InProcessExampleBrowser.o
 .PHONY : __/ExampleBrowser/InProcessExampleBrowser.o
 
 # target to preprocess a source file
 __/ExampleBrowser/InProcessExampleBrowser.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/ExampleBrowser/InProcessExampleBrowser.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/ExampleBrowser/InProcessExampleBrowser.i
 .PHONY : __/ExampleBrowser/InProcessExampleBrowser.i
 
 # target to generate assembly for a file
 __/ExampleBrowser/InProcessExampleBrowser.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/ExampleBrowser/InProcessExampleBrowser.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/ExampleBrowser/InProcessExampleBrowser.s
 .PHONY : __/ExampleBrowser/InProcessExampleBrowser.s
 
 # target to build an object file
 __/SharedMemory/GraphicsClientExample.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsClientExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsClientExample.o
 .PHONY : __/SharedMemory/GraphicsClientExample.o
 
 # target to preprocess a source file
 __/SharedMemory/GraphicsClientExample.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsClientExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsClientExample.i
 .PHONY : __/SharedMemory/GraphicsClientExample.i
 
 # target to generate assembly for a file
 __/SharedMemory/GraphicsClientExample.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsClientExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsClientExample.s
 .PHONY : __/SharedMemory/GraphicsClientExample.s
 
 # target to build an object file
 __/SharedMemory/GraphicsServerExample.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsServerExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsServerExample.o
 .PHONY : __/SharedMemory/GraphicsServerExample.o
 
 # target to preprocess a source file
 __/SharedMemory/GraphicsServerExample.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsServerExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsServerExample.i
 .PHONY : __/SharedMemory/GraphicsServerExample.i
 
 # target to generate assembly for a file
 __/SharedMemory/GraphicsServerExample.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsServerExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/GraphicsServerExample.s
 .PHONY : __/SharedMemory/GraphicsServerExample.s
 
 # target to build an object file
 __/SharedMemory/PhysicsServerExample.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExample.o
 .PHONY : __/SharedMemory/PhysicsServerExample.o
 
 # target to preprocess a source file
 __/SharedMemory/PhysicsServerExample.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExample.i
 .PHONY : __/SharedMemory/PhysicsServerExample.i
 
 # target to generate assembly for a file
 __/SharedMemory/PhysicsServerExample.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExample.s
 .PHONY : __/SharedMemory/PhysicsServerExample.s
 
 # target to build an object file
 __/SharedMemory/PhysicsServerExampleBullet2.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExampleBullet2.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExampleBullet2.o
 .PHONY : __/SharedMemory/PhysicsServerExampleBullet2.o
 
 # target to preprocess a source file
 __/SharedMemory/PhysicsServerExampleBullet2.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExampleBullet2.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExampleBullet2.i
 .PHONY : __/SharedMemory/PhysicsServerExampleBullet2.i
 
 # target to generate assembly for a file
 __/SharedMemory/PhysicsServerExampleBullet2.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExampleBullet2.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/PhysicsServerExampleBullet2.s
 .PHONY : __/SharedMemory/PhysicsServerExampleBullet2.s
 
 # target to build an object file
 __/SharedMemory/RemoteGUIHelper.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelper.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelper.o
 .PHONY : __/SharedMemory/RemoteGUIHelper.o
 
 # target to preprocess a source file
 __/SharedMemory/RemoteGUIHelper.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelper.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelper.i
 .PHONY : __/SharedMemory/RemoteGUIHelper.i
 
 # target to generate assembly for a file
 __/SharedMemory/RemoteGUIHelper.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelper.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelper.s
 .PHONY : __/SharedMemory/RemoteGUIHelper.s
 
 # target to build an object file
 __/SharedMemory/RemoteGUIHelperTCP.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelperTCP.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelperTCP.o
 .PHONY : __/SharedMemory/RemoteGUIHelperTCP.o
 
 # target to preprocess a source file
 __/SharedMemory/RemoteGUIHelperTCP.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelperTCP.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelperTCP.i
 .PHONY : __/SharedMemory/RemoteGUIHelperTCP.i
 
 # target to generate assembly for a file
 __/SharedMemory/RemoteGUIHelperTCP.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelperTCP.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/RemoteGUIHelperTCP.s
 .PHONY : __/SharedMemory/RemoteGUIHelperTCP.s
 
 # target to build an object file
 __/SharedMemory/SharedMemoryInProcessPhysicsC_API.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/SharedMemoryInProcessPhysicsC_API.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/SharedMemoryInProcessPhysicsC_API.o
 .PHONY : __/SharedMemory/SharedMemoryInProcessPhysicsC_API.o
 
 # target to preprocess a source file
 __/SharedMemory/SharedMemoryInProcessPhysicsC_API.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/SharedMemoryInProcessPhysicsC_API.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/SharedMemoryInProcessPhysicsC_API.i
 .PHONY : __/SharedMemory/SharedMemoryInProcessPhysicsC_API.i
 
 # target to generate assembly for a file
 __/SharedMemory/SharedMemoryInProcessPhysicsC_API.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/SharedMemoryInProcessPhysicsC_API.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/__/SharedMemory/SharedMemoryInProcessPhysicsC_API.s
 .PHONY : __/SharedMemory/SharedMemoryInProcessPhysicsC_API.s
 
 # target to build an object file
 b3RobotSimulatorClientAPI.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/b3RobotSimulatorClientAPI.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/b3RobotSimulatorClientAPI.o
 .PHONY : b3RobotSimulatorClientAPI.o
 
 # target to preprocess a source file
 b3RobotSimulatorClientAPI.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/b3RobotSimulatorClientAPI.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/b3RobotSimulatorClientAPI.i
 .PHONY : b3RobotSimulatorClientAPI.i
 
 # target to generate assembly for a file
 b3RobotSimulatorClientAPI.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/b3RobotSimulatorClientAPI.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/b3RobotSimulatorClientAPI.s
 .PHONY : b3RobotSimulatorClientAPI.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

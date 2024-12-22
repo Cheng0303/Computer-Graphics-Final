@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/ThirdPartyLibs/BussIK//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/rule
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/rule
 
 # Convenience name for target.
@@ -172,142 +172,142 @@ BussIK: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/rule
 
 # fast build rule for target.
 BussIK/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build
 .PHONY : BussIK/fast
 
 # target to build an object file
 Jacobian.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.o
 .PHONY : Jacobian.o
 
 # target to preprocess a source file
 Jacobian.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.i
 .PHONY : Jacobian.i
 
 # target to generate assembly for a file
 Jacobian.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Jacobian.s
 .PHONY : Jacobian.s
 
 # target to build an object file
 LinearR2.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.o
 .PHONY : LinearR2.o
 
 # target to preprocess a source file
 LinearR2.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.i
 .PHONY : LinearR2.i
 
 # target to generate assembly for a file
 LinearR2.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR2.s
 .PHONY : LinearR2.s
 
 # target to build an object file
 LinearR3.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.o
 .PHONY : LinearR3.o
 
 # target to preprocess a source file
 LinearR3.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.i
 .PHONY : LinearR3.i
 
 # target to generate assembly for a file
 LinearR3.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR3.s
 .PHONY : LinearR3.s
 
 # target to build an object file
 LinearR4.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.o
 .PHONY : LinearR4.o
 
 # target to preprocess a source file
 LinearR4.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.i
 .PHONY : LinearR4.i
 
 # target to generate assembly for a file
 LinearR4.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/LinearR4.s
 .PHONY : LinearR4.s
 
 # target to build an object file
 MatrixRmn.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.o
 .PHONY : MatrixRmn.o
 
 # target to preprocess a source file
 MatrixRmn.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.i
 .PHONY : MatrixRmn.i
 
 # target to generate assembly for a file
 MatrixRmn.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/MatrixRmn.s
 .PHONY : MatrixRmn.s
 
 # target to build an object file
 Misc.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.o
 .PHONY : Misc.o
 
 # target to preprocess a source file
 Misc.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.i
 .PHONY : Misc.i
 
 # target to generate assembly for a file
 Misc.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Misc.s
 .PHONY : Misc.s
 
 # target to build an object file
 Node.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.o
 .PHONY : Node.o
 
 # target to preprocess a source file
 Node.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.i
 .PHONY : Node.i
 
 # target to generate assembly for a file
 Node.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Node.s
 .PHONY : Node.s
 
 # target to build an object file
 Tree.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.o
 .PHONY : Tree.o
 
 # target to preprocess a source file
 Tree.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.i
 .PHONY : Tree.i
 
 # target to generate assembly for a file
 Tree.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/Tree.s
 .PHONY : Tree.s
 
 # target to build an object file
 VectorRn.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.o
 .PHONY : VectorRn.o
 
 # target to preprocess a source file
 VectorRn.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.i
 .PHONY : VectorRn.i
 
 # target to generate assembly for a file
 VectorRn.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/VectorRn.s
 .PHONY : VectorRn.s
 
 # Help Target
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

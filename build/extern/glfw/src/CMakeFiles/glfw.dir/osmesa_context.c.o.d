@@ -1,5 +1,5 @@
 extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/osmesa_context.c \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/osmesa_context.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityVersions.h \
@@ -75,11 +75,11 @@ extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/internal.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/glfw/src/glfw_config.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/../include/GLFW/glfw3.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/internal.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/glfw/src/glfw_config.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/../include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/cocoa_platform.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/cocoa_platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h \
@@ -769,12 +769,12 @@ extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/SecCertificateSupport.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/Help.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/AppleHelp.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/posix_thread.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/posix_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/pthread/qos.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/cocoa_joystick.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/cocoa_joystick.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOCFPlugIn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDLib.h \
@@ -794,7 +794,7 @@ extern/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDUsageTables.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDValue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDTransaction.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/nsgl_context.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/nsgl_context.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdatomic.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/egl_context.h \
-  /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glfw/src/osmesa_context.h
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/egl_context.h \
+  /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glfw/src/osmesa_context.h

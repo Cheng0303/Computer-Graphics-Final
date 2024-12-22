@@ -1,4 +1,4 @@
-# Install script for directory: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3
+# Install script for directory: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/bullet.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/bullet.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/bullet" TYPE FILE FILES
-    "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/UseBullet.cmake"
-    "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/BulletConfig.cmake"
+    "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/UseBullet.cmake"
+    "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/BulletConfig.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/src/cmake_install.cmake")
-  include("/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/src/cmake_install.cmake")
+  include("/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/cmake_install.cmake")
 
 endif()
 

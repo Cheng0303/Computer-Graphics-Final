@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp" "extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o" "gcc" "extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp" "extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o" "gcc" "extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

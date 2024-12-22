@@ -5,7 +5,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 C_DEFINES = -DBT_ENABLE_CLSOCKET -DBT_ENABLE_ENET -DHAS_SOCKLEN_T -DUSE_GRAPHICAL_BENCHMARK -D_DARWIN
 
-C_INCLUDES = -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/enet/include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+C_INCLUDES = -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/enet/include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
 
 C_FLAGSarm64 = -O3 -DNDEBUG -flto=thin -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -march=native
 
@@ -13,7 +13,7 @@ C_FLAGS = -O3 -DNDEBUG -flto=thin -arch arm64 -isysroot /Library/Developer/Comma
 
 CXX_DEFINES = -DBT_ENABLE_CLSOCKET -DBT_ENABLE_ENET -DHAS_SOCKLEN_T -DUSE_GRAPHICAL_BENCHMARK -D_DARWIN
 
-CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/enet/include -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/src -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/enet/include -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/ThirdPartyLibs/clsocket/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -flto=thin -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIE -march=native
 

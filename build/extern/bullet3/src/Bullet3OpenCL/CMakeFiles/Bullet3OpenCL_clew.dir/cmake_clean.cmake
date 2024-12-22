@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3OpenCL_clew.3.26.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3OpenCL_clew.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBullet3OpenCL_clew.pdb"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/.3.26"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3OpenCL_clew.3.26.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3OpenCL_clew.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBullet3OpenCL_clew.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/.3.26"
   "CMakeFiles/Bullet3OpenCL_clew.dir/BroadphaseCollision/b3GpuGridBroadphase.o"
   "CMakeFiles/Bullet3OpenCL_clew.dir/BroadphaseCollision/b3GpuGridBroadphase.o.d"
   "CMakeFiles/Bullet3OpenCL_clew.dir/BroadphaseCollision/b3GpuParallelLinearBvh.o"

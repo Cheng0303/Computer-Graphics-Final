@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletWorldImporter//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/Serialize/BulletWorldImporter//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/rule
 .PHONY : extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/rule
 
 # Convenience name for target.
@@ -172,52 +172,52 @@ BulletWorldImporter: extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFi
 
 # fast build rule for target.
 BulletWorldImporter/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build
 .PHONY : BulletWorldImporter/fast
 
 # target to build an object file
 btBulletWorldImporter.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.o
 .PHONY : btBulletWorldImporter.o
 
 # target to preprocess a source file
 btBulletWorldImporter.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.i
 .PHONY : btBulletWorldImporter.i
 
 # target to generate assembly for a file
 btBulletWorldImporter.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.s
 .PHONY : btBulletWorldImporter.s
 
 # target to build an object file
 btMultiBodyWorldImporter.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btMultiBodyWorldImporter.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btMultiBodyWorldImporter.o
 .PHONY : btMultiBodyWorldImporter.o
 
 # target to preprocess a source file
 btMultiBodyWorldImporter.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btMultiBodyWorldImporter.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btMultiBodyWorldImporter.i
 .PHONY : btMultiBodyWorldImporter.i
 
 # target to generate assembly for a file
 btMultiBodyWorldImporter.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btMultiBodyWorldImporter.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btMultiBodyWorldImporter.s
 .PHONY : btMultiBodyWorldImporter.s
 
 # target to build an object file
 btWorldImporter.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btWorldImporter.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btWorldImporter.o
 .PHONY : btWorldImporter.o
 
 # target to preprocess a source file
 btWorldImporter.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btWorldImporter.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btWorldImporter.i
 .PHONY : btWorldImporter.i
 
 # target to generate assembly for a file
 btWorldImporter.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btWorldImporter.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/btWorldImporter.s
 .PHONY : btWorldImporter.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

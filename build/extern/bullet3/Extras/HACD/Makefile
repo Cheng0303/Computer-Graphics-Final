@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/HACD//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/HACD//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/rule
 .PHONY : extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/rule
 
 # Convenience name for target.
@@ -172,67 +172,67 @@ HACD: extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/rule
 
 # fast build rule for target.
 HACD/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build
 .PHONY : HACD/fast
 
 # target to build an object file
 hacdGraph.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.o
 .PHONY : hacdGraph.o
 
 # target to preprocess a source file
 hacdGraph.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.i
 .PHONY : hacdGraph.i
 
 # target to generate assembly for a file
 hacdGraph.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.s
 .PHONY : hacdGraph.s
 
 # target to build an object file
 hacdHACD.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.o
 .PHONY : hacdHACD.o
 
 # target to preprocess a source file
 hacdHACD.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.i
 .PHONY : hacdHACD.i
 
 # target to generate assembly for a file
 hacdHACD.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.s
 .PHONY : hacdHACD.s
 
 # target to build an object file
 hacdICHull.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.o
 .PHONY : hacdICHull.o
 
 # target to preprocess a source file
 hacdICHull.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.i
 .PHONY : hacdICHull.i
 
 # target to generate assembly for a file
 hacdICHull.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.s
 .PHONY : hacdICHull.s
 
 # target to build an object file
 hacdManifoldMesh.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.o
 .PHONY : hacdManifoldMesh.o
 
 # target to preprocess a source file
 hacdManifoldMesh.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.i
 .PHONY : hacdManifoldMesh.i
 
 # target to generate assembly for a file
 hacdManifoldMesh.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.s
 .PHONY : hacdManifoldMesh.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

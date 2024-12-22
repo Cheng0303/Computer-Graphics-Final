@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libOpenGLWindow.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libOpenGLWindow.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libOpenGLWindow.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libOpenGLWindow.pdb"
   "CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.o"
   "CMakeFiles/OpenGLWindow.dir/EGLOpenGLWindow.o.d"
   "CMakeFiles/OpenGLWindow.dir/GLFWOpenGLWindow.o"

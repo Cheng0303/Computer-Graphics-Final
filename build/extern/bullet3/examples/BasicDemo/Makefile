@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/examples/BasicDemo//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/rule
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ App_BasicExample: extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.
 
 # fast build rule for target.
 App_BasicExample/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build
 .PHONY : App_BasicExample/fast
 
 # Convenience name for target.
 extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/rule
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/rule
 
 # Convenience name for target.
@@ -186,115 +186,115 @@ AppBasicExampleGui: extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExample
 
 # fast build rule for target.
 AppBasicExampleGui/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build
 .PHONY : AppBasicExampleGui/fast
 
 # target to build an object file
 BasicExample.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.o
 .PHONY : BasicExample.o
 
 # target to preprocess a source file
 BasicExample.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.i
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.i
 .PHONY : BasicExample.i
 
 # target to generate assembly for a file
 BasicExample.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.s
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/BasicExample.s
 .PHONY : BasicExample.s
 
 # target to build an object file
 __/ExampleBrowser/CollisionShape2TriangleMesh.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.o
 .PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.o
 
 # target to preprocess a source file
 __/ExampleBrowser/CollisionShape2TriangleMesh.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.i
 .PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.i
 
 # target to generate assembly for a file
 __/ExampleBrowser/CollisionShape2TriangleMesh.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/CollisionShape2TriangleMesh.s
 .PHONY : __/ExampleBrowser/CollisionShape2TriangleMesh.s
 
 # target to build an object file
 __/ExampleBrowser/GL_ShapeDrawer.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.o
 .PHONY : __/ExampleBrowser/GL_ShapeDrawer.o
 
 # target to preprocess a source file
 __/ExampleBrowser/GL_ShapeDrawer.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.i
 .PHONY : __/ExampleBrowser/GL_ShapeDrawer.i
 
 # target to generate assembly for a file
 __/ExampleBrowser/GL_ShapeDrawer.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/GL_ShapeDrawer.s
 .PHONY : __/ExampleBrowser/GL_ShapeDrawer.s
 
 # target to build an object file
 __/ExampleBrowser/OpenGLGuiHelper.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.o
 .PHONY : __/ExampleBrowser/OpenGLGuiHelper.o
 
 # target to preprocess a source file
 __/ExampleBrowser/OpenGLGuiHelper.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.i
 .PHONY : __/ExampleBrowser/OpenGLGuiHelper.i
 
 # target to generate assembly for a file
 __/ExampleBrowser/OpenGLGuiHelper.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/ExampleBrowser/OpenGLGuiHelper.s
 .PHONY : __/ExampleBrowser/OpenGLGuiHelper.s
 
 # target to build an object file
 __/StandaloneMain/main_opengl_single_example.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.o
 .PHONY : __/StandaloneMain/main_opengl_single_example.o
 
 # target to preprocess a source file
 __/StandaloneMain/main_opengl_single_example.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.i
 .PHONY : __/StandaloneMain/main_opengl_single_example.i
 
 # target to generate assembly for a file
 __/StandaloneMain/main_opengl_single_example.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/StandaloneMain/main_opengl_single_example.s
 .PHONY : __/StandaloneMain/main_opengl_single_example.s
 
 # target to build an object file
 __/Utils/b3Clock.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.o
 .PHONY : __/Utils/b3Clock.o
 
 # target to preprocess a source file
 __/Utils/b3Clock.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.i
 .PHONY : __/Utils/b3Clock.i
 
 # target to generate assembly for a file
 __/Utils/b3Clock.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/__/Utils/b3Clock.s
 .PHONY : __/Utils/b3Clock.s
 
 # target to build an object file
 main.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.s
 .PHONY : main.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

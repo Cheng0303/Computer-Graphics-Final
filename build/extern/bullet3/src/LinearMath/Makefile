@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/src/LinearMath//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/src/LinearMath//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/rule
 .PHONY : extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/rule
 
 # Convenience name for target.
@@ -172,217 +172,217 @@ LinearMath: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/rule
 
 # fast build rule for target.
 LinearMath/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build
 .PHONY : LinearMath/fast
 
 # target to build an object file
 TaskScheduler/btTaskScheduler.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.o
 .PHONY : TaskScheduler/btTaskScheduler.o
 
 # target to preprocess a source file
 TaskScheduler/btTaskScheduler.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.i
 .PHONY : TaskScheduler/btTaskScheduler.i
 
 # target to generate assembly for a file
 TaskScheduler/btTaskScheduler.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btTaskScheduler.s
 .PHONY : TaskScheduler/btTaskScheduler.s
 
 # target to build an object file
 TaskScheduler/btThreadSupportPosix.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportPosix.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportPosix.o
 .PHONY : TaskScheduler/btThreadSupportPosix.o
 
 # target to preprocess a source file
 TaskScheduler/btThreadSupportPosix.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportPosix.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportPosix.i
 .PHONY : TaskScheduler/btThreadSupportPosix.i
 
 # target to generate assembly for a file
 TaskScheduler/btThreadSupportPosix.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportPosix.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportPosix.s
 .PHONY : TaskScheduler/btThreadSupportPosix.s
 
 # target to build an object file
 TaskScheduler/btThreadSupportWin32.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportWin32.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportWin32.o
 .PHONY : TaskScheduler/btThreadSupportWin32.o
 
 # target to preprocess a source file
 TaskScheduler/btThreadSupportWin32.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportWin32.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportWin32.i
 .PHONY : TaskScheduler/btThreadSupportWin32.i
 
 # target to generate assembly for a file
 TaskScheduler/btThreadSupportWin32.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportWin32.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/TaskScheduler/btThreadSupportWin32.s
 .PHONY : TaskScheduler/btThreadSupportWin32.s
 
 # target to build an object file
 btAlignedAllocator.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o
 .PHONY : btAlignedAllocator.o
 
 # target to preprocess a source file
 btAlignedAllocator.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.i
 .PHONY : btAlignedAllocator.i
 
 # target to generate assembly for a file
 btAlignedAllocator.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.s
 .PHONY : btAlignedAllocator.s
 
 # target to build an object file
 btConvexHull.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o
 .PHONY : btConvexHull.o
 
 # target to preprocess a source file
 btConvexHull.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.i
 .PHONY : btConvexHull.i
 
 # target to generate assembly for a file
 btConvexHull.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.s
 .PHONY : btConvexHull.s
 
 # target to build an object file
 btConvexHullComputer.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o
 .PHONY : btConvexHullComputer.o
 
 # target to preprocess a source file
 btConvexHullComputer.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.i
 .PHONY : btConvexHullComputer.i
 
 # target to generate assembly for a file
 btConvexHullComputer.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.s
 .PHONY : btConvexHullComputer.s
 
 # target to build an object file
 btGeometryUtil.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o
 .PHONY : btGeometryUtil.o
 
 # target to preprocess a source file
 btGeometryUtil.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.i
 .PHONY : btGeometryUtil.i
 
 # target to generate assembly for a file
 btGeometryUtil.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.s
 .PHONY : btGeometryUtil.s
 
 # target to build an object file
 btPolarDecomposition.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.o
 .PHONY : btPolarDecomposition.o
 
 # target to preprocess a source file
 btPolarDecomposition.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.i
 .PHONY : btPolarDecomposition.i
 
 # target to generate assembly for a file
 btPolarDecomposition.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.s
 .PHONY : btPolarDecomposition.s
 
 # target to build an object file
 btQuickprof.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o
 .PHONY : btQuickprof.o
 
 # target to preprocess a source file
 btQuickprof.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.i
 .PHONY : btQuickprof.i
 
 # target to generate assembly for a file
 btQuickprof.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.s
 .PHONY : btQuickprof.s
 
 # target to build an object file
 btReducedVector.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btReducedVector.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btReducedVector.o
 .PHONY : btReducedVector.o
 
 # target to preprocess a source file
 btReducedVector.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btReducedVector.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btReducedVector.i
 .PHONY : btReducedVector.i
 
 # target to generate assembly for a file
 btReducedVector.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btReducedVector.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btReducedVector.s
 .PHONY : btReducedVector.s
 
 # target to build an object file
 btSerializer.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.o
 .PHONY : btSerializer.o
 
 # target to preprocess a source file
 btSerializer.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.i
 .PHONY : btSerializer.i
 
 # target to generate assembly for a file
 btSerializer.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.s
 .PHONY : btSerializer.s
 
 # target to build an object file
 btSerializer64.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer64.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer64.o
 .PHONY : btSerializer64.o
 
 # target to preprocess a source file
 btSerializer64.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer64.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer64.i
 .PHONY : btSerializer64.i
 
 # target to generate assembly for a file
 btSerializer64.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer64.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer64.s
 .PHONY : btSerializer64.s
 
 # target to build an object file
 btThreads.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btThreads.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btThreads.o
 .PHONY : btThreads.o
 
 # target to preprocess a source file
 btThreads.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btThreads.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btThreads.i
 .PHONY : btThreads.i
 
 # target to generate assembly for a file
 btThreads.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btThreads.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btThreads.s
 .PHONY : btThreads.s
 
 # target to build an object file
 btVector3.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.o
 .PHONY : btVector3.o
 
 # target to preprocess a source file
 btVector3.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.i
 .PHONY : btVector3.i
 
 # target to generate assembly for a file
 btVector3.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.s
 .PHONY : btVector3.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

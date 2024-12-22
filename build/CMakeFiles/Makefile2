@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -965,20 +965,20 @@ src/clean: src/CMakeFiles/HW2.dir/clean
 # Target rules for target src/CMakeFiles/HW2.dir
 
 # All Build rule for target.
-src/CMakeFiles/HW2.dir/all: extern/glfw/src/CMakeFiles/glfw.dir/all
 src/CMakeFiles/HW2.dir/all: extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/all
 src/CMakeFiles/HW2.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 src/CMakeFiles/HW2.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
+src/CMakeFiles/HW2.dir/all: extern/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HW2.dir/build.make src/CMakeFiles/HW2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=78 "Built target HW2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=78 "Built target HW2"
 .PHONY : src/CMakeFiles/HW2.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/HW2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/HW2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/HW2.dir/rule
 
 # Convenience name for target.
@@ -997,14 +997,14 @@ src/CMakeFiles/HW2.dir/clean:
 extern/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/glfw.dir/build.make extern/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/glfw.dir/build.make extern/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=92 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=92 "Built target glfw"
 .PHONY : extern/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -1023,14 +1023,14 @@ extern/glfw/src/CMakeFiles/glfw.dir/clean:
 extern/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/update_mappings.dir/build.make extern/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/update_mappings.dir/build.make extern/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=100 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=100 "Built target update_mappings"
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -1049,14 +1049,14 @@ extern/glfw/src/CMakeFiles/update_mappings.dir/clean:
 extern/glm/glm/CMakeFiles/glm_shared.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glm/glm/CMakeFiles/glm_shared.dir/build.make extern/glm/glm/CMakeFiles/glm_shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glm/glm/CMakeFiles/glm_shared.dir/build.make extern/glm/glm/CMakeFiles/glm_shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=93 "Built target glm_shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=93 "Built target glm_shared"
 .PHONY : extern/glm/glm/CMakeFiles/glm_shared.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glm/glm/CMakeFiles/glm_shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glm/glm/CMakeFiles/glm_shared.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/glm/glm/CMakeFiles/glm_shared.dir/rule
 
 # Convenience name for target.
@@ -1077,14 +1077,14 @@ extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/all: extern/bul
 extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/build.make extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/build.make extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=18 "Built target App_HelloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=18 "Built target App_HelloWorld"
 .PHONY : extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/HelloWorld/CMakeFiles/App_HelloWorld.dir/rule
 
 # Convenience name for target.
@@ -1105,14 +1105,14 @@ extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/all: extern/bu
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=1 "Built target App_BasicExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=1 "Built target App_BasicExample"
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/rule
 
 # Convenience name for target.
@@ -1135,14 +1135,14 @@ extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/all: extern/
 extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build.make extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target AppBasicExampleGui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target AppBasicExampleGui"
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/rule
 
 # Convenience name for target.
@@ -1158,8 +1158,6 @@ extern/bullet3/examples/BasicDemo/CMakeFiles/AppBasicExampleGui.dir/clean:
 # Target rules for target extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir
 
 # All Build rule for target.
-extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
-extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/all
@@ -1168,16 +1166,18 @@ extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/al
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
+extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
+extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/build.make extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/build.make extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=59 "Built target BulletExampleBrowserLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=59 "Built target BulletExampleBrowserLib"
 .PHONY : extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/rule
 
 # Convenience name for target.
@@ -1193,9 +1193,6 @@ extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/cl
 # Target rules for target extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir
 
 # All Build rule for target.
-extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
-extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
-extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/all
@@ -1204,16 +1201,19 @@ extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: ex
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
+extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
+extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
+extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/build.make extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/build.make extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target App_ExampleBrowser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target App_ExampleBrowser"
 .PHONY : extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/rule
 
 # Convenience name for target.
@@ -1229,9 +1229,6 @@ extern/bullet3/examples/ExampleBrowser/CMakeFiles/App_ExampleBrowser.dir/clean:
 # Target rules for target extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir
 
 # All Build rule for target.
-extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
-extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
-extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/all
@@ -1243,16 +1240,19 @@ extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: ex
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
+extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
+extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
+extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=30,31 "Built target App_RobotSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=30,31 "Built target App_RobotSimulator"
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator.dir/rule
 
 # Convenience name for target.
@@ -1280,14 +1280,14 @@ extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/a
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target App_RobotSimulator_NoGUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target App_RobotSimulator_NoGUI"
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_RobotSimulator_NoGUI.dir/rule
 
 # Convenience name for target.
@@ -1315,14 +1315,14 @@ extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/al
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build.make extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target App_HelloBulletRobotics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target App_HelloBulletRobotics"
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/rule
 
 # Convenience name for target.
@@ -1338,7 +1338,6 @@ extern/bullet3/examples/RobotSimulator/CMakeFiles/App_HelloBulletRobotics.dir/cl
 # Target rules for target extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir
 
 # All Build rule for target.
-extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/all
@@ -1348,16 +1347,17 @@ extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.d
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
+extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/build.make extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/build.make extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=19,20,21,22,23 "Built target App_PhysicsServer_SharedMemory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=19,20,21,22,23 "Built target App_PhysicsServer_SharedMemory"
 .PHONY : extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.dir/rule
 
 # Convenience name for target.
@@ -1373,7 +1373,6 @@ extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory.d
 # Target rules for target extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir
 
 # All Build rule for target.
-extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/all
@@ -1384,16 +1383,17 @@ extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_G
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
+extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/build.make extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/build.make extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=24,25,26,27,28,29 "Built target App_PhysicsServer_SharedMemory_GUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=24,25,26,27,28,29 "Built target App_PhysicsServer_SharedMemory_GUI"
 .PHONY : extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_GUI.dir/rule
 
 # Convenience name for target.
@@ -1412,14 +1412,14 @@ extern/bullet3/examples/SharedMemory/CMakeFiles/App_PhysicsServer_SharedMemory_G
 extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/build.make extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/build.make extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=94,95,96,97,98,99 "Built target gwen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=94,95,96,97,98,99 "Built target gwen"
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/rule
 
 # Convenience name for target.
@@ -1438,14 +1438,14 @@ extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/clean:
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build.make extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=75 "Built target BussIK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=75 "Built target BussIK"
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/rule
 
 # Convenience name for target.
@@ -1464,14 +1464,14 @@ extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/clean:
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build.make extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=91 "Built target clsocket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=91 "Built target clsocket"
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/rule
 
 # Convenience name for target.
@@ -1490,14 +1490,14 @@ extern/bullet3/examples/ThirdPartyLibs/clsocket/CMakeFiles/clsocket.dir/clean:
 extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build.make extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=81,82 "Built target OpenGLWindow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=81,82 "Built target OpenGLWindow"
 .PHONY : extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/rule
 
 # Convenience name for target.
@@ -1513,9 +1513,6 @@ extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/clean:
 # Target rules for target extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir
 
 # All Build rule for target.
-extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
-extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
-extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/all
@@ -1526,16 +1523,19 @@ extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
+extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
+extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
+extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/build.make extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/build.make extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=32,33,34,35,36,37,38 "Built target App_TwoJoint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=32,33,34,35,36,37,38 "Built target App_TwoJoint"
 .PHONY : extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/examples/TwoJoint/CMakeFiles/App_TwoJoint.dir/rule
 
 # Convenience name for target.
@@ -1558,14 +1558,14 @@ extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/
 extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build.make extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=61,62 "Built target BulletInverseDynamicsUtils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=61,62 "Built target BulletInverseDynamicsUtils"
 .PHONY : extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/rule
 
 # Convenience name for target.
@@ -1581,9 +1581,6 @@ extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/
 # Target rules for target extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir
 
 # All Build rule for target.
-extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
-extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
-extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/examples/OpenGLWindow/CMakeFiles/OpenGLWindow.dir/all
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/all
@@ -1595,16 +1592,19 @@ extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: ex
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
+extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/examples/ExampleBrowser/CMakeFiles/BulletExampleBrowserLib.dir/all
+extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/examples/ThirdPartyLibs/Gwen/CMakeFiles/gwen.dir/all
+extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=71 "Built target BulletRoboticsGUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=71 "Built target BulletRoboticsGUI"
 .PHONY : extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/rule
 
 # Convenience name for target.
@@ -1631,14 +1631,14 @@ extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/all: extern/b
 extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/build.make extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/build.make extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=63,64,65,66,67,68,69,70 "Built target BulletRobotics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=63,64,65,66,67,68,69,70 "Built target BulletRobotics"
 .PHONY : extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/rule
 
 # Convenience name for target.
@@ -1657,14 +1657,14 @@ extern/bullet3/Extras/BulletRobotics/CMakeFiles/BulletRobotics.dir/clean:
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build.make extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build.make extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target App_obj2sdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target App_obj2sdf"
 .PHONY : extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/obj2sdf/CMakeFiles/App_obj2sdf.dir/rule
 
 # Convenience name for target.
@@ -1684,14 +1684,14 @@ extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/all
 extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/build.make extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/build.make extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=76,77 "Built target ConvexDecomposition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=76,77 "Built target ConvexDecomposition"
 .PHONY : extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/rule
 
 # Convenience name for target.
@@ -1710,14 +1710,14 @@ extern/bullet3/Extras/ConvexDecomposition/CMakeFiles/ConvexDecomposition.dir/cle
 extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build.make extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target HACD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target HACD"
 .PHONY : extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/HACD/CMakeFiles/HACD.dir/rule
 
 # Convenience name for target.
@@ -1738,14 +1738,14 @@ extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/all: extern/bulle
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build.make extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build.make extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target GIMPACTUtils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target GIMPACTUtils"
 .PHONY : extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/rule
 
 # Convenience name for target.
@@ -1764,14 +1764,14 @@ extern/bullet3/Extras/GIMPACTUtils/CMakeFiles/GIMPACTUtils.dir/clean:
 extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build.make extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=60 "Built target BulletFileLoader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=60 "Built target BulletFileLoader"
 .PHONY : extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/rule
 
 # Convenience name for target.
@@ -1794,14 +1794,14 @@ extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorld
 extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target BulletXmlWorldImporter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target BulletXmlWorldImporter"
 .PHONY : extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/Serialize/BulletXmlWorldImporter/CMakeFiles/BulletXmlWorldImporter.dir/rule
 
 # Convenience name for target.
@@ -1823,14 +1823,14 @@ extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImport
 extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build.make extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=74 "Built target BulletWorldImporter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=74 "Built target BulletWorldImporter"
 .PHONY : extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/rule
 
 # Convenience name for target.
@@ -1853,14 +1853,14 @@ extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/all: extern/b
 extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/build.make extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/build.make extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=42,43,44 "Built target Bullet3OpenCL_clew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=42,43,44 "Built target Bullet3OpenCL_clew"
 .PHONY : extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/rule
 
 # Convenience name for target.
@@ -1879,14 +1879,14 @@ extern/bullet3/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/clean:
 extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/build.make extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/build.make extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=39 "Built target Bullet2FileLoader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=39 "Built target Bullet2FileLoader"
 .PHONY : extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/Bullet2FileLoader.dir/rule
 
 # Convenience name for target.
@@ -1907,14 +1907,14 @@ extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/all: extern/bu
 extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/build.make extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/build.make extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Bullet3Dynamics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Bullet3Dynamics"
 .PHONY : extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/Bullet3Dynamics/CMakeFiles/Bullet3Dynamics.dir/rule
 
 # Convenience name for target.
@@ -1934,14 +1934,14 @@ extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/all: extern/
 extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/build.make extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/build.make extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Bullet3Collision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Bullet3Collision"
 .PHONY : extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/rule
 
 # Convenience name for target.
@@ -1960,14 +1960,14 @@ extern/bullet3/src/Bullet3Collision/CMakeFiles/Bullet3Collision.dir/clean:
 extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build.make extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=41 "Built target Bullet3Geometry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=41 "Built target Bullet3Geometry"
 .PHONY : extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/Bullet3Geometry/CMakeFiles/Bullet3Geometry.dir/rule
 
 # Convenience name for target.
@@ -1987,14 +1987,14 @@ extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/al
 extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build.make extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target BulletInverseDynamics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target BulletInverseDynamics"
 .PHONY : extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/BulletInverseDynamics/CMakeFiles/BulletInverseDynamics.dir/rule
 
 # Convenience name for target.
@@ -2015,14 +2015,14 @@ extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all: extern/bull
 extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=72,73 "Built target BulletSoftBody"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=72,73 "Built target BulletSoftBody"
 .PHONY : extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
 
 # Convenience name for target.
@@ -2041,14 +2041,14 @@ extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/clean:
 extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/build.make extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/build.make extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54 "Built target BulletCollision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54 "Built target BulletCollision"
 .PHONY : extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/BulletCollision/CMakeFiles/BulletCollision.dir/rule
 
 # Convenience name for target.
@@ -2068,14 +2068,14 @@ extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all: extern/bull
 extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build.make extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build.make extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=55,56,57,58 "Built target BulletDynamics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=55,56,57,58 "Built target BulletDynamics"
 .PHONY : extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/rule
 
 # Convenience name for target.
@@ -2094,14 +2094,14 @@ extern/bullet3/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/clean:
 extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build.make extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=79,80 "Built target LinearMath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=79,80 "Built target LinearMath"
 .PHONY : extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/rule
 
 # Convenience name for target.
@@ -2120,14 +2120,14 @@ extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/clean:
 extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/build.make extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/build.make extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=40 "Built target Bullet3Common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=40 "Built target Bullet3Common"
 .PHONY : extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/rule
 
 # Convenience name for target.
@@ -2152,14 +2152,14 @@ extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobia
 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/all: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/build.make extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/build.make extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_BulletInverseDynamicsJacobian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_BulletInverseDynamicsJacobian"
 .PHONY : extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/rule
 
 # Convenience name for target.
@@ -2184,14 +2184,14 @@ extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics
 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/all: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/build.make extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/build.make extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=83,84 "Built target Test_BulletInverseForwardDynamics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=83,84 "Built target Test_BulletInverseForwardDynamics"
 .PHONY : extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseForwardDynamics.dir/rule
 
 # Convenience name for target.
@@ -2216,14 +2216,14 @@ extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/al
 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/all: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/build.make extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/build.make extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_BulletInverseDynamics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_BulletInverseDynamics"
 .PHONY : extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/rule
 
 # Convenience name for target.
@@ -2239,7 +2239,6 @@ extern/bullet3/test/InverseDynamics/CMakeFiles/Test_BulletInverseDynamics.dir/cl
 # Target rules for target extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir
 
 # All Build rule for target.
-extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/Extras/InverseDynamics/CMakeFiles/BulletInverseDynamicsUtils.dir/all
 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/Extras/Serialize/BulletFileLoader/CMakeFiles/BulletFileLoader.dir/all
 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/Extras/Serialize/BulletWorldImporter/CMakeFiles/BulletWorldImporter.dir/all
@@ -2250,16 +2249,17 @@ extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: ex
 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/src/LinearMath/CMakeFiles/LinearMath.dir/all
 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/src/Bullet3Common/CMakeFiles/Bullet3Common.dir/all
 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
+extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all: extern/bullet3/examples/ThirdPartyLibs/BussIK/CMakeFiles/BussIK.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/build.make extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/build.make extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=87,88,89,90 "Built target Test_PhysicsClientServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=87,88,89,90 "Built target Test_PhysicsClientServer"
 .PHONY : extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/rule
 
 # Convenience name for target.
@@ -2278,14 +2278,14 @@ extern/bullet3/test/SharedMemory/CMakeFiles/Test_PhysicsClientServer.dir/clean:
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build.make extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build.make extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target gtest"
 .PHONY : extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -2305,14 +2305,14 @@ extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/all: extern/bullet3/
 extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/all: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=85,86 "Built target Test_Collision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=85,86 "Built target Test_Collision"
 .PHONY : extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/rule
 
 # Convenience name for target.
@@ -2334,14 +2334,14 @@ extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterControlle
 extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/all: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build.make extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_btKinematicCharacterController"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_btKinematicCharacterController"
 .PHONY : extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/BulletDynamics/CMakeFiles/Test_btKinematicCharacterController.dir/rule
 
 # Convenience name for target.
@@ -2363,14 +2363,14 @@ extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/a
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/all: extern/bullet3/test/gtest-1.7.0/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build.make extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build.make extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_BulletDynamics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num= "Built target Test_BulletDynamics"
 .PHONY : extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/all
 
 # Build rule for subdir invocation for target.
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/rule
 
 # Convenience name for target.

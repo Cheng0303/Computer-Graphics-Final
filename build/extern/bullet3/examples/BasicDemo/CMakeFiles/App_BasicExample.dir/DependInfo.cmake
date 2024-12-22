@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o" "gcc" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o.d"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o" "gcc" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/BasicExample.cpp" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o" "gcc" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/BasicExample.o.d"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/BasicDemo/main.cpp" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o" "gcc" "extern/bullet3/examples/BasicDemo/CMakeFiles/App_BasicExample.dir/main.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

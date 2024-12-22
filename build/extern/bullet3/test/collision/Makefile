@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/collision//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/collision//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/rule
 .PHONY : extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/rule
 
 # Convenience name for target.
@@ -172,187 +172,187 @@ Test_Collision: extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/rule
 
 # fast build rule for target.
 Test_Collision/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build
 .PHONY : Test_Collision/fast
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btCollisionShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btCollisionShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btCollisionShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btCollisionShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btCollisionShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btCollisionShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btCollisionShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btConcaveShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConcaveShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConcaveShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConcaveShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btConcaveShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConcaveShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConcaveShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConcaveShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btConcaveShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConcaveShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConcaveShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConcaveShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexInternalShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexPolyhedron.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btConvexShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btConvexShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btConvexShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btConvexShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btConvexShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btMultiSphereShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btSphereShape.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btSphereShape.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btSphereShape.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btSphereShape.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btSphereShape.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btSphereShape.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btSphereShape.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btSphereShape.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btSphereShape.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btSphereShape.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btSphereShape.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btSphereShape.s
 
 # target to build an object file
 __/__/src/BulletCollision/CollisionShapes/btTriangleCallback.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btTriangleCallback.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btTriangleCallback.o
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btTriangleCallback.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/CollisionShapes/btTriangleCallback.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btTriangleCallback.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btTriangleCallback.i
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btTriangleCallback.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/CollisionShapes/btTriangleCallback.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btTriangleCallback.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/CollisionShapes/btTriangleCallback.s
 .PHONY : __/__/src/BulletCollision/CollisionShapes/btTriangleCallback.s
 
 # target to build an object file
 __/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.o
 .PHONY : __/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.o
 
 # target to preprocess a source file
 __/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.i
 .PHONY : __/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.i
 
 # target to generate assembly for a file
 __/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/__/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.s
 .PHONY : __/__/src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.s
 
 # target to build an object file
 main.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/main.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/main.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/main.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/build.make extern/bullet3/test/collision/CMakeFiles/Test_Collision.dir/main.s
 .PHONY : main.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

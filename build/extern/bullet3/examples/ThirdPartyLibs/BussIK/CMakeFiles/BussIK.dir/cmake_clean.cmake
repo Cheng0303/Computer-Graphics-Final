@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.dylib"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBussIK.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.dylib"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBussIK.pdb"
   "CMakeFiles/BussIK.dir/Jacobian.o"
   "CMakeFiles/BussIK.dir/Jacobian.o.d"
   "CMakeFiles/BussIK.dir/LinearR2.o"

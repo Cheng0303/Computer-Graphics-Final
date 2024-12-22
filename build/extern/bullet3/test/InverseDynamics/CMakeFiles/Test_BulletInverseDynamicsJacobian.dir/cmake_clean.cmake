@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamicsJacobian"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamicsJacobian.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamicsJacobian"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletInverseDynamicsJacobian.pdb"
   "CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/test_invdyn_jacobian.o"
   "CMakeFiles/Test_BulletInverseDynamicsJacobian.dir/test_invdyn_jacobian.o.d"
 )

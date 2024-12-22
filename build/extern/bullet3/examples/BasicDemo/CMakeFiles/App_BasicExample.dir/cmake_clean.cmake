@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_BasicExample.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_BasicExample.pdb"
   "CMakeFiles/App_BasicExample.dir/BasicExample.o"
   "CMakeFiles/App_BasicExample.dir/BasicExample.o.d"
   "CMakeFiles/App_BasicExample.dir/main.o"

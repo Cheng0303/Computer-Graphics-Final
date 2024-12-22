@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/Extras/BulletRoboticsGUI//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/Extras/BulletRoboticsGUI//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/rule
 .PHONY : extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/rule
 
 # Convenience name for target.
@@ -172,127 +172,127 @@ BulletRoboticsGUI: extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRobo
 
 # fast build rule for target.
 BulletRoboticsGUI/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build
 .PHONY : BulletRoboticsGUI/fast
 
 # target to build an object file
 __/__/examples/ExampleBrowser/InProcessExampleBrowser.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/ExampleBrowser/InProcessExampleBrowser.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/ExampleBrowser/InProcessExampleBrowser.o
 .PHONY : __/__/examples/ExampleBrowser/InProcessExampleBrowser.o
 
 # target to preprocess a source file
 __/__/examples/ExampleBrowser/InProcessExampleBrowser.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/ExampleBrowser/InProcessExampleBrowser.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/ExampleBrowser/InProcessExampleBrowser.i
 .PHONY : __/__/examples/ExampleBrowser/InProcessExampleBrowser.i
 
 # target to generate assembly for a file
 __/__/examples/ExampleBrowser/InProcessExampleBrowser.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/ExampleBrowser/InProcessExampleBrowser.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/ExampleBrowser/InProcessExampleBrowser.s
 .PHONY : __/__/examples/ExampleBrowser/InProcessExampleBrowser.s
 
 # target to build an object file
 __/__/examples/SharedMemory/GraphicsClientExample.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsClientExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsClientExample.o
 .PHONY : __/__/examples/SharedMemory/GraphicsClientExample.o
 
 # target to preprocess a source file
 __/__/examples/SharedMemory/GraphicsClientExample.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsClientExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsClientExample.i
 .PHONY : __/__/examples/SharedMemory/GraphicsClientExample.i
 
 # target to generate assembly for a file
 __/__/examples/SharedMemory/GraphicsClientExample.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsClientExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsClientExample.s
 .PHONY : __/__/examples/SharedMemory/GraphicsClientExample.s
 
 # target to build an object file
 __/__/examples/SharedMemory/GraphicsServerExample.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsServerExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsServerExample.o
 .PHONY : __/__/examples/SharedMemory/GraphicsServerExample.o
 
 # target to preprocess a source file
 __/__/examples/SharedMemory/GraphicsServerExample.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsServerExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsServerExample.i
 .PHONY : __/__/examples/SharedMemory/GraphicsServerExample.i
 
 # target to generate assembly for a file
 __/__/examples/SharedMemory/GraphicsServerExample.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsServerExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/GraphicsServerExample.s
 .PHONY : __/__/examples/SharedMemory/GraphicsServerExample.s
 
 # target to build an object file
 __/__/examples/SharedMemory/PhysicsServerExample.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExample.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExample.o
 .PHONY : __/__/examples/SharedMemory/PhysicsServerExample.o
 
 # target to preprocess a source file
 __/__/examples/SharedMemory/PhysicsServerExample.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExample.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExample.i
 .PHONY : __/__/examples/SharedMemory/PhysicsServerExample.i
 
 # target to generate assembly for a file
 __/__/examples/SharedMemory/PhysicsServerExample.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExample.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExample.s
 .PHONY : __/__/examples/SharedMemory/PhysicsServerExample.s
 
 # target to build an object file
 __/__/examples/SharedMemory/PhysicsServerExampleBullet2.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExampleBullet2.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExampleBullet2.o
 .PHONY : __/__/examples/SharedMemory/PhysicsServerExampleBullet2.o
 
 # target to preprocess a source file
 __/__/examples/SharedMemory/PhysicsServerExampleBullet2.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExampleBullet2.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExampleBullet2.i
 .PHONY : __/__/examples/SharedMemory/PhysicsServerExampleBullet2.i
 
 # target to generate assembly for a file
 __/__/examples/SharedMemory/PhysicsServerExampleBullet2.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExampleBullet2.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/PhysicsServerExampleBullet2.s
 .PHONY : __/__/examples/SharedMemory/PhysicsServerExampleBullet2.s
 
 # target to build an object file
 __/__/examples/SharedMemory/RemoteGUIHelper.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelper.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelper.o
 .PHONY : __/__/examples/SharedMemory/RemoteGUIHelper.o
 
 # target to preprocess a source file
 __/__/examples/SharedMemory/RemoteGUIHelper.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelper.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelper.i
 .PHONY : __/__/examples/SharedMemory/RemoteGUIHelper.i
 
 # target to generate assembly for a file
 __/__/examples/SharedMemory/RemoteGUIHelper.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelper.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelper.s
 .PHONY : __/__/examples/SharedMemory/RemoteGUIHelper.s
 
 # target to build an object file
 __/__/examples/SharedMemory/RemoteGUIHelperTCP.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelperTCP.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelperTCP.o
 .PHONY : __/__/examples/SharedMemory/RemoteGUIHelperTCP.o
 
 # target to preprocess a source file
 __/__/examples/SharedMemory/RemoteGUIHelperTCP.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelperTCP.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelperTCP.i
 .PHONY : __/__/examples/SharedMemory/RemoteGUIHelperTCP.i
 
 # target to generate assembly for a file
 __/__/examples/SharedMemory/RemoteGUIHelperTCP.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelperTCP.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/RemoteGUIHelperTCP.s
 .PHONY : __/__/examples/SharedMemory/RemoteGUIHelperTCP.s
 
 # target to build an object file
 __/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.o
 .PHONY : __/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.o
 
 # target to preprocess a source file
 __/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.i
 .PHONY : __/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.i
 
 # target to generate assembly for a file
 __/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/build.make extern/bullet3/Extras/BulletRoboticsGUI/CMakeFiles/BulletRoboticsGUI.dir/__/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.s
 .PHONY : __/__/examples/SharedMemory/SharedMemoryInProcessPhysicsC_API.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

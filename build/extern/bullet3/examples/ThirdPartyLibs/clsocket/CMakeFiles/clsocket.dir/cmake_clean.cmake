@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.a"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/lib/libclsocket.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.a"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/lib/libclsocket.pdb"
   "CMakeFiles/clsocket.dir/src/ActiveSocket.o"
   "CMakeFiles/clsocket.dir/src/ActiveSocket.o.d"
   "CMakeFiles/clsocket.dir/src/PassiveSocket.o"

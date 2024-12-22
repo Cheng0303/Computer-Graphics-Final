@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/depend.make
@@ -70,18 +70,18 @@ include extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynami
 include extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/flags.make
 
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/flags.make
-extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp
+extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o -MF CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o.d -o CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o -MF CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o.d -o CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp
 
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp > CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp > CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.i
 
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp -o CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/examples/MultiBody/Pendulum.cpp -o CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.s
 
 # Object files for target Test_BulletDynamics
 Test_BulletDynamics_OBJECTS = \
@@ -90,25 +90,25 @@ Test_BulletDynamics_OBJECTS = \
 # External object files for target Test_BulletDynamics
 Test_BulletDynamics_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libgtest.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test_BulletDynamics.dir/link.txt --verbose=$(VERBOSE)
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libgtest.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics: extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test_BulletDynamics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics
+extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics
 .PHONY : extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/build
 
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && $(CMAKE_COMMAND) -P CMakeFiles/Test_BulletDynamics.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum && $(CMAKE_COMMAND) -P CMakeFiles/Test_BulletDynamics.dir/cmake_clean.cmake
 .PHONY : extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/clean
 
 extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/bullet3/test/BulletDynamics/pendulum /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/bullet3/test/BulletDynamics/pendulum /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/bullet3/test/BulletDynamics/pendulum/CMakeFiles/Test_BulletDynamics.dir/depend
 

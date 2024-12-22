@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_BulletDynamics.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_BulletDynamics.pdb"
   "CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o"
   "CMakeFiles/Test_BulletDynamics.dir/__/__/__/examples/MultiBody/Pendulum.o.d"
 )

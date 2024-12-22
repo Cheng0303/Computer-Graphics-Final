@@ -75,17 +75,11 @@ int WIDTH = 100, DEPTH = 100;
 scalar delta_xzpos = scalar::NONE;
 // the scalar for the putter up and down
 scalar delta_ypos = scalar::NONE;
-// the scalar for the ball translation
-scalar delta_ballpos = scalar::NONE;
-// the scalar for the ball rotation
-angle delta_ball_rotate = angle::NONE;
 // the scalar for the putter swing
 angle delta_x_rotate = angle::NONE;
 // the scalar for the putter yaw
 angle delta_y_rotate = angle::NONE;
 
-// the angle for the ball rotation
-float ball_rotate = 0.0f;
 // the angle for the putter swing
 float x_rotate = 0.0f;
 // the angle for the yaw rotation
@@ -97,17 +91,8 @@ glm::vec3 pos(0.0f, 1.5f, 0.0f);
 glm::vec3 forward_vector(0.0f, 0.0f, 1.0f);
 // up vector
 glm::vec3 up_vector(0.0f, 1.0f, 0.0f);
-// the forward vector for the ball translation
-glm::vec3 ball_forward(0.0f, 0.0f, 1.0f);
-// x,y,z coordinate for ball rotation
-glm::vec3 ball_rotate_normal(0, 1, 0);
 // the position of the ball
-glm::vec3 ballpos(0.0f, 0.25f, 0.0f);
-// the position of the ball when it is hit at the start
-glm::vec3 startpos(0, 0, 0);
-
-// all the former rotations for the ball
-glm::mat4 currentRotation = glm::identity<glm::mat4>();
+glm::vec3 ballpos(0.0f, 0.0f, 0.0f);
 
 void initOpenGL();
 void resizeCallback(GLFWwindow* window, int width, int height);
@@ -435,7 +420,7 @@ Model* generateGround(int width, int depth) {
     ctx.models[2] = m;
     Object* groundObject = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
     setupPhysics(groundObject, m, ctx.dynamicsWorld, createGroundShape(m), 0);
-    groundObject->rigidBody->setFriction(0.6f);
+    groundObject->rigidBody->setFriction(0.8f);
     ctx.objects[2] = groundObject;
   } else
     ctx.models.push_back(m);
@@ -469,7 +454,7 @@ void setupObjects() {
   Model* groundModel = generateGround(100, 100);
   Object* groundObject = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
   setupPhysics(groundObject, groundModel, ctx.dynamicsWorld, createGroundShape(groundModel), 0);
-  groundObject->rigidBody->setFriction(0.6f);
+  groundObject->rigidBody->setFriction(0.8f);
   ctx.objects.push_back(groundObject);
 
   // ball
@@ -509,26 +494,36 @@ void transform() {
   updateRigidBodyFromObject(ctx.objects[4]);
 }
 
+
+void resetBall() {
+  btRigidBody* ballRigidBody = ctx.objects[3]->rigidBody;
+  btTransform ballStart;
+  ballStart.setIdentity();
+  ballStart.setOrigin(btVector3(5.0f, 0.25f, 5.0f));
+
+  ballRigidBody->setWorldTransform(ballStart);
+
+  if (ballRigidBody->getMotionState()) {
+        ballRigidBody->getMotionState()->setWorldTransform(ballStart);
+    }
+
+    ballRigidBody->setLinearVelocity(btVector3(0, 0, 0));
+    ballRigidBody->setAngularVelocity(btVector3(0, 0, 0));
+
+    ballRigidBody->activate();
+}
 void init() {
   delta_xzpos = scalar::NONE;
-  delta_ballpos = scalar::NONE;
-  delta_ball_rotate = angle::NONE;
   delta_x_rotate = angle::NONE;
   delta_y_rotate = angle::NONE;
 
-  ball_rotate = 0.0f;
   x_rotate = 0.0f;
   y_rotate = 0.0f;
 
-  pos = glm::vec3(0.0f, 6.0f, 0.0f);
+  pos = glm::vec3(0.0f, 1.5f, 0.0f);
 
   forward_vector = glm::vec3(0.0f, 0.0f, 1.0f);
-  ball_forward = glm::vec3(0.0f, 0.0f, 1.0f);
-  ball_rotate_normal = glm::vec3(0, 1, 0);
-  ballpos = glm::vec3(2.0f, 0.25f, 2.0f);
-  startpos = glm::vec3(0, 0, 0);
-  currentRotation = glm::identity<glm::mat4>();
-
+  resetBall();
   std::srand(std::time(nullptr));
   WIDTH = 100 + std::rand() % 100;
   DEPTH = 100 + std::rand() % 100;
@@ -629,7 +624,7 @@ int main() {
 
     if (goToBall) {
       goToBall = false;
-      pos = ballpos + glm::vec3(0.0f, 1.5f, 0.0f);
+      pos = ballpos + glm::vec3(-0.25f, 1.5f, -0.25f);
     }
 
     float radians = ANGLE_TO_RADIAN(y_rotate);

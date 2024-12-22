@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_PhysicsClientServer"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/Test_PhysicsClientServer.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_PhysicsClientServer"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/Test_PhysicsClientServer.pdb"
   "CMakeFiles/Test_PhysicsClientServer.dir/__/__/examples/Importers/ImportColladaDemo/LoadMeshFromCollada.o"
   "CMakeFiles/Test_PhysicsClientServer.dir/__/__/examples/Importers/ImportColladaDemo/LoadMeshFromCollada.o.d"
   "CMakeFiles/Test_PhysicsClientServer.dir/__/__/examples/Importers/ImportMJCFDemo/BulletMJCFImporter.o"

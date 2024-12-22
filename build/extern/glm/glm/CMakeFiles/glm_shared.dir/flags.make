@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -Dglm_shared_EXPORTS
 
-CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/extern/glm/glm/..
+CXX_INCLUDES = -I/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/extern/glm/glm/..
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -flto=thin -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -march=native
 

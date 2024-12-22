@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_ExampleBrowser"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_ExampleBrowser.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_ExampleBrowser"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_ExampleBrowser.pdb"
   "CMakeFiles/App_ExampleBrowser.dir/ExampleEntries.o"
   "CMakeFiles/App_ExampleBrowser.dir/ExampleEntries.o.d"
   "CMakeFiles/App_ExampleBrowser.dir/InProcessExampleBrowser.o"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_PhysicsServer_SharedMemory"
-  "/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/App_PhysicsServer_SharedMemory.pdb"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_PhysicsServer_SharedMemory"
+  "/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/App_PhysicsServer_SharedMemory.pdb"
   "CMakeFiles/App_PhysicsServer_SharedMemory.dir/GraphicsClientExample.o"
   "CMakeFiles/App_PhysicsServer_SharedMemory.dir/GraphicsClientExample.o.d"
   "CMakeFiles/App_PhysicsServer_SharedMemory.dir/GraphicsServerExample.o"

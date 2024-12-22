@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/HW2.dir/depend.make
@@ -70,102 +70,102 @@ include src/CMakeFiles/HW2.dir/progress.make
 include src/CMakeFiles/HW2.dir/flags.make
 
 src/CMakeFiles/HW2.dir/camera.cpp.o: src/CMakeFiles/HW2.dir/flags.make
-src/CMakeFiles/HW2.dir/camera.cpp.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/camera.cpp
+src/CMakeFiles/HW2.dir/camera.cpp.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/camera.cpp
 src/CMakeFiles/HW2.dir/camera.cpp.o: src/CMakeFiles/HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/HW2.dir/camera.cpp.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/camera.cpp.o -MF CMakeFiles/HW2.dir/camera.cpp.o.d -o CMakeFiles/HW2.dir/camera.cpp.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/HW2.dir/camera.cpp.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/camera.cpp.o -MF CMakeFiles/HW2.dir/camera.cpp.o.d -o CMakeFiles/HW2.dir/camera.cpp.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/camera.cpp
 
 src/CMakeFiles/HW2.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2.dir/camera.cpp.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/camera.cpp > CMakeFiles/HW2.dir/camera.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/camera.cpp > CMakeFiles/HW2.dir/camera.cpp.i
 
 src/CMakeFiles/HW2.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/camera.cpp.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/camera.cpp -o CMakeFiles/HW2.dir/camera.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/camera.cpp -o CMakeFiles/HW2.dir/camera.cpp.s
 
 src/CMakeFiles/HW2.dir/gl_helper.cpp.o: src/CMakeFiles/HW2.dir/flags.make
-src/CMakeFiles/HW2.dir/gl_helper.cpp.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/gl_helper.cpp
+src/CMakeFiles/HW2.dir/gl_helper.cpp.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/gl_helper.cpp
 src/CMakeFiles/HW2.dir/gl_helper.cpp.o: src/CMakeFiles/HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/HW2.dir/gl_helper.cpp.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/gl_helper.cpp.o -MF CMakeFiles/HW2.dir/gl_helper.cpp.o.d -o CMakeFiles/HW2.dir/gl_helper.cpp.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/gl_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/HW2.dir/gl_helper.cpp.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/gl_helper.cpp.o -MF CMakeFiles/HW2.dir/gl_helper.cpp.o.d -o CMakeFiles/HW2.dir/gl_helper.cpp.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/gl_helper.cpp
 
 src/CMakeFiles/HW2.dir/gl_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2.dir/gl_helper.cpp.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/gl_helper.cpp > CMakeFiles/HW2.dir/gl_helper.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/gl_helper.cpp > CMakeFiles/HW2.dir/gl_helper.cpp.i
 
 src/CMakeFiles/HW2.dir/gl_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/gl_helper.cpp.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/gl_helper.cpp -o CMakeFiles/HW2.dir/gl_helper.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/gl_helper.cpp -o CMakeFiles/HW2.dir/gl_helper.cpp.s
 
 src/CMakeFiles/HW2.dir/main.cpp.o: src/CMakeFiles/HW2.dir/flags.make
-src/CMakeFiles/HW2.dir/main.cpp.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/main.cpp
+src/CMakeFiles/HW2.dir/main.cpp.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/main.cpp
 src/CMakeFiles/HW2.dir/main.cpp.o: src/CMakeFiles/HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/HW2.dir/main.cpp.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/main.cpp.o -MF CMakeFiles/HW2.dir/main.cpp.o.d -o CMakeFiles/HW2.dir/main.cpp.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/HW2.dir/main.cpp.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/main.cpp.o -MF CMakeFiles/HW2.dir/main.cpp.o.d -o CMakeFiles/HW2.dir/main.cpp.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/main.cpp
 
 src/CMakeFiles/HW2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2.dir/main.cpp.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/main.cpp > CMakeFiles/HW2.dir/main.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/main.cpp > CMakeFiles/HW2.dir/main.cpp.i
 
 src/CMakeFiles/HW2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/main.cpp.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/main.cpp -o CMakeFiles/HW2.dir/main.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/main.cpp -o CMakeFiles/HW2.dir/main.cpp.s
 
 src/CMakeFiles/HW2.dir/model.cpp.o: src/CMakeFiles/HW2.dir/flags.make
-src/CMakeFiles/HW2.dir/model.cpp.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/model.cpp
+src/CMakeFiles/HW2.dir/model.cpp.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/model.cpp
 src/CMakeFiles/HW2.dir/model.cpp.o: src/CMakeFiles/HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/HW2.dir/model.cpp.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/model.cpp.o -MF CMakeFiles/HW2.dir/model.cpp.o.d -o CMakeFiles/HW2.dir/model.cpp.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/HW2.dir/model.cpp.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/model.cpp.o -MF CMakeFiles/HW2.dir/model.cpp.o.d -o CMakeFiles/HW2.dir/model.cpp.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/model.cpp
 
 src/CMakeFiles/HW2.dir/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2.dir/model.cpp.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/model.cpp > CMakeFiles/HW2.dir/model.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/model.cpp > CMakeFiles/HW2.dir/model.cpp.i
 
 src/CMakeFiles/HW2.dir/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/model.cpp.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/model.cpp -o CMakeFiles/HW2.dir/model.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/model.cpp -o CMakeFiles/HW2.dir/model.cpp.s
 
 src/CMakeFiles/HW2.dir/opengl_context.cpp.o: src/CMakeFiles/HW2.dir/flags.make
-src/CMakeFiles/HW2.dir/opengl_context.cpp.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/opengl_context.cpp
+src/CMakeFiles/HW2.dir/opengl_context.cpp.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/opengl_context.cpp
 src/CMakeFiles/HW2.dir/opengl_context.cpp.o: src/CMakeFiles/HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/HW2.dir/opengl_context.cpp.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/opengl_context.cpp.o -MF CMakeFiles/HW2.dir/opengl_context.cpp.o.d -o CMakeFiles/HW2.dir/opengl_context.cpp.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/opengl_context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/HW2.dir/opengl_context.cpp.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/opengl_context.cpp.o -MF CMakeFiles/HW2.dir/opengl_context.cpp.o.d -o CMakeFiles/HW2.dir/opengl_context.cpp.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/opengl_context.cpp
 
 src/CMakeFiles/HW2.dir/opengl_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2.dir/opengl_context.cpp.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/opengl_context.cpp > CMakeFiles/HW2.dir/opengl_context.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/opengl_context.cpp > CMakeFiles/HW2.dir/opengl_context.cpp.i
 
 src/CMakeFiles/HW2.dir/opengl_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/opengl_context.cpp.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/opengl_context.cpp -o CMakeFiles/HW2.dir/opengl_context.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/opengl_context.cpp -o CMakeFiles/HW2.dir/opengl_context.cpp.s
 
 src/CMakeFiles/HW2.dir/Programs/example.cpp.o: src/CMakeFiles/HW2.dir/flags.make
-src/CMakeFiles/HW2.dir/Programs/example.cpp.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/example.cpp
+src/CMakeFiles/HW2.dir/Programs/example.cpp.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/example.cpp
 src/CMakeFiles/HW2.dir/Programs/example.cpp.o: src/CMakeFiles/HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/HW2.dir/Programs/example.cpp.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/Programs/example.cpp.o -MF CMakeFiles/HW2.dir/Programs/example.cpp.o.d -o CMakeFiles/HW2.dir/Programs/example.cpp.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/HW2.dir/Programs/example.cpp.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/Programs/example.cpp.o -MF CMakeFiles/HW2.dir/Programs/example.cpp.o.d -o CMakeFiles/HW2.dir/Programs/example.cpp.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/example.cpp
 
 src/CMakeFiles/HW2.dir/Programs/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2.dir/Programs/example.cpp.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/example.cpp > CMakeFiles/HW2.dir/Programs/example.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/example.cpp > CMakeFiles/HW2.dir/Programs/example.cpp.i
 
 src/CMakeFiles/HW2.dir/Programs/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/Programs/example.cpp.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/example.cpp -o CMakeFiles/HW2.dir/Programs/example.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/example.cpp -o CMakeFiles/HW2.dir/Programs/example.cpp.s
 
 src/CMakeFiles/HW2.dir/Programs/light.cpp.o: src/CMakeFiles/HW2.dir/flags.make
-src/CMakeFiles/HW2.dir/Programs/light.cpp.o: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/light.cpp
+src/CMakeFiles/HW2.dir/Programs/light.cpp.o: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/light.cpp
 src/CMakeFiles/HW2.dir/Programs/light.cpp.o: src/CMakeFiles/HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/HW2.dir/Programs/light.cpp.o"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/Programs/light.cpp.o -MF CMakeFiles/HW2.dir/Programs/light.cpp.o.d -o CMakeFiles/HW2.dir/Programs/light.cpp.o -c /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/HW2.dir/Programs/light.cpp.o"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/HW2.dir/Programs/light.cpp.o -MF CMakeFiles/HW2.dir/Programs/light.cpp.o.d -o CMakeFiles/HW2.dir/Programs/light.cpp.o -c /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/light.cpp
 
 src/CMakeFiles/HW2.dir/Programs/light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HW2.dir/Programs/light.cpp.i"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/light.cpp > CMakeFiles/HW2.dir/Programs/light.cpp.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/light.cpp > CMakeFiles/HW2.dir/Programs/light.cpp.i
 
 src/CMakeFiles/HW2.dir/Programs/light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HW2.dir/Programs/light.cpp.s"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src/Programs/light.cpp -o CMakeFiles/HW2.dir/Programs/light.cpp.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src/Programs/light.cpp -o CMakeFiles/HW2.dir/Programs/light.cpp.s
 
 # Object files for target HW2
 HW2_OBJECTS = \
@@ -180,31 +180,31 @@ HW2_OBJECTS = \
 # External object files for target HW2
 HW2_EXTERNAL_OBJECTS =
 
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/camera.cpp.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/gl_helper.cpp.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/main.cpp.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/model.cpp.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/opengl_context.cpp.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/Programs/example.cpp.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/Programs/light.cpp.o
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/build.make
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libglfw.3.4.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
-/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2"
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HW2.dir/link.txt --verbose=$(VERBOSE)
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/camera.cpp.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/gl_helper.cpp.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/main.cpp.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/model.cpp.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/opengl_context.cpp.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/Programs/example.cpp.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/Programs/light.cpp.o
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/build.make
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libglfw.3.4.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletDynamics.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libBulletCollision.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/libLinearMath.3.26.dylib
+/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2: src/CMakeFiles/HW2.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HW2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/HW2.dir/build: /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/bin/HW2
+src/CMakeFiles/HW2.dir/build: /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/bin/HW2
 .PHONY : src/CMakeFiles/HW2.dir/build
 
 src/CMakeFiles/HW2.dir/clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src && $(CMAKE_COMMAND) -P CMakeFiles/HW2.dir/cmake_clean.cmake
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src && $(CMAKE_COMMAND) -P CMakeFiles/HW2.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/HW2.dir/clean
 
 src/CMakeFiles/HW2.dir/depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/src /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/src/CMakeFiles/HW2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/src /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/src/CMakeFiles/HW2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/HW2.dir/depend
 

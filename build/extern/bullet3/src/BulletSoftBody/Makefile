@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final
+CMAKE_SOURCE_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build
+CMAKE_BINARY_DIR = /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/extern/bullet3/src/BulletSoftBody//CMakeFiles/progress.marks
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build/CMakeFiles 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/extern/bullet3/src/BulletSoftBody//CMakeFiles/progress.marks
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/clean
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/preinstall
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
 .PHONY : extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
 
 # Convenience name for target.
@@ -172,307 +172,307 @@ BulletSoftBody: extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/
 
 # fast build rule for target.
 BulletSoftBody/fast:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
 .PHONY : BulletSoftBody/fast
 
 # target to build an object file
 BulletReducedDeformableBody/btReducedDeformableBody.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBody.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBody.o
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBody.o
 
 # target to preprocess a source file
 BulletReducedDeformableBody/btReducedDeformableBody.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBody.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBody.i
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBody.i
 
 # target to generate assembly for a file
 BulletReducedDeformableBody/btReducedDeformableBody.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBody.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBody.s
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBody.s
 
 # target to build an object file
 BulletReducedDeformableBody/btReducedDeformableBodyHelpers.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodyHelpers.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodyHelpers.o
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBodyHelpers.o
 
 # target to preprocess a source file
 BulletReducedDeformableBody/btReducedDeformableBodyHelpers.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodyHelpers.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodyHelpers.i
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBodyHelpers.i
 
 # target to generate assembly for a file
 BulletReducedDeformableBody/btReducedDeformableBodyHelpers.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodyHelpers.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodyHelpers.s
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBodyHelpers.s
 
 # target to build an object file
 BulletReducedDeformableBody/btReducedDeformableBodySolver.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodySolver.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodySolver.o
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBodySolver.o
 
 # target to preprocess a source file
 BulletReducedDeformableBody/btReducedDeformableBodySolver.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodySolver.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodySolver.i
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBodySolver.i
 
 # target to generate assembly for a file
 BulletReducedDeformableBody/btReducedDeformableBodySolver.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodySolver.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableBodySolver.s
 .PHONY : BulletReducedDeformableBody/btReducedDeformableBodySolver.s
 
 # target to build an object file
 BulletReducedDeformableBody/btReducedDeformableContactConstraint.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableContactConstraint.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableContactConstraint.o
 .PHONY : BulletReducedDeformableBody/btReducedDeformableContactConstraint.o
 
 # target to preprocess a source file
 BulletReducedDeformableBody/btReducedDeformableContactConstraint.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableContactConstraint.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableContactConstraint.i
 .PHONY : BulletReducedDeformableBody/btReducedDeformableContactConstraint.i
 
 # target to generate assembly for a file
 BulletReducedDeformableBody/btReducedDeformableContactConstraint.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableContactConstraint.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/BulletReducedDeformableBody/btReducedDeformableContactConstraint.s
 .PHONY : BulletReducedDeformableBody/btReducedDeformableContactConstraint.s
 
 # target to build an object file
 btDefaultSoftBodySolver.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.o
 .PHONY : btDefaultSoftBodySolver.o
 
 # target to preprocess a source file
 btDefaultSoftBodySolver.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.i
 .PHONY : btDefaultSoftBodySolver.i
 
 # target to generate assembly for a file
 btDefaultSoftBodySolver.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.s
 .PHONY : btDefaultSoftBodySolver.s
 
 # target to build an object file
 btDeformableBackwardEulerObjective.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBackwardEulerObjective.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBackwardEulerObjective.o
 .PHONY : btDeformableBackwardEulerObjective.o
 
 # target to preprocess a source file
 btDeformableBackwardEulerObjective.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBackwardEulerObjective.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBackwardEulerObjective.i
 .PHONY : btDeformableBackwardEulerObjective.i
 
 # target to generate assembly for a file
 btDeformableBackwardEulerObjective.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBackwardEulerObjective.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBackwardEulerObjective.s
 .PHONY : btDeformableBackwardEulerObjective.s
 
 # target to build an object file
 btDeformableBodySolver.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBodySolver.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBodySolver.o
 .PHONY : btDeformableBodySolver.o
 
 # target to preprocess a source file
 btDeformableBodySolver.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBodySolver.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBodySolver.i
 .PHONY : btDeformableBodySolver.i
 
 # target to generate assembly for a file
 btDeformableBodySolver.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBodySolver.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableBodySolver.s
 .PHONY : btDeformableBodySolver.s
 
 # target to build an object file
 btDeformableContactConstraint.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactConstraint.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactConstraint.o
 .PHONY : btDeformableContactConstraint.o
 
 # target to preprocess a source file
 btDeformableContactConstraint.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactConstraint.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactConstraint.i
 .PHONY : btDeformableContactConstraint.i
 
 # target to generate assembly for a file
 btDeformableContactConstraint.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactConstraint.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactConstraint.s
 .PHONY : btDeformableContactConstraint.s
 
 # target to build an object file
 btDeformableContactProjection.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactProjection.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactProjection.o
 .PHONY : btDeformableContactProjection.o
 
 # target to preprocess a source file
 btDeformableContactProjection.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactProjection.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactProjection.i
 .PHONY : btDeformableContactProjection.i
 
 # target to generate assembly for a file
 btDeformableContactProjection.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactProjection.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableContactProjection.s
 .PHONY : btDeformableContactProjection.s
 
 # target to build an object file
 btDeformableMultiBodyConstraintSolver.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyConstraintSolver.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyConstraintSolver.o
 .PHONY : btDeformableMultiBodyConstraintSolver.o
 
 # target to preprocess a source file
 btDeformableMultiBodyConstraintSolver.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyConstraintSolver.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyConstraintSolver.i
 .PHONY : btDeformableMultiBodyConstraintSolver.i
 
 # target to generate assembly for a file
 btDeformableMultiBodyConstraintSolver.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyConstraintSolver.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyConstraintSolver.s
 .PHONY : btDeformableMultiBodyConstraintSolver.s
 
 # target to build an object file
 btDeformableMultiBodyDynamicsWorld.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyDynamicsWorld.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyDynamicsWorld.o
 .PHONY : btDeformableMultiBodyDynamicsWorld.o
 
 # target to preprocess a source file
 btDeformableMultiBodyDynamicsWorld.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyDynamicsWorld.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyDynamicsWorld.i
 .PHONY : btDeformableMultiBodyDynamicsWorld.i
 
 # target to generate assembly for a file
 btDeformableMultiBodyDynamicsWorld.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyDynamicsWorld.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDeformableMultiBodyDynamicsWorld.s
 .PHONY : btDeformableMultiBodyDynamicsWorld.s
 
 # target to build an object file
 btSoftBody.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.o
 .PHONY : btSoftBody.o
 
 # target to preprocess a source file
 btSoftBody.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.i
 .PHONY : btSoftBody.i
 
 # target to generate assembly for a file
 btSoftBody.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.s
 .PHONY : btSoftBody.s
 
 # target to build an object file
 btSoftBodyConcaveCollisionAlgorithm.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.o
 .PHONY : btSoftBodyConcaveCollisionAlgorithm.o
 
 # target to preprocess a source file
 btSoftBodyConcaveCollisionAlgorithm.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.i
 .PHONY : btSoftBodyConcaveCollisionAlgorithm.i
 
 # target to generate assembly for a file
 btSoftBodyConcaveCollisionAlgorithm.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.s
 .PHONY : btSoftBodyConcaveCollisionAlgorithm.s
 
 # target to build an object file
 btSoftBodyHelpers.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.o
 .PHONY : btSoftBodyHelpers.o
 
 # target to preprocess a source file
 btSoftBodyHelpers.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.i
 .PHONY : btSoftBodyHelpers.i
 
 # target to generate assembly for a file
 btSoftBodyHelpers.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.s
 .PHONY : btSoftBodyHelpers.s
 
 # target to build an object file
 btSoftBodyRigidBodyCollisionConfiguration.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.o
 .PHONY : btSoftBodyRigidBodyCollisionConfiguration.o
 
 # target to preprocess a source file
 btSoftBodyRigidBodyCollisionConfiguration.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.i
 .PHONY : btSoftBodyRigidBodyCollisionConfiguration.i
 
 # target to generate assembly for a file
 btSoftBodyRigidBodyCollisionConfiguration.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.s
 .PHONY : btSoftBodyRigidBodyCollisionConfiguration.s
 
 # target to build an object file
 btSoftMultiBodyDynamicsWorld.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftMultiBodyDynamicsWorld.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftMultiBodyDynamicsWorld.o
 .PHONY : btSoftMultiBodyDynamicsWorld.o
 
 # target to preprocess a source file
 btSoftMultiBodyDynamicsWorld.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftMultiBodyDynamicsWorld.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftMultiBodyDynamicsWorld.i
 .PHONY : btSoftMultiBodyDynamicsWorld.i
 
 # target to generate assembly for a file
 btSoftMultiBodyDynamicsWorld.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftMultiBodyDynamicsWorld.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftMultiBodyDynamicsWorld.s
 .PHONY : btSoftMultiBodyDynamicsWorld.s
 
 # target to build an object file
 btSoftRigidCollisionAlgorithm.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.o
 .PHONY : btSoftRigidCollisionAlgorithm.o
 
 # target to preprocess a source file
 btSoftRigidCollisionAlgorithm.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.i
 .PHONY : btSoftRigidCollisionAlgorithm.i
 
 # target to generate assembly for a file
 btSoftRigidCollisionAlgorithm.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.s
 .PHONY : btSoftRigidCollisionAlgorithm.s
 
 # target to build an object file
 btSoftRigidDynamicsWorld.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.o
 .PHONY : btSoftRigidDynamicsWorld.o
 
 # target to preprocess a source file
 btSoftRigidDynamicsWorld.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.i
 .PHONY : btSoftRigidDynamicsWorld.i
 
 # target to generate assembly for a file
 btSoftRigidDynamicsWorld.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.s
 .PHONY : btSoftRigidDynamicsWorld.s
 
 # target to build an object file
 btSoftSoftCollisionAlgorithm.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.o
 .PHONY : btSoftSoftCollisionAlgorithm.o
 
 # target to preprocess a source file
 btSoftSoftCollisionAlgorithm.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.i
 .PHONY : btSoftSoftCollisionAlgorithm.i
 
 # target to generate assembly for a file
 btSoftSoftCollisionAlgorithm.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.s
 .PHONY : btSoftSoftCollisionAlgorithm.s
 
 # target to build an object file
 poly34.o:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/poly34.o
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/poly34.o
 .PHONY : poly34.o
 
 # target to preprocess a source file
 poly34.i:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/poly34.i
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/poly34.i
 .PHONY : poly34.i
 
 # target to generate assembly for a file
 poly34.s:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/poly34.s
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(MAKE) $(MAKESILENT) -f extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make extern/bullet3/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/poly34.s
 .PHONY : poly34.s
 
 # Help Target
@@ -559,6 +559,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hanlin/Desktop/VScode/CG/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/hanlin/Desktop/VScode/cg/final/Computer-Graphics-Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
