@@ -71,7 +71,6 @@ bool goToBall = false;
 // foul or not
 bool foul = false;
 
-
 int WIDTH = 100, DEPTH = 100;
 
 // the scalar for the putter translation
@@ -212,12 +211,12 @@ void loadPrograms() {
 
 btCollisionShape* createGolfBallShape(Model* ballModel) { return new btSphereShape(0.1f); }
 
-btCollisionShape* createGolfPutterShape(Model* putterModel, const glm::vec3& scaleFactor = glm::vec3(0.5f, 0.5f, 0.5f)) {
+btCollisionShape* createGolfPutterShape(Model* putterModel,
+                                        const glm::vec3& scaleFactor = glm::vec3(0.5f, 0.5f, 0.5f)) {
   btConvexHullShape* shape = new btConvexHullShape();
   for (size_t i = 0; i < putterModel->positions.size(); i += 3) {
-    btVector3 vertex(putterModel->positions[i] *  scaleFactor.x,
-                    putterModel->positions[i + 1] * scaleFactor.y, 
-                    putterModel->positions[i + 2] * scaleFactor.z);
+    btVector3 vertex(putterModel->positions[i] * scaleFactor.x, putterModel->positions[i + 1] * scaleFactor.y,
+                     putterModel->positions[i + 2] * scaleFactor.z);
     shape->addPoint(vertex);
   }
   return shape;
@@ -237,22 +236,19 @@ btCollisionShape* createGroundShape(Model* groundModel) {
 }
 
 btCollisionShape* createWallShape(Model* wallModel, const glm::vec3& scaleFactor = glm::vec3(100, 1.5f, 100)) {
-    btTriangleMesh* mesh = new btTriangleMesh();
+  btTriangleMesh* mesh = new btTriangleMesh();
 
-    for (size_t i = 0; i < wallModel->positions.size(); i += 9) {
-        btVector3 vertex0(wallModel->positions[i] * scaleFactor.x,
-                          wallModel->positions[i + 1] * scaleFactor.y,
-                          wallModel->positions[i + 2] * scaleFactor.z);
-        btVector3 vertex1(wallModel->positions[i + 3] * scaleFactor.x,
-                          wallModel->positions[i + 4] * scaleFactor.y,
-                          wallModel->positions[i + 5] * scaleFactor.z);
-        btVector3 vertex2(wallModel->positions[i + 6] * scaleFactor.x,
-                          wallModel->positions[i + 7] * scaleFactor.y,
-                          wallModel->positions[i + 8] * scaleFactor.z);
-        mesh->addTriangle(vertex0, vertex1, vertex2);
-    }
+  for (size_t i = 0; i < wallModel->positions.size(); i += 9) {
+    btVector3 vertex0(wallModel->positions[i] * scaleFactor.x, wallModel->positions[i + 1] * scaleFactor.y,
+                      wallModel->positions[i + 2] * scaleFactor.z);
+    btVector3 vertex1(wallModel->positions[i + 3] * scaleFactor.x, wallModel->positions[i + 4] * scaleFactor.y,
+                      wallModel->positions[i + 5] * scaleFactor.z);
+    btVector3 vertex2(wallModel->positions[i + 6] * scaleFactor.x, wallModel->positions[i + 7] * scaleFactor.y,
+                      wallModel->positions[i + 8] * scaleFactor.z);
+    mesh->addTriangle(vertex0, vertex1, vertex2);
+  }
 
-    return new btBvhTriangleMeshShape(mesh, true);
+  return new btBvhTriangleMeshShape(mesh, true);
 }
 
 void setupPhysics(Object* object, Model* model, btDiscreteDynamicsWorld* dynamicsWorld, btCollisionShape* shape,
@@ -322,7 +318,7 @@ Model* loadGoal() {
 Model* loadWall(int width, int depth) {
   Model* m = Model::fromObjectFile("../assets/models/ground/wall.obj");
   m->textures.push_back(createTexture("../assets/models/ground/wood.jpg"));
-  m->modelMatrix = glm::scale(m->modelMatrix, glm::vec3(100, 1.5f, 100));
+  m->modelMatrix = glm::scale(m->modelMatrix, glm::vec3(width - 1, 1.5f, depth - 1));
   if (reset)
     ctx.models[2] = m;
   else
@@ -343,7 +339,8 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
   for (int i = -2; i <= 2; i++) {
     for (int j = -2; j <= 2; j++) {
       int neighborIndex = (holeZ + i) * width + (holeX + j);
-      if (neighborIndex >= 0 && neighborIndex < heightmap.size()) {
+      if (neighborIndex >= 0 && neighborIndex < heightmap.size() && holeZ + i >= 0 && holeZ + i <= DEPTH &&
+          holeX + j >= 0 && holeX + i <= WIDTH) {
         heightmap[neighborIndex] = -5.f;
       }
     }
@@ -364,7 +361,7 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
     goalObject->rigidBody->setFriction(0.6f);
     ctx.objects[1] = goalObject;
 
-    Object* wallObject = new Object(2, glm::translate(glm::identity<glm::mat4>(),glm::vec3(0.0, 0.0, 0.0)));
+    Object* wallObject = new Object(2, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
     setupPhysics(wallObject, wall, ctx.dynamicsWorld, createWallShape(wall), 0);
     ctx.objects[2] = wallObject;
   } else {
@@ -386,6 +383,8 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
 Model* generateGround(int width, int depth) {
   Model* m = new Model();
 
+  WIDTH = width;
+  DEPTH = depth;
   float scale = 0.1f;      // ����a�Υ��Ƶ{��
   float amplitude = 2.0f;  // ����a�ΰ���
   std::vector<float> heightmap = generatePerlinHeightmap(width, depth, scale, amplitude);
@@ -494,7 +493,7 @@ void loadModels() {
 
 void setupObjects() {
   // ground
-  Model* groundModel = generateGround(100, 100);
+  Model* groundModel = generateGround(20, 20);
   Object* groundObject = new Object(3, glm::translate(glm::identity<glm::mat4>(), glm::vec3(0.0, 0.0, 0.0)));
   setupPhysics(groundObject, groundModel, ctx.dynamicsWorld, createGroundShape(groundModel), 0);
   groundObject->rigidBody->setFriction(0.8f);
@@ -574,7 +573,7 @@ void init() {
   loadPrograms();
 }
 
-void dealBallFoul() { 
+void dealBallFoul() {
   int newX = (ballpos.x < 0) ? 5 : (ballpos.x > WIDTH) ? WIDTH - 5 : ballpos.x;
   int newZ = (ballpos.z < 0) ? 5 : (ballpos.z > DEPTH) ? DEPTH - 5 : ballpos.z;
 
@@ -672,7 +671,7 @@ int main() {
     glClearDepth(1.0f);
 
     ctx.programs[ctx.currentProgram]->doMainLoop();
-    
+
     inHole();
 
     if (reset) init();
