@@ -317,8 +317,8 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
   std::cout << holeX << " " << holeZ << std::endl;
   int tmp = heightmap[holeIndex];
   heightmap[holeIndex] = -5.0f;
-  for (int i = -1; i <= 1; i++) {
-    for (int j = -1; j <= 1; j++) {
+  for (int i = -2; i <= 2; i++) {
+    for (int j = -2; j <= 2; j++) {
       int neighborIndex = (holeZ + i) * width + (holeX + j);
       if (neighborIndex >= 0 && neighborIndex < heightmap.size()) {
         heightmap[neighborIndex] = -5.f;
@@ -328,7 +328,7 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
   std::cout << holeIndex << " " << heightmap[holeIndex] << std::endl;
   float holeHeight = heightmap[holeIndex];
   glm::vec3 flagPosition(holeX, tmp + 3, holeZ);
-  glm::vec3 goalPosition(holeX, tmp - 2.5, holeZ);
+  glm::vec3 goalPosition(holeX, tmp - 4, holeZ);
   Model* flag = loadFlag();
   Model* goal = loadGoal();
   if (reset) {
