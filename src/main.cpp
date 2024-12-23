@@ -339,8 +339,8 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
   for (int i = -2; i <= 2; i++) {
     for (int j = -2; j <= 2; j++) {
       int neighborIndex = (holeZ + i) * width + (holeX + j);
-      if (neighborIndex >= 0 && neighborIndex < heightmap.size() && holeZ + i >= 0 && holeZ + i <= DEPTH &&
-          holeX + j >= 0 && holeX + i <= WIDTH) {
+      if (neighborIndex >= 0 && neighborIndex < heightmap.size() && holeZ + i >= 0 && holeZ + i < DEPTH &&
+          holeX + j >= 0 && holeX + j < WIDTH) {
         heightmap[neighborIndex] = -5.f;
       }
     }
@@ -380,19 +380,19 @@ int addGolfHole(std::vector<float>& heightmap, int width, int depth) {
   return holeIndex;
 }
 
-Model* generateGround(int width, int depth) {
+Model* generateGround(int width, int depth, float sca = 0.0f, float amp = 2.0f) {
   Model* m = new Model();
 
   WIDTH = width;
   DEPTH = depth;
-  float scale = 0.1f;      // ����a�Υ��Ƶ{��
-  float amplitude = 2.0f;  // ����a�ΰ���
+  float scale = sca;      // 調整平滑度
+  float amplitude = amp;  // 調整高度
   std::vector<float> heightmap = generatePerlinHeightmap(width, depth, scale, amplitude);
 
   int k = addGolfHole(heightmap, width, depth);
   std::cout << k << " " << heightmap[k] << std::endl;
 
-  // �K�[�a�Ϊ����� (�P���e���޿�ۦP)
+  // 地形生成
   for (int z = 0; z < depth - 1; z++) {
     for (int x = 0; x < width - 1; x++) {
       int topLeft = z * width + x;
@@ -540,7 +540,7 @@ void resetBall() {
   btRigidBody* ballRigidBody = ctx.objects[4]->rigidBody;
   btTransform ballStart;
   ballStart.setIdentity();
-  ballStart.setOrigin(btVector3(5.0f, 0.25f, 5.0f));
+  ballStart.setOrigin(btVector3(5.0f, 1.25f, 5.0f));
 
   ballRigidBody->setWorldTransform(ballStart);
 
@@ -568,7 +568,9 @@ void init() {
   std::srand(std::time(nullptr));
   WIDTH = 100 + std::rand() % 100;
   DEPTH = 100 + std::rand() % 100;
-  generateGround(WIDTH, DEPTH);
+  float sca = (float)(std::rand() % 20) / 100;
+  generateGround(WIDTH, DEPTH, sca);
+  std::cout << sca << std::endl;
   reset = false;
   loadPrograms();
 }
